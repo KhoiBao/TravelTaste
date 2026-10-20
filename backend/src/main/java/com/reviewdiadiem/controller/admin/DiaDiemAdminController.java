@@ -17,14 +17,18 @@ public class DiaDiemAdminController {
 
     private final DiaDiemService diaDiemService;
 
+    private final com.reviewdiadiem.repository.DiaDiemRepository repository;
+    @GetMapping
+    public ResponseEntity<ApiResponse<?>> list() { return ResponseEntity.ok(ApiResponse.ok(repository.findAll())); }
+
     @PostMapping
-    public ResponseEntity<ApiResponse<?>> create(@RequestBody DiaDiemRequest req) {
+    public ResponseEntity<ApiResponse<?>> create(@RequestBody @jakarta.validation.Valid DiaDiemRequest req) {
         DiaDiemSummary summary = diaDiemService.create(req);
         return ResponseEntity.ok(ApiResponse.ok(summary, "Tạo địa điểm thành công"));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<ApiResponse<?>> update(@PathVariable String id, @RequestBody DiaDiemRequest req) {
+    public ResponseEntity<ApiResponse<?>> update(@PathVariable String id, @RequestBody @jakarta.validation.Valid DiaDiemRequest req) {
         DiaDiemSummary summary = diaDiemService.update(id, req);
         return ResponseEntity.ok(ApiResponse.ok(summary, "Cập nhật địa điểm thành công"));
     }

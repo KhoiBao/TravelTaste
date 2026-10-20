@@ -17,7 +17,10 @@ public class FileStorageService {
     private String uploadDir;
 
     public String store(MultipartFile file) {
+        if (file.isEmpty() || file.getSize() > 5 * 1024 * 1024) throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.BAD_REQUEST, "Ảnh không hợp lệ hoặc vượt quá 5 MB");
         try {
+            var image = javax.imageio.ImageIO.read(file.getInputStream());
+            if (image == null) throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.BAD_REQUEST, "Chỉ nhận nội dung ảnh hợp lệ");
             Path root = Paths.get(uploadDir);
             if (!Files.exists(root)) {
                 Files.createDirectories(root);
@@ -30,13 +33,11 @@ public class FileStorageService {
             }
 
             String originalFilename = file.getOriginalFilename();
-            String ext = "";
-            if (originalFilename != null && originalFilename.lastIndexOf('.') > 0) {
-                ext = originalFilename.substring(originalFilename.lastIndexOf('.'));
-            }
+            String ext = ".png";
+
             String filename = UUID.randomUUID().toString() + ext;
             Path target = dateDir.resolve(filename);
-            Files.copy(file.getInputStream(), target, StandardCopyOption.REPLACE_EXISTING);
+            javax.imageio.ImageIO.write(image, "png", target.toFile());
 
             return "/uploads/" + dateFolder + "/" + filename;
         } catch (IOException e) {

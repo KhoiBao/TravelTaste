@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "design-system-desktop",
+      "geometry": {
+        "overflow": false,
+        "images": [],
+        "font": "Inter, sans-serif"
+      }
+    },
+    {
+      "name": "components-desktop",
+      "geometry": {
+        "overflow": false,
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 900,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          }
+        ],
+        "columns": 3,
+        "font": "Inter, sans-serif"
+      }
+    },
+    {
+      "name": "components-tablet",
+      "geometry": {
+        "overflow": false,
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 712,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          }
+        ],
+        "columns": 2,
+        "font": "Inter, sans-serif"
+      }
+    },
+    {
+      "name": "components-mobile",
+      "geometry": {
+        "overflow": false,
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          }
+        ],
+        "columns": 1,
+        "font": "Inter, sans-serif"
+      }
+    },
+    {
+      "name": "components-small-mobile",
+      "geometry": {
+        "overflow": false,
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          }
+        ],
+        "columns": 1,
+        "font": "Inter, sans-serif"
+      }
+    },
+    {
+      "name": "design-system-mobile",
+      "geometry": {
+        "overflow": false,
+        "images": [],
+        "font": "Inter, sans-serif"
+      }
+    }
+  ],
+  "interactions": [
+    "chip mouse + keyboard toggle",
+    "preview route",
+    "mobile navigation open + close",
+    "search filter",
+    "card selection",
+    "empty state",
+    "clear search"
+  ],
+  "errors": [],
+  "failedRequests": []
+}

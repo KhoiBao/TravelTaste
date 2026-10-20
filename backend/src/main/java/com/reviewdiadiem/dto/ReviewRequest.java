@@ -11,6 +11,8 @@ import java.util.List;
 public class ReviewRequest {
 
     @NotNull(message = "Số sao không được để trống")
+    @jakarta.validation.constraints.Min(1)
+    @jakarta.validation.constraints.Max(5)
     private Integer soSao;
 
     @NotBlank(message = "Tiêu đề không được để trống")

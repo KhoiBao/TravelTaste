@@ -18,14 +18,21 @@ public class AuthApiController {
 
     private final AuthService authService;
 
+    @GetMapping("/csrf")
+    public ResponseEntity<ApiResponse<?>> csrf(org.springframework.security.web.csrf.CsrfToken token) {
+        return ResponseEntity.ok(ApiResponse.ok(java.util.Map.of("token", token.getToken(), "headerName", token.getHeaderName())));
+    }
+
     @PostMapping("/register")
     public ResponseEntity<ApiResponse<?>> register(@RequestBody @Validated RegisterRequest req) {
         return ResponseEntity.ok(authService.register(req));
     }
 
     @PostMapping("/login")
-    public ResponseEntity<ApiResponse<?>> login(@RequestBody @Validated LoginRequest req, HttpSession session) {
-        return ResponseEntity.ok(authService.login(req, session));
+    public ResponseEntity<ApiResponse<?>> login(@RequestBody @Validated LoginRequest req, HttpSession session, jakarta.servlet.http.HttpServletRequest request) {
+        var result = authService.login(req, session);
+        request.changeSessionId();
+        return ResponseEntity.ok(result);
     }
 
     @PostMapping("/logout")

@@ -18,5 +18,6 @@ public class DanhMucRequest {
 
     private Integer thuTu;
 
+    @jakarta.validation.constraints.Pattern(regexp = "ACTIVE|HIDDEN")
     private String trangThai;
 }

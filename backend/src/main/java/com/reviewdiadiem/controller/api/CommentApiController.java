@@ -19,7 +19,7 @@ public class CommentApiController {
     public ResponseEntity<ApiResponse<?>> addComment(
             @PathVariable String placeId,
             @PathVariable String reviewId,
-            @RequestBody CommentRequest req,
+            @RequestBody @jakarta.validation.Valid CommentRequest req,
             HttpSession session) {
         String userId = (String) session.getAttribute("USER_ID");
         if (userId == null) {
@@ -33,7 +33,7 @@ public class CommentApiController {
             @PathVariable String placeId,
             @PathVariable String reviewId,
             @PathVariable String commentId,
-            @RequestBody CommentRequest req,
+            @RequestBody @jakarta.validation.Valid CommentRequest req,
             HttpSession session) {
         String userId = (String) session.getAttribute("USER_ID");
         if (userId == null) {
@@ -47,7 +47,7 @@ public class CommentApiController {
             @PathVariable String placeId,
             @PathVariable String reviewId,
             @PathVariable String commentId,
-            @RequestBody CommentRequest req,
+            @RequestBody @jakarta.validation.Valid CommentRequest req,
             HttpSession session) {
         String userId = (String) session.getAttribute("USER_ID");
         if (userId == null) {

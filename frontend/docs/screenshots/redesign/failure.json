@@ -1,0 +1,14 @@
+{
+  "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Chỉnh sửa', exact: true })\u001b[22m\n",
+  "url": "http://127.0.0.1:53535/admin/places",
+  "errors": [],
+  "checks": 72,
+  "flows": [
+    "accent-insensitive search, load more, empty state",
+    "ranking sort, loading / empty / error and retry",
+    "invalid and valid mock login, user route guard",
+    "create / edit review, add / edit comment",
+    "three-level limit, comment soft deletion preserves replies",
+    "admin filter, confirmed soft delete and restore"
+  ]
+}

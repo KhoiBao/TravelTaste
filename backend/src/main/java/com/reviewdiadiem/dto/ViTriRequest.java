@@ -11,5 +11,5 @@ public class ViTriRequest {
 
     @NotNull(message = "Tọa độ không được để trống")
     @Size(min = 2, max = 2)
-    private List<Double> coordinates;
+    private List<@NotNull Double> coordinates;
 }

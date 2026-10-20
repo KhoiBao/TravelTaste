@@ -32,19 +32,16 @@ public class DiaDiemService {
 
     private final DiaDiemRepository diaDiemRepository;
     private final MongoTemplate mongoTemplate;
-    private final RatingService ratingService;
+    private final com.reviewdiadiem.repository.DanhMucRepository danhMucRepository;
 
     public PageResponse<DiaDiemSummary> list(SearchRequest req) {
         Criteria criteria = new Criteria();
         criteria.and("trangThai").is("ACTIVE");
 
         if (StringUtils.hasText(req.getQ())) {
-            criteria.andOperator(
-                Criteria.where("ten").regex(req.getQ(), "i"),
-                Criteria.where("tenKhongDau").regex(req.getQ(), "i")
-            ).orOperator(
-                Criteria.where("ten").regex(req.getQ(), "i"),
-                Criteria.where("tenKhongDau").regex(req.getQ(), "i")
+            criteria.orOperator(
+                Criteria.where("ten").regex(java.util.regex.Pattern.quote(req.getQ()), "i"),
+                Criteria.where("tenKhongDau").regex(java.util.regex.Pattern.quote(SlugUtil.removeAccents(req.getQ())), "i")
             );
         }
 
@@ -58,6 +55,8 @@ public class DiaDiemService {
             criteria.and("ratingAvg").gte(req.getMinRating());
         }
 
+        if (StringUtils.hasText(req.getDanhMuc())) criteria.and("danhMuc.danhMucId").in(com.reviewdiadiem.util.MongoIds.references(req.getDanhMuc()));
+        if (req.getPage() < 1 || req.getSize() < 1) throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.BAD_REQUEST, "Phân trang không hợp lệ");
         Query query = new Query(criteria);
 
         // Sort
@@ -77,10 +76,7 @@ public class DiaDiemService {
         int size = Math.min(req.getSize(), 50);
         query.skip(page * size).limit(size);
 
-        // Projection: không lấy reviews để nhẹ
-        Query projectionQuery = query.limit(size).skip(page * size);
-        // Note: Spring Data Query doesn't support fields() easily in this chain, we fetch full then map manually
-
+        query.fields().exclude("reviews");
         List<DiaDiem> items = mongoTemplate.find(query, DiaDiem.class);
         List<DiaDiemSummary> content = items.stream().map(this::toSummaryNoReviews).collect(Collectors.toList());
 
@@ -89,14 +85,15 @@ public class DiaDiemService {
 
     public DiaDiemDetail detail(String slug) {
         DiaDiem dd = diaDiemRepository.findBySlug(slug)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
+        if (!"ACTIVE".equals(dd.getTrangThai()) && !com.reviewdiadiem.util.SecurityUtil.isAdmin()) throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm");
         return toDetail(dd);
     }
 
     public DiaDiemSummary create(DiaDiemRequest req) {
         String slug = SlugUtil.toSlug(req.getTen());
         if (diaDiemRepository.existsBySlug(slug)) {
-            throw new RuntimeException("Slug đã tồn tại");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.CONFLICT, "Slug đã tồn tại");
         }
 
         DiaDiem dd = new DiaDiem();
@@ -105,11 +102,8 @@ public class DiaDiemService {
         dd.setTenKhongDau(SlugUtil.removeAccents(req.getTen()));
         dd.setLoai(req.getLoai());
         dd.setDanhMuc(req.getDanhMucId().stream().map(id -> {
-            DanhMucRefDto d = new DanhMucRefDto();
-            d.setDanhMucId(id);
-            d.setTen(null);
-            d.setSlug(null);
-            return d;
+            var category = danhMucRepository.findById(id).orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.BAD_REQUEST, "Danh mục không tồn tại"));
+            return new com.reviewdiadiem.model.DanhMucRef(category.getId(), category.getTen(), category.getSlug());
         }).collect(Collectors.toList()));
         dd.setMoTa(req.getMoTa());
         dd.setDiaChi(toDiaChi(req.getDiaChi()));
@@ -128,23 +122,20 @@ public class DiaDiemService {
 
     public DiaDiemSummary update(String id, DiaDiemRequest req) {
         DiaDiem dd = diaDiemRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
         dd.setTen(req.getTen());
         dd.setSlug(SlugUtil.toSlug(req.getTen()));
         dd.setTenKhongDau(SlugUtil.removeAccents(req.getTen()));
         dd.setLoai(req.getLoai());
         dd.setDanhMuc(req.getDanhMucId().stream().map(dmId -> {
-            DanhMucRefDto d = new DanhMucRefDto();
-            d.setDanhMucId(dmId);
-            d.setTen(null);
-            d.setSlug(null);
-            return d;
+            var category = danhMucRepository.findById(dmId).orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.BAD_REQUEST, "Danh mục không tồn tại"));
+            return new com.reviewdiadiem.model.DanhMucRef(category.getId(), category.getTen(), category.getSlug());
         }).collect(Collectors.toList()));
         dd.setMoTa(req.getMoTa());
         dd.setDiaChi(toDiaChi(req.getDiaChi()));
         dd.setViTri(toViTri(req.getViTri()));
         dd.setHinhAnh(req.getHinhAnh() == null ? List.of() : req.getHinhAnh());
-        dd.setTrangThai(req.getTrangThai());
+        dd.setTrangThai(req.getTrangThai() == null ? dd.getTrangThai() : req.getTrangThai());
         dd.setNgayCapNhat(LocalDateTime.now());
         diaDiemRepository.save(dd);
         return toSummaryNoReviews(dd);
@@ -152,7 +143,7 @@ public class DiaDiemService {
 
     public void delete(String id) {
         if (!diaDiemRepository.existsById(id)) {
-            throw new RuntimeException("Không tìm thấy địa điểm");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm");
         }
         diaDiemRepository.deleteById(id);
     }
@@ -163,7 +154,7 @@ public class DiaDiemService {
                 Aggregation.match(Criteria.where("trangThai").is("ACTIVE").and("reviewCount").gte(3)),
                 Aggregation.project()
                         .andExpression("(ratingAvg * reviewCount + 5 * 3.5) / (reviewCount + 5)").as("diemNoiBat")
-                        .andInclude("ten", "slug", "loai", "diaChi", "ratingAvg", "reviewCount", "hinhAnh"),
+                        .andInclude("ten", "slug", "loai", "danhMuc", "diaChi", "ratingAvg", "reviewCount", "hinhAnh"),
                 Aggregation.sort(Sort.by(Sort.Direction.DESC, "diemNoiBat")),
                 Aggregation.limit(10)
         );
@@ -172,13 +163,13 @@ public class DiaDiemService {
     }
 
     public List<DiaDiemSummary> near(Double lat, Double lng, Double banKinhKm, Integer limit) {
+        if (lat < -90 || lat > 90 || lng < -180 || lng > 180 || banKinhKm <= 0 || banKinhKm > 100 || limit < 1 || limit > 50) throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.BAD_REQUEST, "Vị trí hoặc bán kính không hợp lệ");
         Aggregation agg = Aggregation.newAggregation(
                 Aggregation.geoNear(
-                        org.springframework.data.mongodb.core.aggregation.NearQuery.near(lat, lng)
-                                .maxDistance(banKinhKm * 1000)
+                        org.springframework.data.mongodb.core.query.NearQuery.near(new org.springframework.data.mongodb.core.geo.GeoJsonPoint(lng, lat))
+                                .maxDistance(new org.springframework.data.geo.Distance(banKinhKm, org.springframework.data.geo.Metrics.KILOMETERS))
                                 .spherical(true)
-                                .query(Criteria.where("trangThai").is("ACTIVE"))
-                                .distanceField("khoangCach")
+                                .query(Query.query(Criteria.where("trangThai").is("ACTIVE"))), "khoangCach"
                 ),
                 Aggregation.limit(limit),
                 Aggregation.project()
@@ -187,11 +178,11 @@ public class DiaDiemService {
         );
         // MongoTemplate không hỗ trợ trực tiếp addField động vào class không có trường đó,
         // nên chúng ta map sang Map rồi chuyển.
-        AggregationResults<Map<String, Object>> rawResult = mongoTemplate.aggregate(agg, "diadiem", Map.class);
+        AggregationResults<Map> rawResult = mongoTemplate.aggregate(agg, "diadiem", Map.class);
         List<DiaDiemSummary> summaries = new ArrayList<>();
         for (Map<String, Object> m : rawResult.getMappedResults()) {
             DiaDiemSummary s = new DiaDiemSummary();
-            s.setId((String) m.get("_id"));
+            s.setId(String.valueOf(m.get("_id")));
             s.setTen((String) m.get("ten"));
             s.setSlug((String) m.get("slug"));
             s.setLoai((String) m.get("loai"));
@@ -209,6 +200,7 @@ public class DiaDiemService {
             s.setReviewCount(((Number) m.getOrDefault("reviewCount", 0)).intValue());
             s.setHinhAnh((List<String>) m.getOrDefault("hinhAnh", List.of()));
             s.setTrangThai("ACTIVE");
+            s.setDanhMuc(List.of());
             summaries.add(s);
         }
         return summaries;
@@ -239,13 +231,7 @@ public class DiaDiemService {
         s.setSlug(dd.getSlug());
         s.setLoai(dd.getLoai());
         s.setDanhMuc(dd.getDanhMuc() == null ? List.of()
-                : dd.getDanhMuc().stream().map(dm -> {
-                    DanhMucRefDto d = new DanhMucRefDto();
-                    d.setDanhMucId(dm.getDanhMucId());
-                    d.setTen(dm.getTen());
-                    d.setSlug(dm.getSlug());
-                    return d;
-                }).collect(Collectors.toList()));
+                : dd.getDanhMuc().stream().map(dm -> new DanhMucRefDto(dm.getDanhMucId(), dm.getTen(), dm.getSlug())).collect(Collectors.toList()));
         s.setDiaChi(toDiaChiSummary(dd.getDiaChi()));
         s.setRatingAvg(dd.getRatingAvg());
         s.setReviewCount(dd.getReviewCount());

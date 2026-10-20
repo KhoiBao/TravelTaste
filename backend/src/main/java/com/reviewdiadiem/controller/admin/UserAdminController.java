@@ -40,7 +40,7 @@ public class UserAdminController {
 
     @PatchMapping("/{id}/trang-thai")
     public ResponseEntity<ApiResponse<?>> toggleStatus(@PathVariable String id, @RequestBody Map<String, String> body) {
-        User u = userRepository.findById(id).orElseThrow(() -> new RuntimeException("Không tìm thấy người dùng"));
+        User u = userRepository.findById(id).orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy người dùng"));
         String trangThai = body.get("trangThai");
         if (!"ACTIVE".equals(trangThai) && !"BLOCKED".equals(trangThai)) {
             return ResponseEntity.badRequest().body(ApiResponse.error("Trạng thái không hợp lệ"));

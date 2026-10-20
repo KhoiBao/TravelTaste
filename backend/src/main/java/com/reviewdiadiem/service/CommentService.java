@@ -30,7 +30,7 @@ public class CommentService {
     @Transactional
     public ApiResponse<?> addComment(String placeId, String reviewId, String currentUserId, CommentRequest req, String parentCommentId) {
         DiaDiem dd = diaDiemRepository.findById(placeId)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
 
         List<Review> reviews = dd.getReviews() == null ? List.of() : new ArrayList<>(dd.getReviews());
         Review target = null;
@@ -41,7 +41,7 @@ public class CommentService {
             }
         }
         if (target == null) {
-            throw new RuntimeException("Không tìm thấy đánh giá");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy đánh giá");
         }
 
         UserInfo user = getUser(currentUserId);
@@ -66,9 +66,9 @@ public class CommentService {
             boolean added = addReplyRecursive(target.getBinhLuan() == null ? List.of() : new ArrayList<>(target.getBinhLuan()),
                     parentCommentId, comment, 1);
             if (!added) {
-                throw new RuntimeException("Không tìm thấy bình luận cha hoặc đã vượt quá mức trả lời cho phép");
+                throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy bình luận cha hoặc đã vượt quá mức trả lời cho phép");
             }
-            target.setBinhLuan((List<BinhLuan>) getModifiedList(target));
+            // Reply nodes are mutated in place by addReplyRecursive.
         }
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
@@ -82,12 +82,12 @@ public class CommentService {
     @Transactional
     public ApiResponse<?> updateComment(String placeId, String reviewId, String commentId, String currentUserId, CommentRequest req, boolean isAdmin) {
         DiaDiem dd = diaDiemRepository.findById(placeId)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
         List<Review> reviews = dd.getReviews() == null ? List.of() : new ArrayList<>(dd.getReviews());
 
         boolean found = updateCommentInTree(reviews, reviewId, commentId, currentUserId, isAdmin, req.getNoiDung());
         if (!found) {
-            throw new RuntimeException("Không tìm thấy bình luận hoặc không có quyền");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy bình luận hoặc không có quyền");
         }
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
@@ -98,12 +98,12 @@ public class CommentService {
     @Transactional
     public ApiResponse<?> deleteComment(String placeId, String reviewId, String commentId, String currentUserId, boolean isAdmin) {
         DiaDiem dd = diaDiemRepository.findById(placeId)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
         List<Review> reviews = dd.getReviews() == null ? List.of() : new ArrayList<>(dd.getReviews());
 
         boolean found = deleteCommentInTree(reviews, reviewId, commentId, currentUserId, isAdmin);
         if (!found) {
-            throw new RuntimeException("Không tìm thấy bình luận hoặc không có quyền");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy bình luận hoặc không có quyền");
         }
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
@@ -130,12 +130,7 @@ public class CommentService {
         return false;
     }
 
-    @SuppressWarnings("unchecked")
-    private void getModifiedList(Review target) {
-        // placeholder, list đã được mutate ở trên
-    }
-
-    private boolean updateCommentInTree(List<Review> reviews, String reviewId, String commentId,
+private boolean updateCommentInTree(List<Review> reviews, String reviewId, String commentId,
                                         String currentUserId, boolean isAdmin, String newContent) {
         for (Review r : reviews) {
             if (!reviewId.equals(r.getReviewId())) continue;
@@ -154,9 +149,7 @@ public class CommentService {
         if (list == null) return false;
         for (BinhLuan b : list) {
             if (commentId.equals(b.getCommentId())) {
-                if (!isAdmin && !currentUserId.equals(b.getUserId())) {
-                    return false;
-                }
+                if (!isAdmin && !currentUserId.equals(b.getUserId())) { throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Không có quyền sửa hoặc xóa bình luận"); }
                 b.setNoiDung(newContent);
                 b.setNgayCapNhat(LocalDateTime.now());
                 return true;
@@ -177,9 +170,7 @@ public class CommentService {
             while (it.hasNext()) {
                 BinhLuan b = it.next();
                 if (commentId.equals(b.getCommentId())) {
-                    if (!isAdmin && !currentUserId.equals(b.getUserId())) {
-                        return false;
-                    }
+                    if (!isAdmin && !currentUserId.equals(b.getUserId())) { throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Không có quyền sửa hoặc xóa bình luận"); }
                     it.remove();
                     r.setBinhLuan(comments);
                     return true;
@@ -199,9 +190,7 @@ public class CommentService {
         while (it.hasNext()) {
             BinhLuan b = it.next();
             if (commentId.equals(b.getCommentId())) {
-                if (!isAdmin && !currentUserId.equals(b.getUserId())) {
-                    return false;
-                }
+                if (!isAdmin && !currentUserId.equals(b.getUserId())) { throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Không có quyền sửa hoặc xóa bình luận"); }
                 it.remove();
                 return true;
             }
@@ -229,6 +218,7 @@ public class CommentService {
     private record UserInfo(String tenUser, String avatarUser) {}
 
     private UserInfo getUser(String userId) {
-        return new UserInfo("Người dùng", null);
+        var user = userRepository.findById(userId).orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy người dùng"));
+        return new UserInfo(user.getHoTen(), user.getAvatar());
     }
 }

@@ -1,0 +1,24 @@
+/* Values read from Figma 2:2 and 2:47. No error/success colors or shadows
+   were defined in these frames; do not infer semantic tokens from them. */
+:root {
+  --tt-primary: #087f73;
+  --tt-text: #172e2b;
+  --tt-accent: #f5a623;
+  --tt-background: #f7f8fa;
+  --tt-surface: #ffffff;
+  --tt-muted: #566b67;
+  --tt-border: #dde7e3;
+  --tt-pale: #e7f3ef;
+  --tt-font: 'Inter', sans-serif;
+  --tt-weight-regular: 400;
+  --tt-weight-bold: 700;
+  --tt-line-height: normal;
+  --tt-gap: 18px;
+  --tt-grid-gap: 16px;
+  --tt-page-padding-x: 28px;
+  --tt-page-padding-y: 24px;
+  --tt-radius-button: 10px;
+  --tt-radius-card: 12px;
+  --tt-radius-page: 14px;
+  --tt-radius-pill: 20px;
+}

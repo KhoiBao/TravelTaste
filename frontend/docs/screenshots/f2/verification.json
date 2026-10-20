@@ -1,0 +1,1774 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "home",
+      "device": "desktop",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 28,
+          "y": 69,
+          "width": 900,
+          "height": 165
+        },
+        "heading": {
+          "x": 28,
+          "y": 252,
+          "width": 570.3125,
+          "height": 38
+        },
+        "firstCard": {
+          "x": 28,
+          "y": 445,
+          "width": 255,
+          "height": 220
+        },
+        "header": {
+          "x": 28,
+          "y": 24,
+          "width": 589,
+          "height": 27
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 900,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "home",
+      "device": "tablet",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 28,
+          "y": 74,
+          "width": 712,
+          "height": 165
+        },
+        "heading": {
+          "x": 28,
+          "y": 257,
+          "width": 478.328125,
+          "height": 31
+        },
+        "firstCard": {
+          "x": 28,
+          "y": 443,
+          "width": 348,
+          "height": 220
+        },
+        "header": {
+          "x": 28,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 712,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "home",
+      "device": "mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 20,
+          "y": 74,
+          "width": 350,
+          "height": 165
+        },
+        "heading": {
+          "x": 20,
+          "y": 257,
+          "width": 350,
+          "height": 62
+        },
+        "firstCard": {
+          "x": 20,
+          "y": 474,
+          "width": 350,
+          "height": 220
+        },
+        "header": {
+          "x": 20,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "home",
+      "device": "small-mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 20,
+          "y": 74,
+          "width": 280,
+          "height": 165
+        },
+        "heading": {
+          "x": 20,
+          "y": 257,
+          "width": 280,
+          "height": 62
+        },
+        "firstCard": {
+          "x": 20,
+          "y": 474,
+          "width": 280,
+          "height": 220
+        },
+        "header": {
+          "x": 20,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "search",
+      "device": "desktop",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 28,
+          "y": 69,
+          "width": 900,
+          "height": 165
+        },
+        "heading": {
+          "x": 28,
+          "y": 252,
+          "width": 441.859375,
+          "height": 38
+        },
+        "firstCard": {
+          "x": 28,
+          "y": 445,
+          "width": 255,
+          "height": 220
+        },
+        "header": {
+          "x": 28,
+          "y": 24,
+          "width": 589,
+          "height": 27
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 900,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "search",
+      "device": "tablet",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 28,
+          "y": 74,
+          "width": 712,
+          "height": 165
+        },
+        "heading": {
+          "x": 28,
+          "y": 257,
+          "width": 370.59375,
+          "height": 31
+        },
+        "firstCard": {
+          "x": 28,
+          "y": 443,
+          "width": 348,
+          "height": 220
+        },
+        "header": {
+          "x": 28,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 712,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "search",
+      "device": "mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 20,
+          "y": 74,
+          "width": 350,
+          "height": 165
+        },
+        "heading": {
+          "x": 20,
+          "y": 257,
+          "width": 350,
+          "height": 62
+        },
+        "firstCard": {
+          "x": 20,
+          "y": 498,
+          "width": 350,
+          "height": 220
+        },
+        "header": {
+          "x": 20,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "search",
+      "device": "small-mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 20,
+          "y": 74,
+          "width": 280,
+          "height": 165
+        },
+        "heading": {
+          "x": 20,
+          "y": 257,
+          "width": 280,
+          "height": 62
+        },
+        "firstCard": {
+          "x": 20,
+          "y": 498,
+          "width": 280,
+          "height": 220
+        },
+        "header": {
+          "x": 20,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "places",
+      "device": "desktop",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 28,
+          "y": 69,
+          "width": 900,
+          "height": 165
+        },
+        "heading": {
+          "x": 28,
+          "y": 252,
+          "width": 441.859375,
+          "height": 38
+        },
+        "firstCard": {
+          "x": 28,
+          "y": 445,
+          "width": 255,
+          "height": 220
+        },
+        "header": {
+          "x": 28,
+          "y": 24,
+          "width": 589,
+          "height": 27
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 900,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "places",
+      "device": "tablet",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 28,
+          "y": 74,
+          "width": 712,
+          "height": 165
+        },
+        "heading": {
+          "x": 28,
+          "y": 257,
+          "width": 370.59375,
+          "height": 31
+        },
+        "firstCard": {
+          "x": 28,
+          "y": 443,
+          "width": 348,
+          "height": 220
+        },
+        "header": {
+          "x": 28,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 712,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "places",
+      "device": "mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 20,
+          "y": 74,
+          "width": 350,
+          "height": 165
+        },
+        "heading": {
+          "x": 20,
+          "y": 257,
+          "width": 350,
+          "height": 62
+        },
+        "firstCard": {
+          "x": 20,
+          "y": 498,
+          "width": 350,
+          "height": 220
+        },
+        "header": {
+          "x": 20,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "places",
+      "device": "small-mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 20,
+          "y": 74,
+          "width": 280,
+          "height": 165
+        },
+        "heading": {
+          "x": 20,
+          "y": 257,
+          "width": 280,
+          "height": 62
+        },
+        "firstCard": {
+          "x": 20,
+          "y": 498,
+          "width": 280,
+          "height": 220
+        },
+        "header": {
+          "x": 20,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "detail",
+      "device": "desktop",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 28,
+          "y": 69,
+          "width": 900,
+          "height": 165
+        },
+        "heading": {
+          "x": 28,
+          "y": 252,
+          "width": 210.703125,
+          "height": 38
+        },
+        "firstCard": {
+          "x": 28,
+          "y": 445,
+          "width": 255,
+          "height": 220
+        },
+        "header": {
+          "x": 28,
+          "y": 24,
+          "width": 589,
+          "height": 27
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 900,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 255,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "detail",
+      "device": "tablet",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 28,
+          "y": 74,
+          "width": 712,
+          "height": 165
+        },
+        "heading": {
+          "x": 28,
+          "y": 257,
+          "width": 176.71875,
+          "height": 31
+        },
+        "firstCard": {
+          "x": 28,
+          "y": 443,
+          "width": 348,
+          "height": 220
+        },
+        "header": {
+          "x": 28,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 712,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 348,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "detail",
+      "device": "mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 20,
+          "y": 74,
+          "width": 350,
+          "height": 165
+        },
+        "heading": {
+          "x": 20,
+          "y": 257,
+          "width": 176.71875,
+          "height": 31
+        },
+        "firstCard": {
+          "x": 20,
+          "y": 443,
+          "width": 350,
+          "height": 220
+        },
+        "header": {
+          "x": 20,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 350,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "detail",
+      "device": "small-mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": {
+          "x": 20,
+          "y": 74,
+          "width": 280,
+          "height": 165
+        },
+        "heading": {
+          "x": 20,
+          "y": 257,
+          "width": 176.71875,
+          "height": 31
+        },
+        "firstCard": {
+          "x": 20,
+          "y": 443,
+          "width": 280,
+          "height": 220
+        },
+        "header": {
+          "x": 20,
+          "y": 24,
+          "width": 218.671875,
+          "height": 32
+        },
+        "images": [
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 165
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/hoi-an.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/ha-long.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          },
+          {
+            "src": "/src/assets/images/da-lat.png",
+            "loaded": true,
+            "width": 280,
+            "height": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "categories",
+      "device": "desktop",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 251.296875,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "categories",
+      "device": "tablet",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 251.296875,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "categories",
+      "device": "mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 251.296875,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "categories",
+      "device": "small-mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 251.296875,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "top-10",
+      "device": "desktop",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 181.796875,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "top-10",
+      "device": "tablet",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 181.796875,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "top-10",
+      "device": "mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 181.796875,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "top-10",
+      "device": "small-mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 181.796875,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "login",
+      "device": "desktop",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 232.234375,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "login",
+      "device": "tablet",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 232.234375,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "login",
+      "device": "mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 232.234375,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "login",
+      "device": "small-mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 232.234375,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "register",
+      "device": "desktop",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 337.953125,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "register",
+      "device": "tablet",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 337.953125,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "register",
+      "device": "mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 337.953125,
+          "height": 33
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    },
+    {
+      "name": "register",
+      "device": "small-mobile",
+      "geometry": {
+        "overflow": false,
+        "hero": null,
+        "heading": {
+          "x": 24,
+          "y": 69,
+          "width": 272,
+          "height": 66
+        },
+        "firstCard": null,
+        "header": null,
+        "images": []
+      }
+    }
+  ],
+  "interactions": [
+    "home → accent-insensitive search → selected place detail",
+    "category/city/rating filters, empty state, reset",
+    "alphabetical sorting",
+    "category navigation and top list selection",
+    "required fields, password confirmation, no fake authentication or stored credentials",
+    "mobile menu routing, missing place fallback"
+  ],
+  "errors": []
+}

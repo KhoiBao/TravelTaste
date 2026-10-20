@@ -7,6 +7,7 @@ import com.reviewdiadiem.dto.ReviewRequest;
 import com.reviewdiadiem.model.BinhLuan;
 import com.reviewdiadiem.model.DiaDiem;
 import com.reviewdiadiem.model.Review;
+import com.reviewdiadiem.model.User;
 import com.reviewdiadiem.repository.DiaDiemRepository;
 import com.reviewdiadiem.repository.UserRepository;
 import com.reviewdiadiem.util.SlugUtil;
@@ -31,9 +32,9 @@ public class ReviewService {
     @Transactional
     public ApiResponse<?> createReview(String placeId, String currentUserId, ReviewRequest req) {
         DiaDiem dd = diaDiemRepository.findById(placeId)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
         if (!"ACTIVE".equals(dd.getTrangThai())) {
-            throw new RuntimeException("Địa điểm đã ẩn, không nhận đánh giá mới");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.CONFLICT, "Địa điểm đã ẩn, không nhận đánh giá mới");
         }
 
         // Kiểm tra user đã review địa điểm này chưa
@@ -41,16 +42,16 @@ public class ReviewService {
             boolean exists = dd.getReviews().stream()
                     .anyMatch(r -> currentUserId.equals(r.getUserId()));
             if (exists) {
-                throw new RuntimeException("Bạn đã đánh giá địa điểm này, vui lòng sửa đánh giá cũ");
+                throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.CONFLICT, "Bạn đã đánh giá địa điểm này, vui lòng sửa đánh giá cũ");
             }
         }
 
         if (dd.getReviews() != null && dd.getReviews().size() >= 500) {
-            throw new RuntimeException("Đã đạt giới hạn 500 đánh giá cho địa điểm này");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.CONFLICT, "Đã đạt giới hạn 500 đánh giá cho địa điểm này");
         }
 
         User user = userRepository.findById(currentUserId)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy người dùng"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy người dùng"));
 
         Review review = new Review();
         review.setReviewId(UUID.randomUUID().toString());
@@ -89,14 +90,14 @@ public class ReviewService {
     @Transactional
     public ApiResponse<?> updateReview(String placeId, String reviewId, String currentUserId, ReviewRequest req) {
         DiaDiem dd = diaDiemRepository.findById(placeId)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
 
         List<Review> reviews = dd.getReviews() == null ? List.of() : new ArrayList<>(dd.getReviews());
         boolean found = false;
         for (Review r : reviews) {
             if (reviewId.equals(r.getReviewId())) {
                 if (!currentUserId.equals(r.getUserId())) {
-                    throw new RuntimeException("Không phải chủ sở hữu đánh giá");
+                    throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Không phải chủ sở hữu đánh giá");
                 }
                 r.setSoSao(req.getSoSao());
                 r.setTieuDe(req.getTieuDe());
@@ -108,7 +109,7 @@ public class ReviewService {
             }
         }
         if (!found) {
-            throw new RuntimeException("Không tìm thấy đánh giá");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy đánh giá");
         }
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
@@ -121,7 +122,7 @@ public class ReviewService {
     @Transactional
     public ApiResponse<?> deleteReview(String placeId, String reviewId, String currentUserId, boolean isAdmin) {
         DiaDiem dd = diaDiemRepository.findById(placeId)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
 
         List<Review> reviews = dd.getReviews() == null ? List.of() : new ArrayList<>(dd.getReviews());
         Iterator<Review> it = reviews.iterator();
@@ -130,7 +131,7 @@ public class ReviewService {
             Review r = it.next();
             if (reviewId.equals(r.getReviewId())) {
                 if (!isAdmin && !currentUserId.equals(r.getUserId())) {
-                    throw new RuntimeException("Không phải chủ sở hữu đánh giá");
+                    throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Không phải chủ sở hữu đánh giá");
                 }
                 it.remove();
                 found = true;
@@ -138,7 +139,7 @@ public class ReviewService {
             }
         }
         if (!found) {
-            throw new RuntimeException("Không tìm thấy đánh giá");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy đánh giá");
         }
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
@@ -149,8 +150,9 @@ public class ReviewService {
     }
 
     public ApiResponse<?> listReviews(String placeId, int page, int size, String sort) {
+        if (page < 0 || size < 1 || size > 100) throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.BAD_REQUEST, "Phân trang không hợp lệ");
         DiaDiem dd = diaDiemRepository.findById(placeId)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy địa điểm"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
         List<Review> reviews = dd.getReviews() == null ? List.of() : dd.getReviews();
 
         // Sắp xếp

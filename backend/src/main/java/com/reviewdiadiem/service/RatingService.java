@@ -25,12 +25,12 @@ public class RatingService {
     public void recalculate(String placeId) {
         // Tính reviewCount và ratingAvg từ mảng reviews của document
         Aggregation agg = Aggregation.newAggregation(
-                Aggregation.match(Criteria.where("_id").is(placeId)),
+                Aggregation.match(Criteria.where("_id").is(org.bson.types.ObjectId.isValid(placeId) ? new org.bson.types.ObjectId(placeId) : placeId)),
                 Aggregation.project()
                         .and("reviews").size().as("reviewCount")
-                        .and("reviews").avg("soSao").as("ratingAvgRaw")
+                        .andExpression("avg(reviews.soSao)").as("ratingAvgRaw")
         );
-        AggregationResults<Map<String, Object>> result = mongoTemplate.aggregate(agg, "diadiem", Map.class);
+        AggregationResults<Map> result = mongoTemplate.aggregate(agg, "diadiem", Map.class);
         Map<String, Object> doc = result.getUniqueMappedResult();
 
         int reviewCount = 0;

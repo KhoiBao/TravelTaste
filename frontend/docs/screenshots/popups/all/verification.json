@@ -1,0 +1,699 @@
+{
+  "status": "passed",
+  "suite": "all",
+  "checks": [
+    {
+      "name": "login",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 200,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "login",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 104,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "login",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "login",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "register",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 200,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "register",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 104,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "register",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "register",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "profile",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 200,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "profile",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 104,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "profile",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "profile",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "review-new",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 70,
+        "y": 24,
+        "width": 820,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "review-new",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 20,
+        "y": 24,
+        "width": 728,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "review-new",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "review-new",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "review-edit",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 70,
+        "y": 24,
+        "width": 820,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "review-edit",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 20,
+        "y": 24,
+        "width": 728,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "review-edit",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "review-edit",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "place-new",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 70,
+        "y": 24,
+        "width": 820,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "place-new",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 20,
+        "y": 24,
+        "width": 728,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "place-new",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "place-new",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "place-edit",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 70,
+        "y": 24,
+        "width": 820,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "place-edit",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 20,
+        "y": 24,
+        "width": 728,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "place-edit",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "place-edit",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "category-new",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 200,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "category-new",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 104,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "category-new",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "category-new",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "category-edit",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 200,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "category-edit",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 104,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "category-edit",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "category-edit",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "user",
+      "device": "desktop",
+      "geometry": {
+        "count": 1,
+        "x": 200,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 960,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "user",
+      "device": "tablet",
+      "geometry": {
+        "count": 1,
+        "x": 104,
+        "y": 24,
+        "width": 560,
+        "height": 852,
+        "viewport": 768,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "user",
+      "device": "mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 900,
+        "viewport": 390,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    },
+    {
+      "name": "user",
+      "device": "small-mobile",
+      "geometry": {
+        "count": 1,
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 900,
+        "viewport": 320,
+        "overflow": false,
+        "dialogOverflow": false,
+        "locked": true
+      }
+    }
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "heading": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/search",
+      "heading": "Tìm địa điểm phù hợp với bạn"
+    },
+    {
+      "route": "/places",
+      "heading": "Tìm địa điểm phù hợp với bạn"
+    },
+    {
+      "route": "/places/hoi-an",
+      "heading": "Phố cổ Hội An"
+    },
+    {
+      "route": "/categories",
+      "heading": "Khám phá theo sở thích"
+    },
+    {
+      "route": "/top-10",
+      "heading": "Top 10 được yêu thích"
+    },
+    {
+      "route": "/reviews",
+      "heading": "Đánh giá cộng đồng"
+    },
+    {
+      "route": "/reviews/hoi-an-review-1",
+      "heading": "Đánh giá và thảo luận"
+    },
+    {
+      "route": "/profile",
+      "heading": "Hồ sơ thành viên"
+    },
+    {
+      "route": "/my-reviews",
+      "heading": "Đánh giá của tôi"
+    },
+    {
+      "route": "/admin",
+      "heading": "Tổng quan hệ thống"
+    },
+    {
+      "route": "/admin/places",
+      "heading": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/categories",
+      "heading": "Danh mục / Admin"
+    },
+    {
+      "route": "/admin/reviews",
+      "heading": "Kiểm duyệt đánh giá"
+    },
+    {
+      "route": "/admin/comments",
+      "heading": "Kiểm duyệt bình luận"
+    },
+    {
+      "route": "/admin/users",
+      "heading": "Tài khoản người dùng"
+    },
+    {
+      "route": "/admin/statistics",
+      "heading": "Thống kê và báo cáo"
+    },
+    {
+      "route": "/status/403",
+      "heading": "Bạn chưa có quyền truy cập"
+    },
+    {
+      "route": "/status/404",
+      "heading": "Chưa tìm thấy trang này"
+    },
+    {
+      "route": "/status/500",
+      "heading": "Có lỗi xảy ra"
+    }
+  ],
+  "flows": [
+    "shared auth popup, preserved drafts across tabs, dirty Escape/discard, one dialog, restored focus, cleared credentials",
+    "public search/detail navigation, filters, empty/reset regression",
+    "profile edit popup, save, dirty browser Back/cancel/discard",
+    "shared new/edit review popup, image upload, save, rating updates",
+    "category add/edit popups and non-stacked delete confirmation",
+    "shared place popup create/edit, preserved list background after save",
+    "read-only user popup, Escape close, statistics regression",
+    "discussion remains standalone, max-depth regression, admin gate in popup"
+  ],
+  "errors": []
+}
