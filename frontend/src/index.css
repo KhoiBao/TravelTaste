@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+.star { color: #ffc107; cursor: pointer; }
+.star.empty { color: #ddd; }
