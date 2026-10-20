@@ -63,7 +63,7 @@ Nếu không cài dưới dạng service, chạy `mongod.exe` thủ công.
 
 ## 3. Import database
 
-Cần tạo **3 collection** trong database `review_diadiem`: `users`, `danhmuc`, `diadiem`.
+Cơ sở dữ liệu có 7 collection: `users`, `danhmuc`, `diadiem`, `danhgia`, `binhluan`, `hinhanh`, `yeuthich`. Các script tạo collection còn thiếu tự động.
 
 ### 3.1. Cách A — Chạy script Node.js (khuyên dùng, KHÔNG cần `mongosh`)
 
@@ -71,9 +71,13 @@ Máy chỉ cần có **Node.js** (đã cài để chạy frontend). Script nằm
 
 | File | Chức năng |
 |------|-----------|
-| `seed_db.mjs` | Tạo 7 index + seed 13 địa điểm, 32 review, bình luận lồng 3 cấp |
+| `seed_db.mjs` | Tạo index + seed users, danh mục, địa điểm và review mẫu |
 | `check_db.mjs` | Xem trạng thái hiện tại của database |
 | `verify_db.mjs` | Kiểm tra text index, 2dsphere, top 10, tính đúng ratingAvg/reviewCount |
+| `sync_collections.mjs` | Đồng bộ reviews, bình luận lồng nhau và ảnh từ dữ liệu nhúng sang collections riêng |
+| `advanced_queries.mjs` | Thiết lập text index và chạy aggregation Top 10 qua `$lookup` với `diadiem` |
+| `init_replica_set.mjs` | Khởi tạo replica set một node và bật change-stream pre-images cho `danhgia` |
+| `watch_ratings.mjs` | Theo dõi thay đổi `danhgia` và tự tính lại rating trên `diadiem` |
 
 Chạy bằng file `.bat` (tự cài dependencies lần đầu):
 
@@ -88,14 +92,31 @@ Hoặc chạy từng lệnh:
 cd K:\NoSQL projects\TravelTaste\database
 npm install          # chỉ lần đầu
 npm run seed         # tạo index + seed dữ liệu
+npm run sync-collections # đồng bộ collection phụ và tạo yeuthich
 npm run verify       # kiểm tra kết quả
+npm run advanced     # chạy text search + Top 10 từ danhgia, không xóa/seed lại dữ liệu
 ```
+
+Database gồm 7 collection: `users`, `danhmuc`, `diadiem`, `danhgia`, `binhluan`, `hinhanh`, `yeuthich`. Script đồng bộ giữ các bản nhúng gốc, đồng thời upsert tài liệu sang các collection riêng và xóa tài liệu cũ không còn trong nguồn; có thể chạy lại an toàn. `binhluan` làm phẳng các reply và liên kết bằng `reviewId`, `diaDiemId`, `parentCommentId`; `hinhanh` liên kết URL ảnh với địa điểm hoặc đánh giá; `yeuthich` lưu cặp `userId`/`diaDiemId` và ngày thích, có unique index để một người không lưu trùng một địa điểm. `hinhanh` hiện chưa có document vì dữ liệu chưa có URL ảnh; `yeuthich` mới tạo, chưa có document vì chưa có lượt thích thực tế. Top 10 dùng aggregation từ `danhgia`, `$lookup` thông tin địa điểm, chỉ lấy địa điểm ACTIVE có ít nhất 3 review và tính điểm Bayesian (rating prior 3.5, trọng số 5). Đây là đồng bộ phía database; ứng dụng hiện vẫn ghi vào dữ liệu nhúng, nên chạy lại `npm run sync-collections` sau khi app có review, bình luận hoặc ảnh mới.
+
+#### Tự động tính rating khi `danhgia` thay đổi (MongoDB local)
+
+MongoDB cần single-node replica set để hỗ trợ Change Streams. Mở PowerShell **Run as Administrator**, vào thư mục `database`, rồi chạy script setup:
+
+```powershell
+cd K:\NoSQL projects\TravelTaste\database
+npm run setup-realtime
+```
+
+Script sao lưu `mongod.cfg`, thêm `replication.replSetName` nếu chưa cấu hình, khởi động lại dịch vụ, khởi tạo replica set và chạy watcher. Nếu đã có replication section với cấu hình khác, script dừng để tránh ghi đè. Giữ cửa sổ PowerShell mở để watcher hoạt động; nhấn Ctrl+C để dừng.
+
+Giữ tiến trình `watch-ratings` chạy. Nó tính lại toàn bộ rating lúc khởi động, sau đó tự cập nhật khi đánh giá được insert, sửa hoặc xóa trong `danhgia`. Mỗi review phải có `diaDiemId` đúng kiểu BSON ObjectId và `soSao` từ 1 đến 5. Nếu app chỉ lưu review vào mảng `diadiem.reviews`, change stream trên `danhgia` không nhận được sự kiện; hãy nhập/sync review vào collection này.
 
 ### 3.2. Cách B — Dùng MongoDB Compass (thủ công, không cài gì thêm)
 
 #### 3.2.1. Tạo collection
-Mở Compass → kết nối `mongodb://localhost:27017` → chọn/tạo database `review_diadiem` → tạo 3 collection:
-`users`, `danhmuc`, `diadiem`.
+Mở Compass → kết nối `mongodb://localhost:27017` → chọn/tạo database `review_diadiem` → tạo 7 collection:
+`users`, `danhmuc`, `diadiem`, `danhgia`, `binhluan`, `hinhanh`, `yeuthich`.
 
 #### 3.2.2. Insert dữ liệu vào `users`
 Chọn collection `users` → **Insert Document** → dán từng document:
