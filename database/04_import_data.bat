@@ -4,42 +4,56 @@ cd /d "%~dp0"
 
 echo ============================================
 echo   TravelTaste - Import du lieu MongoDB
+echo   (chay bang Node.js, KHONG can mongosh)
 echo ============================================
 echo.
 
-where mongosh >nul 2>nul
+REM --- Kiem tra node ---
+where node >nul 2>nul
 if errorlevel 1 (
-    echo [LOI] Khong tim thay 'mongosh' trong PATH.
-    echo.
-    echo Hai cach xu ly:
-    echo   1) Cai MongoDB Shell: https://www.mongodb.com/try/download/shell
-    echo      Sau do them vao PATH va khoi dong lai terminal.
-    echo   2) Import truc tiep bang MongoDB Compass theo file HUONG-DAN-CHAY.md muc 3.1.
+    echo [LOI] Khong tim thay Node.js.
+    echo   Hay cai Node.js 18+ tai https://nodejs.org/ roi chay lai script nay.
     echo.
     pause
     exit /b 1
 )
 
-echo [1/2] Tao 7 index cho collection diadiem...
-mongosh --quiet "01_indexes.js"
-if errorlevel 1 (
-    echo [LOI] Tao index that bai.
-    pause
-    exit /b 1
+REM --- Cai dat dependencies lan dau ---
+if not exist "node_modules\mongodb" (
+    echo [1/3] Cai dat dependencies (mongodb, bcryptjs)...
+    call npm install --silent
+    if errorlevel 1 (
+        echo [LOI] npm install that bai. Kiem tra ket noi internet.
+        pause
+        exit /b 1
+    )
+) else (
+    echo [1/3] Dependencies da co san, bo qua.
 )
 
 echo.
-echo [2/2] Seed du lieu mau...
-mongosh --quiet "02_seed_data.js"
+echo [2/3] Tao index + seed du lieu mau...
+node seed_db.mjs
 if errorlevel 1 (
+    echo.
     echo [LOI] Seed du lieu that bai.
     pause
     exit /b 1
 )
 
 echo.
+echo [3/3] Kiem tra du lieu...
+node verify_db.mjs
+if errorlevel 1 (
+    echo.
+    echo [LOI] Kiem tra du lieu that bai.
+    pause
+    exit /b 1
+)
+
+echo.
 echo ============================================
-echo   HOAN TAT!
+echo   HOAN TAT! Du lieu da san sang.
 echo ============================================
 echo.
 echo Tai khoan demo:

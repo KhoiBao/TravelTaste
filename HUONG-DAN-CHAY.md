@@ -23,9 +23,9 @@ Backend: Java 21 + Spring Boot 3.x · Frontend: React 18 + Vite · CSDL: MongoDB
 |---------|-----------|---------|
 | JDK | 21 | `java -version` |
 | Maven | 3.8+ | `mvn -version` — **bắt buộc cho backend** |
-| Node.js | 18+ | `node -v` và `npm -v` — **bắt buộc cho frontend** |
+| Node.js | 18+ | `node -v` và `npm -v` — **bắt buộc cho frontend và script import database** |
 | MongoDB | 7+ | Server + Compass (GUI) |
-| MongoDB Shell | tuỳ chọn | `mongosh` — dùng để chạy script import nhanh |
+| MongoDB Shell | tuỳ chọn | `mongosh` — **không bắt buộc**, script Node.js đã thay thế |
 
 ### 1.1. Cài Maven (Windows)
 
@@ -65,13 +65,39 @@ Nếu không cài dưới dạng service, chạy `mongod.exe` thủ công.
 
 Cần tạo **3 collection** trong database `review_diadiem`: `users`, `danhmuc`, `diadiem`.
 
-### 3.1. Cách A — Dùng MongoDB Compass (khuyên dùng, không cần `mongosh`)
+### 3.1. Cách A — Chạy script Node.js (khuyên dùng, KHÔNG cần `mongosh`)
 
-#### 3.1.1. Tạo collection
+Máy chỉ cần có **Node.js** (đã cài để chạy frontend). Script nằm trong thư mục `database/`:
+
+| File | Chức năng |
+|------|-----------|
+| `seed_db.mjs` | Tạo 7 index + seed 13 địa điểm, 32 review, bình luận lồng 3 cấp |
+| `check_db.mjs` | Xem trạng thái hiện tại của database |
+| `verify_db.mjs` | Kiểm tra text index, 2dsphere, top 10, tính đúng ratingAvg/reviewCount |
+
+Chạy bằng file `.bat` (tự cài dependencies lần đầu):
+
+```powershell
+cd K:\NoSQL projects\TravelTaste\database
+.\04_import_data.bat
+```
+
+Hoặc chạy từng lệnh:
+
+```powershell
+cd K:\NoSQL projects\TravelTaste\database
+npm install          # chỉ lần đầu
+npm run seed         # tạo index + seed dữ liệu
+npm run verify       # kiểm tra kết quả
+```
+
+### 3.2. Cách B — Dùng MongoDB Compass (thủ công, không cài gì thêm)
+
+#### 3.2.1. Tạo collection
 Mở Compass → kết nối `mongodb://localhost:27017` → chọn/tạo database `review_diadiem` → tạo 3 collection:
 `users`, `danhmuc`, `diadiem`.
 
-#### 3.1.2. Insert dữ liệu vào `users`
+#### 3.2.2. Insert dữ liệu vào `users`
 Chọn collection `users` → **Insert Document** → dán từng document:
 
 ```json
@@ -79,7 +105,7 @@ Chọn collection `users` → **Insert Document** → dán từng document:
   "username": "admin",
   "hoTen": "Quản trị viên",
   "email": "admin@traveltaste.local",
-  "passwordHash": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+  "passwordHash": "$2b$10$SVjLfSOTHxWDS0j0mli.AuM4J4CtD8XXTA1YPxuWRvDWfrPfNm.PO",
   "avatar": null,
   "role": "ADMIN",
   "trangThai": "ACTIVE",
@@ -93,7 +119,7 @@ Chọn collection `users` → **Insert Document** → dán từng document:
   "username": "an123",
   "hoTen": "Nguyễn Văn An",
   "email": "an123@traveltaste.local",
-  "passwordHash": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+  "passwordHash": "$2b$10$n1ec4VdE.GOwR4BgUtzM/uUogOzVElV9bqzQ7L3vhp0HYASizj0Dq",
   "avatar": null,
   "role": "USER",
   "trangThai": "ACTIVE",
@@ -107,7 +133,7 @@ Chọn collection `users` → **Insert Document** → dán từng document:
   "username": "binh123",
   "hoTen": "Trần Thị Bình",
   "email": "binh123@traveltaste.local",
-  "passwordHash": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+  "passwordHash": "$2b$10$n1ec4VdE.GOwR4BgUtzM/uUogOzVElV9bqzQ7L3vhp0HYASizj0Dq",
   "avatar": null,
   "role": "USER",
   "trangThai": "ACTIVE",
@@ -116,7 +142,9 @@ Chọn collection `users` → **Insert Document** → dán từng document:
 }
 ```
 
-#### 3.1.3. Insert dữ liệu vào `danhmuc`
+> Hash trên là BCrypt của `admin123` (admin) và `123456` (2 user còn lại).
+
+#### 3.2.3. Insert dữ liệu vào `danhmuc`
 ```json
 { "ten": "Ăn uống", "slug": "an-uong", "moTa": "Nhà hàng, quán ăn, cà phê", "icon": "bi-cup-hot", "thuTu": 1, "trangThai": "ACTIVE", "ngayTao": { "$date": "2026-10-20T00:00:00Z" }, "ngayCapNhat": { "$date": "2026-10-20T00:00:00Z" } }
 ```
@@ -127,7 +155,7 @@ Chọn collection `users` → **Insert Document** → dán từng document:
 { "ten": "Lưu trú", "slug": "luu-tru", "moTa": "Khách sạn, homestay", "icon": "bi-building", "thuTu": 3, "trangThai": "ACTIVE", "ngayTao": { "$date": "2026-10-20T00:00:00Z" }, "ngayCapNhat": { "$date": "2026-10-20T00:00:00Z" } }
 ```
 
-#### 3.1.4. Insert dữ liệu vào `diadiem`
+#### 3.2.4. Insert dữ liệu vào `diadiem`
 Lấy `_id` của các document trên (Compass hiển thị ở cột `_id`) để thay vào `<...>`.
 
 ```json
@@ -141,7 +169,7 @@ Lấy `_id` của các document trên (Compass hiển thị ở cột `_id`) đ�
   "diaChi": { "so": "13", "duong": "Lò Đúc", "quan": "Hai Bà Trưng", "thanhPho": "Hà Nội" },
   "viTri": { "type": "Point", "coordinates": [105.8423, 21.0215] },
   "hinhAnh": ["https://images.unsplash.com/photo-1569720141087-e6a1f716c63f?w=800"],
-  "ratingAvg": 4.5,
+  "ratingAvg": 5,
   "reviewCount": 1,
   "reviews": [
     {
@@ -197,7 +225,7 @@ Lấy `_id` của các document trên (Compass hiển thị ở cột `_id`) đ�
   "diaChi": { "so": "24", "duong": "Lê Văn Hữu", "quan": "Thanh Xuân", "thanhPho": "Hà Nội" },
   "viTri": { "type": "Point", "coordinates": [105.8234, 20.9914] },
   "hinhAnh": ["https://images.unsplash.com/photo-15247656760-e28560e18a14?w=800"],
-  "ratingAvg": 5.0,
+  "ratingAvg": 5,
   "reviewCount": 1,
   "reviews": [
     {
@@ -231,7 +259,7 @@ Lấy `_id` của các document trên (Compass hiển thị ở cột `_id`) đ�
   "diaChi": { "so": "", "duong": "Đình Tiên Hoàng", "quan": "Hoàn Kiếm", "thanhPho": "Hà Nội" },
   "viTri": { "type": "Point", "coordinates": [105.8523, 21.0321] },
   "hinhAnh": ["https://images.unsplash.com/photo-1517728633855-9e9e4f7c3c4c?w=800"],
-  "ratingAvg": 5.0,
+  "ratingAvg": 5,
   "reviewCount": 1,
   "reviews": [
     {
@@ -254,7 +282,7 @@ Lấy `_id` của các document trên (Compass hiển thị ở cột `_id`) đ�
 }
 ```
 
-#### 3.1.5. Tạo 7 index cho collection `diadiem`
+#### 3.2.5. Tạo 7 index cho collection `diadiem`
 Chọn collection `diadiem` → tab **Indexes** → **+ Create Index**:
 
 | Tên index | Trường | Tuỳ chọn |
@@ -267,32 +295,22 @@ Chọn collection `diadiem` → tab **Indexes** → **+ Create Index**:
 | `idx_diadiem_danhmuc` | `danhMuc.danhMucId` ↑ | 1 |
 | `idx_diadiem_ngaytao` | `ngayTao` ↓ | -1 |
 
-### 3.2. Cách B — Dùng `mongosh` (nhanh, tự động)
-
-Cài MongoDB Shell: https://www.mongodb.com/try/download/shell → chọn Windows x64 → cài → **khởi động lại terminal**.
+### 3.3. Cách C — Dùng `mongosh` (tuỳ chọn)
 
 ```powershell
 cd K:\NoSQL projects\TravelTaste\database
-
-# 1. Tạo index
 mongosh --quiet .\01_indexes.js
-
-# 2. Seed dữ liệu mẫu
 mongosh --quiet .\02_seed_data.js
 ```
 
-Hoặc nháy đúp `04_import_data.bat` để chạy cả hai.
+> Cần cài MongoDB Shell: https://www.mongodb.com/try/download/shell (chọn Windows x64), rồi khởi động lại terminal.
+> Nếu báo `'mongosh' is not recognized` → dùng **Cách A** hoặc **Cách B**.
 
-> Nếu báo `'mongosh' is not recognized` → chưa thêm vào PATH hoặc chưa cài. Dùng **Cách A** hoặc gọi đường dẫn đầy đủ:
-> ```powershell
-> & "C:\Program Files\MongoDB\Tools\100\bin\mongosh.exe" --quiet .\01_indexes.js
-> ```
-
-### 3.3. Tài khoản demo
+### 3.4. Tài khoản demo
 
 | Tài khoản | Mật khẩu | Vai trò |
 |-----------|----------|---------|
-| `admin` | `123456` | ADMIN |
+| `admin` | `admin123` | ADMIN |
 | `an123` | `123456` | USER |
 | `binh123` | `123456` | USER |
 
@@ -383,7 +401,7 @@ Mở trình duyệt hoặc dùng `curl` (PowerShell: `curl.exe`):
 | Lỗi | Nguyên nhân | Cách sửa |
 |------|-------------|----------|
 | `'mvn' is not recognized` | Maven chưa cài / chưa có trong PATH | Cài Maven + thêm `C:\...\maven\bin` vào PATH + khởi động lại terminal |
-| `'mongosh' is not recognized` | MongoDB Shell chưa cài | Cài shell, hoặc dùng Compass (mục 3.1) |
+| `'mongosh' is not recognized` | MongoDB Shell chưa cài | Dùng **Cách A** (script Node.js) hoặc **Cách B** (Compass) — không cần `mongosh` |
 | `Failed to resolve import "react-router-dom"` / `"bootstrap..."` | Thiếu dependency | `npm install` (xóa `node_modules` rồi cài lại nếu vẫn lỗi) |
 | `cannot find symbol` khi build backend | Thiếu import trong Java | Kiểm tra lại log lỗi, báo lại để sửa |
 | `Port 8080 was already in use` | Backend đã chạy hoặc port bị chiếm | Đổi `server.port` trong `application.properties` |
@@ -401,10 +419,11 @@ Mở trình duyệt hoặc dùng `curl` (PowerShell: `curl.exe`):
 # 1. MongoDB phải chạy
 Start-Service -Name "MongoDB"
 
-# 2. Import database (Cách B) hoặc làm tay theo mục 3.1
+# 2. Import database (Cách A - khong can mongosh)
 cd K:\NoSQL projects\TravelTaste\database
-mongosh --quiet .\01_indexes.js
-mongosh --quiet .\02_seed_data.js
+npm install
+npm run seed
+npm run verify
 
 # 3. Terminal 1 — Backend
 cd K:\NoSQL projects\TravelTaste\backend

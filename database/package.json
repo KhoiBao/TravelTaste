@@ -1,0 +1,17 @@
+{
+  "name": "traveltaste-database-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Script import du lieu + kiem tra MongoDB cho TravelTaste (khong can mongosh)",
+  "scripts": {
+    "seed": "node seed_db.mjs",
+    "check": "node check_db.mjs",
+    "verify": "node verify_db.mjs",
+    "import": "npm run seed && npm run verify"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mongodb": "^6.5.0"
+  }
+}
