@@ -83,6 +83,10 @@ public class DiaDiemService {
         return PageResponse.of(content, page + 1, size, total);
     }
 
+    public List<DiaDiemDetail> adminList() {
+        return diaDiemRepository.findAll().stream().map(this::toDetail).collect(Collectors.toList());
+    }
+
     public DiaDiemDetail detail(String slug) {
         DiaDiem dd = diaDiemRepository.findBySlug(slug)
                 .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
@@ -295,6 +299,8 @@ public class DiaDiemService {
 
     private CommentDto toCommentDto(com.reviewdiadiem.model.BinhLuan b) {
         CommentDto dto = new CommentDto();
+        dto.setLikeCount(b.getLikedBy() == null ? 0 : new java.util.HashSet<>(b.getLikedBy()).size());
+        dto.setLiked(b.getLikedBy() != null && b.getLikedBy().contains(com.reviewdiadiem.util.SecurityUtil.getCurrentUsername()));
         dto.setCommentId(b.getCommentId());
         dto.setUserId(b.getUserId());
         dto.setTenUser(b.getTenUser());

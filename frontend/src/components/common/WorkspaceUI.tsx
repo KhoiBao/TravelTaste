@@ -37,6 +37,7 @@ export function Pagination({ page, total, onChange }: {page: number; total: numb
 }
 
 export function WorkspaceNavigation({ admin = false }) {
+  if (admin) return null;
   const items = admin ? [['/admin', 'Tổng quan'], ['/admin/places', 'Địa điểm'], ['/admin/categories', 'Danh mục'], ['/admin/reviews', 'Review'], ['/admin/comments', 'Bình luận'], ['/admin/users', 'Người dùng'], ['/admin/statistics', 'Thống kê']] : [['/profile', 'Hồ sơ'], ['/my-reviews', 'Review của tôi'], ['/reviews/new', 'Viết review']];
   return <nav aria-label={admin ? 'Quản trị' : 'Tài khoản'} className="flex w-full flex-wrap gap-x-5 gap-y-3 border-t border-line pt-5 text-[13px] text-primary">{items.map(([to, label]) => <Link key={to} to={to} className="underline">{label}</Link>)}</nav>;
 }

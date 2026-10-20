@@ -34,6 +34,9 @@ public class BinhLuan {
     @Field("ngayCapNhat")
     private LocalDateTime ngayCapNhat;
 
+    @Field("likedBy")
+    private List<String> likedBy;
+
     @Field("traLoi")
     private List<BinhLuan> traLoi; // max 2 more levels (total depth 3)
 }

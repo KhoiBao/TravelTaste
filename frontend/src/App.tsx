@@ -4,7 +4,8 @@ import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import HomePage from './pages/HomePage.tsx';
 import SearchPage from './pages/SearchPage.tsx';
 import PlaceDetailPage from './pages/PlaceDetailPage.tsx';
-import AuthPage from './pages/AuthPage.tsx';
+import LoginPage from './pages/LoginPage.tsx';
+import RegisterPage from './pages/RegisterPage.tsx';
 import CategoriesPage from './pages/CategoriesPage.tsx';
 import TopPlacesPage from './pages/TopPlacesPage.tsx';
 import AuthGate from './components/layout/AuthGate.tsx';
@@ -43,7 +44,7 @@ export default function App() {
   const previousPage = useRef(location.pathname);
   const background = config ? location.state?.backgroundLocation || { pathname: config.fallback, search: '', hash: '', state: null, key: 'popup-background' } : location;
   useEffect(() => {
-    const titles: Record<string, string> = { '/': 'Khám phá', '/profile': 'Hồ sơ', '/my-reviews': 'Review của tôi', '/reviews': 'Đánh giá cộng đồng', '/admin': 'Quản trị', '/admin/places': 'Quản lý địa điểm', '/admin/categories': 'Quản lý danh mục', '/admin/users': 'Người dùng', '/admin/statistics': 'Thống kê' };
+    const titles: Record<string, string> = { '/login': 'Đăng nhập', '/register': 'Đăng ký', '/': 'Khám phá', '/profile': 'Hồ sơ', '/my-reviews': 'Review của tôi', '/reviews': 'Đánh giá cộng đồng', '/admin': 'Quản trị', '/admin/places': 'Quản lý địa điểm', '/admin/categories': 'Quản lý danh mục', '/admin/users': 'Người dùng', '/admin/statistics': 'Thống kê' };
     document.title = `${config?.title || titles[location.pathname] || 'Địa điểm'} · TravelTaste`;
     if (config) return;
     if (location.hash) requestAnimationFrame(() => document.getElementById(location.hash.slice(1))?.scrollIntoView());
@@ -67,12 +68,14 @@ export default function App() {
     if (location.state?.popupFromLink) navigate(-1);
     else navigate(config!.fallback, { replace: true });
   }
-  if (!ready) return <main className="mx-auto max-w-xl p-8"><h1 className="text-2xl font-bold">TravelTaste</h1>{loading ? <p role="status">Đang tải dữ liệu…</p> : <div role="alert"><p>{error}</p><button onClick={() => void refresh().catch(() => {})}>Thử lại</button></div>}</main>;
+  if (!ready && !['/login', '/register'].includes(location.pathname)) return <main className="mx-auto max-w-xl p-8"><h1 className="text-2xl font-bold">TravelTaste</h1>{loading ? <p role="status">Đang tải dữ liệu…</p> : <div role="alert"><p>{error}</p><button onClick={() => void refresh().catch(() => {})}>Thử lại</button></div>}</main>;
   return <>
     <Toast />
     {error && <div role="alert" className="bg-red-50 p-4">{error} <button onClick={() => void refresh().catch(() => {})}>Tải lại dữ liệu</button></div>}
     <Routes location={background}>
       <Route path="/" element={<HomePage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/register" element={<RegisterPage />} />
       <Route path="/search" element={<SearchPage />} />
       <Route path="/places" element={<SearchPage />} />
       <Route path="/places/:id" element={<PlaceDetailPage />} />
@@ -92,10 +95,8 @@ export default function App() {
       <Route path="/status/:code" element={<SystemPage />} />
       <Route path="*" element={<SystemPage code="404" />} />
     </Routes>
-    {config && <PopupShell key={config.type === 'auth' ? 'auth' : location.pathname} title={config.title} close={close} large={config.large}>
+    {config && <PopupShell key={location.pathname} title={config.title} subtitle={config.subtitle} close={close} large={config.large} footer={config.footer}>
       <Routes location={location}>
-        <Route path="/login" element={<AuthPage />} />
-        <Route path="/register" element={<AuthPage register />} />
         <Route path="/reviews/new" element={<PopupGate><ReviewFormPage /></PopupGate>} />
         <Route path="/reviews/:id/edit" element={<PopupGate><ReviewFormPage edit /></PopupGate>} />
         <Route path="/admin/places/new" element={<PopupGate admin><PlaceFormPage /></PopupGate>} />

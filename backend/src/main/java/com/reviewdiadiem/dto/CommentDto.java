@@ -20,4 +20,6 @@ public class CommentDto {
     private LocalDateTime ngayTao;
     private LocalDateTime ngayCapNhat;
     private List<CommentDto> traLoi;
+    private int likeCount;
+    private boolean liked;
 }

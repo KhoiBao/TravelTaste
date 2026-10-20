@@ -198,6 +198,8 @@ public class ReviewService {
 
     private CommentDto toCommentDto(BinhLuan b) {
         CommentDto dto = new CommentDto();
+        dto.setLikeCount(b.getLikedBy() == null ? 0 : new java.util.HashSet<>(b.getLikedBy()).size());
+        dto.setLiked(b.getLikedBy() != null && b.getLikedBy().contains(com.reviewdiadiem.util.SecurityUtil.getCurrentUsername()));
         dto.setCommentId(b.getCommentId());
         dto.setUserId(b.getUserId());
         dto.setTenUser(b.getTenUser());

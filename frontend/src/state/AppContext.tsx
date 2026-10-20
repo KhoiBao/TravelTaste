@@ -11,7 +11,7 @@ export const mapUser = (u: ApiUser): User => ({id: u.id, name: u.hoTen, username
   accountStatus: u.trangThai, avatar: u.avatar || '', joined: u.ngayTao?.slice(0, 10) || ''});
 export function mapPlace(p: ApiPlace): Place {
   const address = p.diaChi || {}, coordinates = Array.isArray(p.viTri) ? p.viTri : p.viTri?.coordinates || [];
-  return {id: p.id, slug: p.slug, name: p.ten, kind: p.loai, categoryId: p.danhMuc?.[0]?.danhMucId || '', category: p.danhMuc?.map(d => d.ten).filter(Boolean).join(', ') || '',
+  return {id: p.id, slug: p.slug, name: p.ten, kind: p.loai, categoryId: p.danhMuc?.[0]?.danhMucId || '', categoryIds: p.danhMuc?.map(d => d.danhMucId) || [], category: p.danhMuc?.map(d => d.ten).filter(Boolean).join(', ') || '',
     city: address.thanhPho || '', houseNumber: address.so || '', street: address.duong || '', district: address.quan || '',
     address: [address.so, address.duong, address.quan].filter(Boolean).join(', '), longitude: coordinates[0] ?? 0, latitude: coordinates[1] ?? 0,
     subtitle: [address.thanhPho, p.loai === 'AN_UONG' ? 'Ăn uống' : p.loai === 'LUU_TRU' ? 'Lưu trú' : 'Du lịch'].filter(Boolean).join(' · '),
@@ -51,7 +51,7 @@ export function AppProvider({children}: {children: ReactNode}) {
       const author = (id: string, name: string, avatar?: string) => { if (!authors.has(id)) authors.set(id, {id, name, avatar: avatar || '', role: 'USER', email: '', joined: ''}); };
       const comments = (nodes: ApiComment[], reviewId: string, parentId: string | null = null) => nodes.forEach(c => {
         author(c.userId, c.tenUser, c.avatarUser);
-        next.comments.push({id: c.commentId, reviewId, parentId, userId: c.userId, content: c.noiDung, date: c.ngayTao?.slice(0, 10) || '', status: 'ACTIVE'});
+        next.comments.push({likeCount: c.likeCount ?? 0, liked: c.liked ?? false, id: c.commentId, reviewId, parentId, userId: c.userId, content: c.noiDung, date: c.ngayTao?.slice(0, 10) || '', status: 'ACTIVE'});
         comments(c.traLoi || [], reviewId, c.commentId);
       });
       places.forEach(p => (p.reviews || []).forEach(r => {
@@ -82,7 +82,14 @@ export function AppProvider({children}: {children: ReactNode}) {
     let savedId: string | undefined;
     try {
       const current = dataRef.current;
-      if (action.type === 'SAVE_REVIEW') {
+      if (action.type === 'LIKE_COMMENT') {
+        const c = current.comments.find(c => c.id === action.id), r = current.reviews.find(r => r.id === c?.reviewId);
+        if (!c || !r) throw new Error('Không tìm thấy bình luận.');
+        const result = await api.likeComment(r.placeId, r.id, c.id, action.liked);
+        const next = {...dataRef.current, comments: dataRef.current.comments.map(item => item.id === c.id ? {...item, likeCount: result.likeCount, liked: result.liked} : item)};
+        dataRef.current = next; setData(next);
+        return {ok: true, message: ''};
+      } else if (action.type === 'SAVE_REVIEW') {
         const v = action.values;
         const result = await api.saveReview(v.placeId, {soSao: v.stars, tieuDe: v.title, noiDung: v.content, hinhAnh: v.images.map(i => i.src)}, action.id);
         savedId = action.id || result?.review?.reviewId;
@@ -92,11 +99,10 @@ export function AppProvider({children}: {children: ReactNode}) {
       } else if (action.type === 'ADD_COMMENT') {
         const r = current.reviews.find(r => r.id === action.reviewId); if (!r) throw new Error('Không tìm thấy đánh giá.');
         await api.comment(r.placeId, r.id, action.content, action.parentId);
-      } else if (action.type === 'EDIT_COMMENT' || action.type === 'DELETE_COMMENT') {
+      } else if (action.type === 'DELETE_COMMENT') {
         const c = current.comments.find(c => c.id === action.id), r = current.reviews.find(r => r.id === c?.reviewId);
         if (!c || !r) throw new Error('Không tìm thấy bình luận.');
-        if (action.type === 'EDIT_COMMENT') await api.editComment(r.placeId, r.id, c.id, action.content);
-        else await api.deleteComment(r.placeId, r.id, c.id);
+        await api.deleteComment(r.placeId, r.id, c.id);
       } else if (action.type === 'SAVE_PLACE') {
         const existing = current.places.find(p => p.id === action.id);
         const result = await api.savePlace(placeBody({...existing, ...action.values, id: action.id || '', status: existing?.status || 'ACTIVE'} as Place), action.id);
@@ -134,3 +140,4 @@ export function AppProvider({children}: {children: ReactNode}) {
     loading, ready, error, refresh, execute, confirm, authenticate, register, logout}}>{children}</Context.Provider>;
 }
 export function useApp() { const value = useContext(Context); if (!value) throw new Error('AppProvider is required'); return value; }
+

@@ -1,24 +1,22 @@
-import { useState } from 'react';
-import { SimpleLayout } from '../../components/layout/PublicLayout';
-import { useApp } from '../../state/AppContext';
-import { WirePanel, StatusPanel, WorkspaceNavigation, Field, fieldClass, actionClass, Pagination } from '../../components/common/WorkspaceUI';
+import {useState} from 'react';
+import {Link} from 'react-router-dom';
+import {SimpleLayout} from '../../components/layout/PublicLayout';
+import {useApp} from '../../state/AppContext';
+import {Field, fieldClass, Pagination} from '../../components/common/WorkspaceUI';
 import ReviewRows from '../../components/reviews/ReviewRows';
+import {WorkspaceIcon} from '../../components/layout/AdminSidebar';
 
+const blank = {from: '', to: '', stars: ''};
 export default function MyReviewsPage() {
-  const { data, actorId } = useApp();
-  const [filters, setFilters] = useState({ from: '', to: '', stars: '', status: 'ACTIVE' });
-  const [page, setPage] = useState(1);
-  const [manage, setManage] = useState(false);
-  const [notice, setNotice] = useState('');
-  function change(name: keyof typeof filters, value: string) { setFilters({ ...filters, [name]: value }); setPage(1); }
-  const reviews = data.reviews.filter(review => review.userId === actorId && (!filters.stars || review.stars === Number(filters.stars)) && (!filters.status || review.status === filters.status) && (!filters.from || review.date >= filters.from) && (!filters.to || review.date <= filters.to));
-  const total = Math.max(1, Math.ceil(reviews.length / 6));
-  const currentPage = Math.min(page, total);
-  return <SimpleLayout title="Đánh giá của tôi" node="2:316">
-    <WirePanel label="Lọc theo ngày và số sao"><div className="grid gap-4 tablet:grid-cols-2"><Field label="Từ ngày" type="date" value={filters.from} onChange={event => change('from', event.target.value)} /><Field label="Đến ngày" type="date" value={filters.to} min={filters.from} onChange={event => change('to', event.target.value)} /><Field label="Số sao">{id => <select id={id} className={fieldClass} value={filters.stars} onChange={event => change('stars', event.target.value)}><option value="">Tất cả</option>{[5, 4, 3, 2, 1].map(value => <option key={value} value={value}>{value} sao</option>)}</select>}</Field><Field label="Trạng thái review">{id => <select id={id} className={fieldClass} value={filters.status} onChange={event => change('status', event.target.value)}><option value="">Tất cả</option><option>ACTIVE</option></select>}</Field></div></WirePanel>
-    <WirePanel key={`list-${manage}`} label="Danh sách review hiện có" height={140} open={manage}><ReviewRows reviews={reviews.slice((currentPage - 1) * 6, currentPage * 6)} manage={manage} onNotice={setNotice} /><Pagination page={currentPage} total={total} onChange={setPage} /></WirePanel>
-    <StatusPanel notice={notice} />
-    <button className={actionClass} onClick={() => { setManage(!manage); setNotice(manage ? '' : 'Chọn Sửa hoặc Xóa trên bài đánh giá của bạn.'); }}>{manage ? 'Đóng thao tác' : 'Sửa · Xóa'}</button>
-    <WorkspaceNavigation />
+  const {data, actorId, activePlaces} = useApp();
+  const [draft, setDraft] = useState(blank), [filters, setFilters] = useState(blank);
+  const [page, setPage] = useState(1), [sort, setSort] = useState('newest'), [notice, setNotice] = useState('');
+  const own = data.reviews.filter(r => r.userId === actorId && r.status === 'ACTIVE');
+  const reviews = own.filter(r => (!filters.stars || r.stars === Number(filters.stars)) && (!filters.from || r.date >= filters.from) && (!filters.to || r.date <= filters.to)).sort((a,b) => sort === 'rating' ? b.stars - a.stars : b.date.localeCompare(a.date));
+  const total = Math.max(1, Math.ceil(reviews.length / 6)), currentPage = Math.min(page,total);
+  return <SimpleLayout title="Đánh giá của tôi"><div className="-mt-3 flex w-full flex-wrap items-center justify-between gap-3"><p className="text-sm text-muted">Quản lý những trải nghiệm bạn đã chia sẻ trên TravelTaste.</p><Link to="/reviews/new" className="rounded-lg bg-primary px-4 py-3 text-xs font-bold text-white">+ Viết đánh giá</Link></div>
+    <section className="w-full rounded-xl border border-line bg-surface p-5"><h2 className="mb-4 flex items-center gap-2 text-xs font-bold"><WorkspaceIcon name="chart" />Lọc theo ngày và số sao</h2><form onSubmit={e => {e.preventDefault(); setFilters(draft); setPage(1);}} className="grid items-end gap-4 tablet:grid-cols-2 desktop:grid-cols-[1fr_1fr_1fr_auto]"><Field label="Từ ngày" type="date" value={draft.from} onChange={e => setDraft({...draft, from: e.target.value})} /><Field label="Đến ngày" type="date" min={draft.from} value={draft.to} onChange={e => setDraft({...draft,to: e.target.value})} /><Field label="Số sao">{id => <select id={id} className={fieldClass} value={draft.stars} onChange={e => setDraft({...draft,stars: e.target.value})}><option value="">Tất cả</option>{[5,4,3,2,1].map(n => <option key={n} value={n}>{n} sao</option>)}</select>}</Field><div className="flex gap-2"><button className="min-h-11 rounded-lg bg-primary px-5 text-xs font-bold text-white">Lọc</button><button type="button" onClick={() => {setDraft(blank);setFilters(blank);setPage(1);}} className="min-h-11 rounded-lg bg-pale px-4 text-xs font-bold text-primary">Đặt lại</button></div></form></section>
+    {own.length ? <section className="w-full"><div className="mb-4 flex flex-wrap items-center justify-between gap-3"><h2 className="text-sm font-bold">Danh sách đánh giá ({reviews.length})</h2><label className="sr-only" htmlFor="review-sort">Sắp xếp đánh giá</label><select id="review-sort" value={sort} onChange={e => {setSort(e.target.value);setPage(1);}} className="rounded-lg border border-line bg-surface px-3 py-2 text-xs"><option value="newest">Mới nhất</option><option value="rating">Số sao cao nhất</option></select></div><ReviewRows reviews={reviews.slice((currentPage-1)*6,currentPage*6)} manage onNotice={setNotice} /><div className="mt-5"><Pagination page={currentPage} total={total} onChange={setPage} /></div></section> : <><section className="w-full rounded-xl border border-line bg-surface px-5 py-12 text-center"><WorkspaceIcon name="review" className="mx-auto h-12 w-12 rounded-xl bg-pale p-2.5 text-primary" /><h2 className="mt-5 font-bold">Bạn chưa có đánh giá nào</h2><p className="mt-2 text-xs leading-6 text-muted">Hãy chia sẻ trải nghiệm đầu tiên của bạn với cộng đồng TravelTaste.</p><Link to="/reviews/new" className="mt-5 inline-block rounded-lg bg-primary px-5 py-3 text-xs font-bold text-white">Viết đánh giá ngay</Link></section><section className="w-full"><h2 className="mb-4 text-sm font-bold">Một số gợi ý địa điểm để bắt đầu</h2><div className="grid gap-3 tablet:grid-cols-3">{activePlaces.slice(0,3).map(p => <Link key={p.id} to={'/reviews/new?place='+p.id} className="flex gap-3 rounded-xl border border-line bg-surface p-3"><img src={p.image} alt="" className="h-16 w-16 rounded-lg object-cover" /><div className="min-w-0"><h3 className="truncate text-xs font-bold">{p.name}</h3><p className="mt-1 text-[11px] text-muted">{p.city}</p><p className="mt-2 text-xs text-accent">★ {p.rating.toFixed(1)}</p></div></Link>)}</div></section></>}
+    {notice && <p role="status" className="text-xs text-primary">{notice}</p>}
   </SimpleLayout>;
 }

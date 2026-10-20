@@ -55,6 +55,7 @@ public class CommentService {
         comment.setNgayTao(LocalDateTime.now());
         comment.setNgayCapNhat(LocalDateTime.now());
         comment.setTraLoi(List.of());
+        comment.setLikedBy(new ArrayList<>());
 
         if (parentCommentId == null) {
             // Bình luận gốc vào review
@@ -77,22 +78,6 @@ public class CommentService {
         Map<String, Object> data = new HashMap<>();
         data.put("comment", toDto(comment));
         return ApiResponse.ok(data, "Bình luận đã được gửi");
-    }
-
-    @Transactional
-    public ApiResponse<?> updateComment(String placeId, String reviewId, String commentId, String currentUserId, CommentRequest req, boolean isAdmin) {
-        DiaDiem dd = diaDiemRepository.findById(placeId)
-                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
-        List<Review> reviews = dd.getReviews() == null ? List.of() : new ArrayList<>(dd.getReviews());
-
-        boolean found = updateCommentInTree(reviews, reviewId, commentId, currentUserId, isAdmin, req.getNoiDung());
-        if (!found) {
-            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy bình luận hoặc không có quyền");
-        }
-        dd.setReviews(reviews);
-        dd.setNgayCapNhat(LocalDateTime.now());
-        diaDiemRepository.save(dd);
-        return ApiResponse.ok(null, "Cập nhật bình luận thành công");
     }
 
     @Transactional
@@ -130,37 +115,6 @@ public class CommentService {
         return false;
     }
 
-private boolean updateCommentInTree(List<Review> reviews, String reviewId, String commentId,
-                                        String currentUserId, boolean isAdmin, String newContent) {
-        for (Review r : reviews) {
-            if (!reviewId.equals(r.getReviewId())) continue;
-            List<BinhLuan> comments = r.getBinhLuan() == null ? List.of() : new ArrayList<>(r.getBinhLuan());
-            boolean changed = updateCommentNode(comments, commentId, currentUserId, isAdmin, newContent);
-            if (changed) {
-                r.setBinhLuan(comments);
-                return true;
-            }
-        }
-        return false;
-    }
-
-    private boolean updateCommentNode(List<BinhLuan> list, String commentId, String currentUserId,
-                                      boolean isAdmin, String newContent) {
-        if (list == null) return false;
-        for (BinhLuan b : list) {
-            if (commentId.equals(b.getCommentId())) {
-                if (!isAdmin && !currentUserId.equals(b.getUserId())) { throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Không có quyền sửa hoặc xóa bình luận"); }
-                b.setNoiDung(newContent);
-                b.setNgayCapNhat(LocalDateTime.now());
-                return true;
-            }
-            if (updateCommentNode(b.getTraLoi(), commentId, currentUserId, isAdmin, newContent)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     private boolean deleteCommentInTree(List<Review> reviews, String reviewId, String commentId,
                                         String currentUserId, boolean isAdmin) {
         for (Review r : reviews) {
@@ -170,7 +124,7 @@ private boolean updateCommentInTree(List<Review> reviews, String reviewId, Strin
             while (it.hasNext()) {
                 BinhLuan b = it.next();
                 if (commentId.equals(b.getCommentId())) {
-                    if (!isAdmin && !currentUserId.equals(b.getUserId())) { throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Không có quyền sửa hoặc xóa bình luận"); }
+                    if (!isAdmin && !currentUserId.equals(b.getUserId())) { throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Bạn chỉ được xóa bình luận của chính mình"); }
                     it.remove();
                     r.setBinhLuan(comments);
                     return true;
@@ -190,7 +144,7 @@ private boolean updateCommentInTree(List<Review> reviews, String reviewId, Strin
         while (it.hasNext()) {
             BinhLuan b = it.next();
             if (commentId.equals(b.getCommentId())) {
-                if (!isAdmin && !currentUserId.equals(b.getUserId())) { throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Không có quyền sửa hoặc xóa bình luận"); }
+                if (!isAdmin && !currentUserId.equals(b.getUserId())) { throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Bạn chỉ được xóa bình luận của chính mình"); }
                 it.remove();
                 return true;
             }
@@ -203,6 +157,8 @@ private boolean updateCommentInTree(List<Review> reviews, String reviewId, Strin
 
     private CommentDto toDto(BinhLuan b) {
         CommentDto dto = new CommentDto();
+        dto.setLikeCount(b.getLikedBy() == null ? 0 : new java.util.HashSet<>(b.getLikedBy()).size());
+        dto.setLiked(b.getLikedBy() != null && b.getLikedBy().contains(com.reviewdiadiem.util.SecurityUtil.getCurrentUsername()));
         dto.setCommentId(b.getCommentId());
         dto.setUserId(b.getUserId());
         dto.setTenUser(b.getTenUser());

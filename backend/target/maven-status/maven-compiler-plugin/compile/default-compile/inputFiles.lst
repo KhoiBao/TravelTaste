@@ -27,6 +27,7 @@ D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\ReviewSer
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\SlugUtil.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\DiaDiemRepository.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\AuthService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\CommentLikeService.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\SearchApiController.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ReviewDto.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DiaDiemApiController.java

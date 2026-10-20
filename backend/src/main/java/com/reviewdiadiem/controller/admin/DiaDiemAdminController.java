@@ -19,7 +19,7 @@ public class DiaDiemAdminController {
 
     private final com.reviewdiadiem.repository.DiaDiemRepository repository;
     @GetMapping
-    public ResponseEntity<ApiResponse<?>> list() { return ResponseEntity.ok(ApiResponse.ok(repository.findAll())); }
+    public ResponseEntity<ApiResponse<?>> list() { return ResponseEntity.ok(ApiResponse.ok(diaDiemService.adminList())); }
 
     @PostMapping
     public ResponseEntity<ApiResponse<?>> create(@RequestBody @jakarta.validation.Valid DiaDiemRequest req) {

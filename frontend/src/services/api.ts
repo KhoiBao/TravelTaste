@@ -1,7 +1,7 @@
 export interface Envelope<T> { success: boolean; data: T; message?: string; errors?: Record<string, string> }
 export interface ApiUser { id: string; username?: string; hoTen: string; email?: string; avatar?: string; role: 'ADMIN' | 'USER'; trangThai?: string; ngayTao?: string }
 export interface ApiCategory { id: string; ten: string; slug: string; trangThai: string; moTa?: string; icon?: string; thuTu?: number }
-export interface ApiComment { commentId: string; userId: string; tenUser: string; avatarUser?: string; noiDung: string; ngayTao: string; traLoi?: ApiComment[] }
+export interface ApiComment { likeCount?: number; liked?: boolean; commentId: string; userId: string; tenUser: string; avatarUser?: string; noiDung: string; ngayTao: string; traLoi?: ApiComment[] }
 export interface ApiReview { reviewId: string; userId: string; tenUser: string; avatarUser?: string; soSao: number; tieuDe: string; noiDung: string; hinhAnh?: string[]; ngayTao: string; binhLuan?: ApiComment[] }
 export interface ApiPlace { id: string; ten: string; slug: string; loai: string; danhMuc?: {danhMucId: string; ten?: string; slug?: string}[]; moTa?: string; diaChi?: {so?: string; duong?: string; quan?: string; thanhPho?: string}; viTri?: number[] | {coordinates: number[]}; hinhAnh?: string[]; ratingAvg: number; reviewCount: number; trangThai?: string; reviews?: ApiReview[] }
 export interface Page<T> { content: T[]; page: number; size: number; totalPages: number; totalElements: number }
@@ -40,7 +40,7 @@ export const api = {
   adminPlaces: () => request<ApiPlace[]>('/api/admin/dia-diem'),
   detail: (slug: string) => request<ApiPlace>(`/api/dia-diem/${id(slug)}`),
   top: (discover = true) => request<ApiPlace[]>(discover ? '/api/discover/top10' : '/api/dia-diem/top10'),
-  near: (lat: number, lng: number, discover = true) => request<ApiPlace[]>(`${discover ? '/api/discover' : '/api/dia-diem'}/gan-toi?lat=${lat}&lng=${lng}&banKinhKm=5&limit=20`),
+  near: (lat: number, lng: number, radiusKm = 5, discover = true) => request<ApiPlace[]>(`${discover ? '/api/discover' : '/api/dia-diem'}/gan-toi?lat=${lat}&lng=${lng}&banKinhKm=${radiusKm}&limit=20`),
   savePlace: (body: unknown, placeId?: string, admin = true) => request<ApiPlace>(`${admin ? '/api/admin' : '/api'}/dia-diem${placeId ? '/' + id(placeId) : ''}`, json(placeId ? 'PUT' : 'POST', body)),
   deletePlace: (placeId: string, admin = true) => request(`${admin ? '/api/admin' : '/api'}/dia-diem/${id(placeId)}`, json('DELETE')),
   saveCategory: (body: unknown, categoryId?: string) => request(`/api/admin/danh-muc${categoryId ? '/' + id(categoryId) : ''}`, json(categoryId ? 'PUT' : 'POST', body)),
@@ -49,7 +49,7 @@ export const api = {
   saveReview: (placeId: string, body: unknown, reviewId?: string) => request<{review?: ApiReview} | null>(`/api/dia-diem/${id(placeId)}/reviews${reviewId ? '/' + id(reviewId) : ''}`, json(reviewId ? 'PUT' : 'POST', body)),
   deleteReview: (placeId: string, reviewId: string) => request(`/api/dia-diem/${id(placeId)}/reviews/${id(reviewId)}`, json('DELETE')),
   comment: (placeId: string, reviewId: string, content: string, parentId?: string) => request(`/api/dia-diem/${id(placeId)}/reviews/${id(reviewId)}/comments${parentId ? '/' + id(parentId) + '/replies' : ''}`, json('POST', {noiDung: content})),
-  editComment: (placeId: string, reviewId: string, commentId: string, content: string) => request(`/api/dia-diem/${id(placeId)}/reviews/${id(reviewId)}/comments/${id(commentId)}`, json('PUT', {noiDung: content})),
+  likeComment: (placeId: string, reviewId: string, commentId: string, liked: boolean) => request<{commentId: string; likeCount: number; liked: boolean}>(`/api/dia-diem/${id(placeId)}/reviews/${id(reviewId)}/comments/${id(commentId)}/like`, json(liked ? 'PUT' : 'DELETE')),
   deleteComment: (placeId: string, reviewId: string, commentId: string) => request(`/api/dia-diem/${id(placeId)}/reviews/${id(reviewId)}/comments/${id(commentId)}`, json('DELETE')),
   users: () => request<ApiUser[]>('/api/admin/nguoi-dung'),
   userStatus: (userId: string, trangThai: string) => request(`/api/admin/nguoi-dung/${id(userId)}/trang-thai`, json('PATCH', {trangThai})),
