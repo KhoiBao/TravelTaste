@@ -8,7 +8,14 @@
     "seed": "node seed_db.mjs",
     "check": "node check_db.mjs",
     "verify": "node verify_db.mjs",
-    "import": "npm run seed && npm run verify"
+    "sync-collections": "node sync_collections.mjs",
+    "fix-comment-validator": "node fix_comment_validator.mjs",
+    "advanced": "node advanced_queries.mjs",
+    "init-replica-set": "node init_replica_set.mjs",
+    "watch-review-sync": "node watch_review_sync.mjs",
+    "watch-ratings": "node watch_ratings.mjs",
+    "setup-realtime": "powershell -ExecutionPolicy Bypass -File .\\setup_realtime_ratings.ps1",
+    "import": "npm run seed && npm run sync-collections && npm run verify"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

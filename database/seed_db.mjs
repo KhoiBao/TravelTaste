@@ -19,12 +19,20 @@ try {
   const users = db.collection('users')
   const danhmuc = db.collection('danhmuc')
   const diadiem = db.collection('diadiem')
+  const danhgia = db.collection('danhgia')
+  const binhluan = db.collection('binhluan')
+  const hinhanh = db.collection('hinhanh')
+  const yeuthich = db.collection('yeuthich')
 
   // ---------- 0. Xoa du lieu cu ----------
   await users.deleteMany({})
   await danhmuc.deleteMany({})
   await diadiem.deleteMany({})
-  console.log('[1/7] Da xoa du lieu cu trong users, danhmuc, diadiem')
+  await danhgia.deleteMany({})
+  await binhluan.deleteMany({})
+  await hinhanh.deleteMany({})
+  await yeuthich.deleteMany({})
+  console.log('[1/7] Da xoa du lieu cu trong cac collection')
 
   // ---------- 1. Tao 7 index cho collection diadiem ----------
   await diadiem.createIndex({ slug: 1 }, { unique: true, name: 'slug_1' })
