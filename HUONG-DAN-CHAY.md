@@ -499,3 +499,84 @@ npm run dev
 ```
 
 **Địa chỉ:** Backend http://localhost:8080 · Frontend http://localhost:5173
+
+---
+
+## 8. Import bộ dữ liệu JSON trong `database/data` (cập nhật)
+
+Phần này dùng để import bộ dữ liệu bổ sung hiện có trong repository. Chạy từ thư mục gốc `TravelTaste`. MongoDB phải đang chạy tại `mongodb://localhost:27017`.
+
+> `npm run seed`, `npm run import` và `04_import_data.bat` hiện chỉ tạo dữ liệu mẫu trong `seed_db.mjs`, **không đọc các file JSON trong `data`**. Không chạy các lệnh đó sau khi import JSON vì bước seed sẽ xóa dữ liệu trong cả 7 collection. Hai script `01_indexes.js` và `02_seed_data.js` cũng không import bộ JSON này.
+
+### 8.1. Chọn đúng bộ dữ liệu
+
+Import đủ 7 file dưới đây vào database `review_diadiem`, theo thứ tự trong bảng để giữ liên kết người dùng, danh mục, địa điểm và đánh giá:
+
+| File trong `database/data` | Collection | Số document trong file |
+|---|---|---:|
+| `users_bo_sung.json` | `users` | 100 |
+| `danhmuc_bo_sung.json` | `danhmuc` | 3 |
+| `diadiem_bo_sung.json` | `diadiem` | 100 |
+| `danhgia_bo_sung.json` | `danhgia` | 199 |
+| `binhluan_bo_sung.json` | `binhluan` | 100 |
+| `hinhanh_bo_sung.json` | `hinhanh` | 200 |
+| `yeuthich_bo_sung.json` | `yeuthich` | 100 |
+
+- Dùng `diadiem_bo_sung.json` cùng các file `*_bo_sung.json`. `diadiem_100_mau.json` là bộ địa điểm khác, có ID khác; không dùng thay thế hoặc import thêm khi làm theo phần này.
+- `nguon_dia_diem_anh.json` chỉ lưu nguồn tham khảo địa điểm và ảnh, **không import thành collection**.
+- Giữ nguyên `_id`, `$oid` và `$date` trong JSON để MongoDB đọc đúng ObjectId, ngày tháng và các liên kết.
+- Để có kết quả đúng như bảng, dùng database `review_diadiem` trống. Nếu đang có dữ liệu cần giữ, xuất bản sao bằng Compass trước khi làm mới database. Dữ liệu seed cũ có thể trùng `slug`, `ten`, `username` hoặc `email` nhưng khác `_id`, gây lỗi unique index khi nhập chung.
+
+### 8.2. Cách A — Script Node.js (khuyên dùng)
+
+Chỉ cần Node.js và MongoDB, không cần `mongosh` hoặc MongoDB Database Tools:
+
+```powershell
+# Chạy từ thư mục gốc TravelTaste
+Set-Location .\database
+npm install
+npm run import-data -- --dry-run # kiểm tra đủ 7 file, không kết nối/ghi database
+npm run import-data             # import vào review_diadiem
+npm run check
+npm run verify
+```
+
+`import_data.mjs` đọc đúng 7 file `*_bo_sung.json`, chuyển Extended JSON (`$oid`, `$date`) sang kiểu MongoDB và upsert theo `_id`. Chạy lại sẽ thay thế document cùng `_id`, giữ nguyên document ngoài bộ file. Script tìm file theo vị trí của chính nó nên cũng có thể chạy `node database/import_data.mjs` từ thư mục gốc.
+
+Trước khi ghi, script kiểm tra xung đột `username`/`email` của users, `slug`/`ten` của danh mục và `slug` của địa điểm với dữ liệu cũ có `_id` khác. Nếu có xung đột, script dừng để bạn kiểm tra; không tự xóa hoặc đổi ID. Import không chạy trong transaction: nếu lỗi xảy ra lúc ghi, dữ liệu đã ghi vẫn còn và có thể chạy lại sau khi sửa lỗi. Script không tạo bộ index của ứng dụng; dùng `npm run verify` để kiểm tra các index và dữ liệu còn thiếu.
+
+### 8.3. Cách B — Import bằng `mongoimport` (PowerShell)
+
+Cần cài **MongoDB Database Tools** và thêm thư mục `bin` vào PATH. `mongoimport` là công cụ riêng, không phải `mongosh`; kiểm tra bằng `mongoimport --version`.
+
+```powershell
+# Chạy từ thư mục gốc TravelTaste
+Set-Location .\database
+
+$collections = @('users', 'danhmuc', 'diadiem', 'danhgia', 'binhluan', 'hinhanh', 'yeuthich')
+foreach ($collection in $collections) {
+    mongoimport --uri="mongodb://localhost:27017" --db=review_diadiem --collection=$collection --file=".\data\${collection}_bo_sung.json" --jsonArray --mode=upsert --upsertFields=_id --stopOnError
+    if ($LASTEXITCODE -ne 0) {
+        throw "Import collection $collection thất bại. Kiểm tra lỗi trước khi chạy tiếp."
+    }
+}
+
+# Cài dependencies nếu chưa có, rồi kiểm tra dữ liệu
+npm install
+npm run check
+npm run verify
+```
+
+`--jsonArray` dùng vì mỗi file chứa một mảng JSON. `--mode=upsert --upsertFields=_id` cho phép chạy lại cùng bộ file: document trùng `_id` sẽ được thay thế, document chưa có sẽ được thêm. Lệnh không xóa các document khác đang có trong database. Nếu gặp `E11000 duplicate key`, kiểm tra dữ liệu cũ theo lưu ý ở mục 8.1; không đổi ID tùy ý vì sẽ làm sai liên kết.
+
+### 8.4. Cách C — Import bằng MongoDB Compass
+
+1. Kết nối `mongodb://localhost:27017`, chọn hoặc tạo database `review_diadiem`.
+2. Tạo các collection còn thiếu theo bảng ở mục 8.1.
+3. Trong từng collection, chọn **Add Data → Import JSON or CSV file**, chọn file `*_bo_sung.json` tương ứng và định dạng **JSON**, rồi bấm **Import**.
+4. Lặp lại cho đủ 7 collection theo thứ tự trong bảng. Không dùng **Insert Document** để dán toàn bộ mảng JSON.
+5. Refresh và đối chiếu số document với bảng nếu import vào database trống. Có thể chạy `npm run check` và `npm run verify` trong thư mục `database` để kiểm tra thêm.
+
+Compass import vào collection đã có cùng `_id` có thể báo trùng khóa; để cập nhật lại cùng bộ dữ liệu, dùng cách A hoặc cách B với `--mode=upsert`.
+
+Bộ JSON đã có sẵn `danhgia`, `binhluan` và `hinhanh`, nên không cần chạy `npm run sync-collections` để hoàn tất import. Lệnh đồng bộ sẽ dựng lại các collection này từ reviews/ảnh nhúng trong `diadiem`, có thể thay thế hoặc xóa document không còn trong nguồn nhúng. Sau khi import xong, chạy backend và frontend theo mục 4–5.

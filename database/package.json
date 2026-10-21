@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Script import du lieu + kiem tra MongoDB cho TravelTaste (khong can mongosh)",
   "scripts": {
+    "import-data": "node import_data.mjs",
     "seed": "node seed_db.mjs",
     "check": "node check_db.mjs",
     "verify": "node verify_db.mjs",
