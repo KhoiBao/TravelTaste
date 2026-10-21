@@ -67,11 +67,50 @@ const top10Pipeline = [
   }
 ]
 
+// Che do "--print-pipeline": chi doc, in pipeline dang JSON de dan vao tab
+// Aggregations cua MongoDB Compass. Pipeline van duoc lay tu chinh file nay
+// nen khong bao gio co hai ban pipeline lech nhau.
+const printOnly = process.argv.slice(2).includes('--print-pipeline')
+
+async function printPipelineForCompass(db) {
+  const results = await db.collection('danhgia').aggregate(top10Pipeline).toArray()
+
+  console.log('='.repeat(72))
+  console.log('PIPELINE CHO MONGODB COMPASS - Top 10 diem noi bat (Bayesian)')
+  console.log('='.repeat(72))
+  console.log('Buoc 1: Compass -> ket noi mongodb://localhost:27017')
+  console.log('Buoc 2: chon database "review_diadiem" -> collection "danhgia"')
+  console.log('Buoc 3: tab "Aggregations" -> xoa pipeline mau -> dan JSON duoi day')
+  console.log('Buoc 4: bam "Run" -> phai ra', results.length, 'ket qua')
+  console.log('-'.repeat(72))
+  console.log('--- BEGIN COPY ---')
+  console.log(JSON.stringify(top10Pipeline, null, 2))
+  console.log('--- END COPY ---')
+  console.log('-'.repeat(72))
+  console.log('Ket qua thu cong tu Node.js (' + results.length + ' dong):')
+  results.forEach((place, index) => {
+    console.log(
+      `  ${index + 1}. ${place.ten} — ${place.ratingAvg}★ (${place.reviewCount} reviews), điểm ${place.diemNoiBat}`
+    )
+  })
+  if (results.length === 0) {
+    console.log('  (rong) - chay "npm run seed" roi "npm run sync-collections" truoc')
+  }
+  console.log('='.repeat(72))
+}
+
 try {
   await client.connect()
   const db = client.db(dbName)
   const places = db.collection('diadiem')
   const reviews = db.collection('danhgia')
+
+  if (printOnly) {
+    await printPipelineForCompass(db)
+    await client.close()
+    process.exit(0)
+  }
+
   const indexes = await places.listIndexes().toArray()
   const existingTextIndex = indexes.find(index => index.key?._fts === 'text')
 

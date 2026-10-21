@@ -11,6 +11,7 @@
     "sync-collections": "node sync_collections.mjs",
     "fix-comment-validator": "node fix_comment_validator.mjs",
     "advanced": "node advanced_queries.mjs",
+    "compass": "node advanced_queries.mjs --print-pipeline",
     "init-replica-set": "node init_replica_set.mjs",
     "watch-review-sync": "node watch_review_sync.mjs",
     "watch-ratings": "node watch_ratings.mjs",

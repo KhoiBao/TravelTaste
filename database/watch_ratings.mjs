@@ -23,7 +23,11 @@ async function recalculateRating(db, diaDiemId) {
   )
 
   if (update.matchedCount !== 1) {
-    throw new Error(`Place ${diaDiemId} referenced by a review was not found`)
+    // Review dang tro toi mot dia diem da bi xoa (vd: vua chay lai seed).
+    // Chi canh bao va bo qua, KHONG throw - neu throw thi ca watcher chet
+    // va khong con gi dong bo duoc nua.
+    console.warn(`[WARN] Place ${diaDiemId} referenced by a review was not found; skipped`)
+    return
   }
 
   console.log(`[OK] ${diaDiemId}: ratingAvg=${ratingAvg}, reviewCount=${reviewCount}`)
@@ -35,7 +39,8 @@ function changedPlaceIds(change) {
 
   for (const document of documents) {
     if (!document.diaDiemId) {
-      throw new Error(`Review ${document.reviewId ?? document._id} has no diaDiemId`)
+      console.warn(`[WARN] Review ${document.reviewId ?? document._id} has no diaDiemId; skipped`)
+      continue
     }
     ids.set(document.diaDiemId.toString(), document.diaDiemId)
   }

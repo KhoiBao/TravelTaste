@@ -119,9 +119,10 @@ try {
   await danhmuc.insertMany([dmAnUong, dmDuLich, dmLuuTru])
   console.log('[4/7] Da seed 3 danh muc')
 
-  // Lay id sau khi insert
-  const ids = Object.fromEntries((await danhmuc.find({}).toArray()).map(d => [d.slug, d._id]))
-  const userIds = Object.fromEntries((await users.find({}).toArray()).map(u => [u.username, u._id]))
+  // Lay id sau khi insert. Model Java khai bao reviewId/commentId/userId/danhMucId
+  // la String, nen seed cung phai ghi dang String de kieu du lieu khop voi app.
+  const ids = Object.fromEntries((await danhmuc.find({}).toArray()).map(d => [d.slug, String(d._id)]))
+  const userIds = Object.fromEntries((await users.find({}).toArray()).map(u => [u.username, String(u._id)]))
 
   // ---------- 5. Tao du lieu review / binh luan long nhau ----------
   const { ObjectId } = await import('mongodb')
@@ -129,7 +130,7 @@ try {
   const tenUserOf = { an123: 'Nguyễn Văn An', binh123: 'Trần Thị Bình', admin: 'Quản trị viên' }
 
   const comment = (userName, noiDung, ngay, traLoi = []) => ({
-    commentId: new ObjectId(),
+    commentId: new ObjectId().toString(),
     userId: userIds[userName],
     tenUser: tenUserOf[userName],
     avatarUser: null,
@@ -352,7 +353,7 @@ try {
 
   // Gán review cho tung dia diem
   const rv = (userName, soSao, tieuDe, noiDung, hinhAnh, ngay, binhLuan = []) => ({
-    reviewId: new ObjectId(),
+    reviewId: new ObjectId().toString(),
     userId: userIds[userName],
     tenUser: tenUserOf[userName],
     avatarUser: null,
