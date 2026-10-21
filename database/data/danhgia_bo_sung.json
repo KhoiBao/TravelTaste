@@ -26,7 +26,7 @@
         },
         "tenUser": "Người dùng mẫu 002",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -41,7 +41,7 @@
             },
             "tenUser": "Người dùng mẫu 003",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -56,7 +56,7 @@
                 },
                 "tenUser": "Người dùng mẫu 004",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -150,7 +150,7 @@
         },
         "tenUser": "Người dùng mẫu 004",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -263,7 +263,7 @@
         },
         "tenUser": "Người dùng mẫu 006",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -328,7 +328,7 @@
         },
         "tenUser": "Người dùng mẫu 007",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -343,7 +343,7 @@
             },
             "tenUser": "Người dùng mẫu 008",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -358,7 +358,7 @@
                 },
                 "tenUser": "Người dùng mẫu 009",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -450,7 +450,7 @@
         },
         "tenUser": "Người dùng mẫu 008",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -540,7 +540,7 @@
         },
         "tenUser": "Người dùng mẫu 010",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -653,7 +653,7 @@
         },
         "tenUser": "Người dùng mẫu 012",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -668,7 +668,7 @@
             },
             "tenUser": "Người dùng mẫu 013",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -683,7 +683,7 @@
                 },
                 "tenUser": "Người dùng mẫu 014",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -823,7 +823,7 @@
         },
         "tenUser": "Người dùng mẫu 014",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -913,7 +913,7 @@
         },
         "tenUser": "Người dùng mẫu 016",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1001,7 +1001,7 @@
         },
         "tenUser": "Người dùng mẫu 017",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1016,7 +1016,7 @@
             },
             "tenUser": "Người dùng mẫu 018",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1031,7 +1031,7 @@
                 },
                 "tenUser": "Người dùng mẫu 019",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -1077,7 +1077,7 @@
         },
         "tenUser": "Người dùng mẫu 018",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1213,7 +1213,7 @@
         },
         "tenUser": "Người dùng mẫu 020",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1303,7 +1303,7 @@
         },
         "tenUser": "Người dùng mẫu 022",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1318,7 +1318,7 @@
             },
             "tenUser": "Người dùng mẫu 023",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1333,7 +1333,7 @@
                 },
                 "tenUser": "Người dùng mẫu 024",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -1450,7 +1450,7 @@
         },
         "tenUser": "Người dùng mẫu 024",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1586,7 +1586,7 @@
         },
         "tenUser": "Người dùng mẫu 026",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1628,7 +1628,7 @@
         },
         "tenUser": "Người dùng mẫu 027",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1643,7 +1643,7 @@
             },
             "tenUser": "Người dùng mẫu 028",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1658,7 +1658,7 @@
                 },
                 "tenUser": "Người dùng mẫu 029",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -1727,7 +1727,7 @@
         },
         "tenUser": "Người dùng mẫu 028",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1840,7 +1840,7 @@
         },
         "tenUser": "Người dùng mẫu 030",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1976,7 +1976,7 @@
         },
         "tenUser": "Người dùng mẫu 032",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -1991,7 +1991,7 @@
             },
             "tenUser": "Người dùng mẫu 033",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2006,7 +2006,7 @@
                 },
                 "tenUser": "Người dùng mẫu 034",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -2100,7 +2100,7 @@
         },
         "tenUser": "Người dùng mẫu 034",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2213,7 +2213,7 @@
         },
         "tenUser": "Người dùng mẫu 036",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2278,7 +2278,7 @@
         },
         "tenUser": "Người dùng mẫu 037",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2293,7 +2293,7 @@
             },
             "tenUser": "Người dùng mẫu 038",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2308,7 +2308,7 @@
                 },
                 "tenUser": "Người dùng mẫu 039",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -2400,7 +2400,7 @@
         },
         "tenUser": "Người dùng mẫu 038",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2490,7 +2490,7 @@
         },
         "tenUser": "Người dùng mẫu 040",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2603,7 +2603,7 @@
         },
         "tenUser": "Người dùng mẫu 042",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2618,7 +2618,7 @@
             },
             "tenUser": "Người dùng mẫu 043",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2633,7 +2633,7 @@
                 },
                 "tenUser": "Người dùng mẫu 044",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -2773,7 +2773,7 @@
         },
         "tenUser": "Người dùng mẫu 044",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2863,7 +2863,7 @@
         },
         "tenUser": "Người dùng mẫu 046",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2951,7 +2951,7 @@
         },
         "tenUser": "Người dùng mẫu 047",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -2966,7 +2966,7 @@
             },
             "tenUser": "Người dùng mẫu 048",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2981,7 +2981,7 @@
                 },
                 "tenUser": "Người dùng mẫu 049",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -3027,7 +3027,7 @@
         },
         "tenUser": "Người dùng mẫu 048",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3163,7 +3163,7 @@
         },
         "tenUser": "Người dùng mẫu 050",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3253,7 +3253,7 @@
         },
         "tenUser": "Người dùng mẫu 052",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3268,7 +3268,7 @@
             },
             "tenUser": "Người dùng mẫu 053",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -3283,7 +3283,7 @@
                 },
                 "tenUser": "Người dùng mẫu 054",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -3400,7 +3400,7 @@
         },
         "tenUser": "Người dùng mẫu 054",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3536,7 +3536,7 @@
         },
         "tenUser": "Người dùng mẫu 056",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3578,7 +3578,7 @@
         },
         "tenUser": "Người dùng mẫu 057",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3593,7 +3593,7 @@
             },
             "tenUser": "Người dùng mẫu 058",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -3608,7 +3608,7 @@
                 },
                 "tenUser": "Người dùng mẫu 059",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -3677,7 +3677,7 @@
         },
         "tenUser": "Người dùng mẫu 058",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3790,7 +3790,7 @@
         },
         "tenUser": "Người dùng mẫu 060",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3926,7 +3926,7 @@
         },
         "tenUser": "Người dùng mẫu 062",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -3941,7 +3941,7 @@
             },
             "tenUser": "Người dùng mẫu 063",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -3956,7 +3956,7 @@
                 },
                 "tenUser": "Người dùng mẫu 064",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -4050,7 +4050,7 @@
         },
         "tenUser": "Người dùng mẫu 064",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4163,7 +4163,7 @@
         },
         "tenUser": "Người dùng mẫu 066",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4228,7 +4228,7 @@
         },
         "tenUser": "Người dùng mẫu 067",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4243,7 +4243,7 @@
             },
             "tenUser": "Người dùng mẫu 068",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4258,7 +4258,7 @@
                 },
                 "tenUser": "Người dùng mẫu 069",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -4350,7 +4350,7 @@
         },
         "tenUser": "Người dùng mẫu 068",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4440,7 +4440,7 @@
         },
         "tenUser": "Người dùng mẫu 070",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4553,7 +4553,7 @@
         },
         "tenUser": "Người dùng mẫu 072",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4568,7 +4568,7 @@
             },
             "tenUser": "Người dùng mẫu 073",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4583,7 +4583,7 @@
                 },
                 "tenUser": "Người dùng mẫu 074",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -4723,7 +4723,7 @@
         },
         "tenUser": "Người dùng mẫu 074",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4813,7 +4813,7 @@
         },
         "tenUser": "Người dùng mẫu 076",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4901,7 +4901,7 @@
         },
         "tenUser": "Người dùng mẫu 077",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -4916,7 +4916,7 @@
             },
             "tenUser": "Người dùng mẫu 078",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4931,7 +4931,7 @@
                 },
                 "tenUser": "Người dùng mẫu 079",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -4977,7 +4977,7 @@
         },
         "tenUser": "Người dùng mẫu 078",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5113,7 +5113,7 @@
         },
         "tenUser": "Người dùng mẫu 080",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5203,7 +5203,7 @@
         },
         "tenUser": "Người dùng mẫu 082",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5218,7 +5218,7 @@
             },
             "tenUser": "Người dùng mẫu 083",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5233,7 +5233,7 @@
                 },
                 "tenUser": "Người dùng mẫu 084",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -5350,7 +5350,7 @@
         },
         "tenUser": "Người dùng mẫu 084",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5486,7 +5486,7 @@
         },
         "tenUser": "Người dùng mẫu 086",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5528,7 +5528,7 @@
         },
         "tenUser": "Người dùng mẫu 087",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5543,7 +5543,7 @@
             },
             "tenUser": "Người dùng mẫu 088",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5558,7 +5558,7 @@
                 },
                 "tenUser": "Người dùng mẫu 089",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -5627,7 +5627,7 @@
         },
         "tenUser": "Người dùng mẫu 088",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5740,7 +5740,7 @@
         },
         "tenUser": "Người dùng mẫu 090",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5876,7 +5876,7 @@
         },
         "tenUser": "Người dùng mẫu 092",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -5891,7 +5891,7 @@
             },
             "tenUser": "Người dùng mẫu 093",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5906,7 +5906,7 @@
                 },
                 "tenUser": "Người dùng mẫu 094",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -6000,7 +6000,7 @@
         },
         "tenUser": "Người dùng mẫu 094",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -6113,7 +6113,7 @@
         },
         "tenUser": "Người dùng mẫu 096",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -6178,7 +6178,7 @@
         },
         "tenUser": "Người dùng mẫu 097",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+        "noiDung": "Mình đang tìm hiểu địa điểm này.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -6193,7 +6193,7 @@
             },
             "tenUser": "Người dùng mẫu 098",
             "avatarUser": null,
-            "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+            "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -6208,7 +6208,7 @@
                 },
                 "tenUser": "Người dùng mẫu 099",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -6300,7 +6300,7 @@
         },
         "tenUser": "Người dùng mẫu 098",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },
@@ -6390,7 +6390,7 @@
         },
         "tenUser": "Người dùng mẫu 100",
         "avatarUser": null,
-        "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+        "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
         "ngayTao": {
           "$date": "2026-09-14T03:00:00Z"
         },

@@ -10,10 +10,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Hồ Tây tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -63,7 +63,7 @@
             },
             "tenUser": "Người dùng mẫu 002",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -78,7 +78,7 @@
                 },
                 "tenUser": "Người dùng mẫu 003",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -93,7 +93,7 @@
                     },
                     "tenUser": "Người dùng mẫu 004",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -128,10 +128,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Hồ Hoàn Kiếm tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -214,10 +214,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà hát Lớn Hà Nội tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -267,7 +267,7 @@
             },
             "tenUser": "Người dùng mẫu 004",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -336,10 +336,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Thầy tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -403,10 +403,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Trấn Quốc tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -456,7 +456,7 @@
             },
             "tenUser": "Người dùng mẫu 006",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -506,10 +506,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Hương tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -559,7 +559,7 @@
             },
             "tenUser": "Người dùng mẫu 007",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -574,7 +574,7 @@
                 },
                 "tenUser": "Người dùng mẫu 008",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -589,7 +589,7 @@
                     },
                     "tenUser": "Người dùng mẫu 009",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -662,10 +662,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Đền Ngọc Sơn tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -715,7 +715,7 @@
             },
             "tenUser": "Người dùng mẫu 008",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -746,10 +746,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bảo tàng Dân tộc học Việt Nam tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -832,10 +832,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cầu Long Biên tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -885,7 +885,7 @@
             },
             "tenUser": "Người dùng mẫu 010",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -954,10 +954,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Đường Lâm tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1021,10 +1021,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cột cờ Hà Nội tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1074,7 +1074,7 @@
             },
             "tenUser": "Người dùng mẫu 012",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1089,7 +1089,7 @@
                 },
                 "tenUser": "Người dùng mẫu 013",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -1104,7 +1104,7 @@
                     },
                     "tenUser": "Người dùng mẫu 014",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -1158,10 +1158,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Đền Quán Thánh tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1263,10 +1263,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà tù Hỏa Lò tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1316,7 +1316,7 @@
             },
             "tenUser": "Người dùng mẫu 014",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1347,10 +1347,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Lăng Chủ tịch Hồ Chí Minh tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1433,10 +1433,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Một Cột tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1486,7 +1486,7 @@
             },
             "tenUser": "Người dùng mẫu 016",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1555,10 +1555,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Dinh Độc Lập tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1608,7 +1608,7 @@
             },
             "tenUser": "Người dùng mẫu 017",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1623,7 +1623,7 @@
                 },
                 "tenUser": "Người dùng mẫu 018",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -1638,7 +1638,7 @@
                     },
                     "tenUser": "Người dùng mẫu 019",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -1673,10 +1673,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Giác Lâm tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1726,7 +1726,7 @@
             },
             "tenUser": "Người dùng mẫu 018",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1776,10 +1776,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Hồ Trúc Bạch tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1881,10 +1881,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Thành Cổ Loa tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -1934,7 +1934,7 @@
             },
             "tenUser": "Người dùng mẫu 020",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -1965,10 +1965,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Công viên Thống Nhất tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2051,10 +2051,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bến Nhà Rồng tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2104,7 +2104,7 @@
             },
             "tenUser": "Người dùng mẫu 022",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2119,7 +2119,7 @@
                 },
                 "tenUser": "Người dùng mẫu 023",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -2134,7 +2134,7 @@
                     },
                     "tenUser": "Người dùng mẫu 024",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -2207,10 +2207,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà thờ chính tòa Đức Bà Sài Gòn tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2274,10 +2274,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chợ Bến Thành tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2327,7 +2327,7 @@
             },
             "tenUser": "Người dùng mẫu 024",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2377,10 +2377,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Địa đạo Củ Chi tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2482,10 +2482,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà hát Thành phố Hồ Chí Minh tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2535,7 +2535,7 @@
             },
             "tenUser": "Người dùng mẫu 026",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2566,10 +2566,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Thảo Cầm Viên Sài Gòn tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2619,7 +2619,7 @@
             },
             "tenUser": "Người dùng mẫu 027",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2634,7 +2634,7 @@
                 },
                 "tenUser": "Người dùng mẫu 028",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -2649,7 +2649,7 @@
                     },
                     "tenUser": "Người dùng mẫu 029",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -2703,10 +2703,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bảo tàng Chứng tích chiến tranh tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2756,7 +2756,7 @@
             },
             "tenUser": "Người dùng mẫu 028",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2825,10 +2825,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bưu điện Sài Gòn tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2892,10 +2892,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -2945,7 +2945,7 @@
             },
             "tenUser": "Người dùng mẫu 030",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -2995,10 +2995,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Ngọc Hoàng tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3100,10 +3100,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bảo tàng Lịch sử Thành phố Hồ Chí Minh tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3153,7 +3153,7 @@
             },
             "tenUser": "Người dùng mẫu 032",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -3168,7 +3168,7 @@
                 },
                 "tenUser": "Người dùng mẫu 033",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -3183,7 +3183,7 @@
                     },
                     "tenUser": "Người dùng mẫu 034",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -3218,10 +3218,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Vườn quốc gia Ba Vì tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3304,10 +3304,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cầu Sông Hàn tại Đà Nẵng. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3357,7 +3357,7 @@
             },
             "tenUser": "Người dùng mẫu 034",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -3426,10 +3426,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Công viên Văn hóa Đầm Sen tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3493,10 +3493,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Ngũ Hành Sơn tại Đà Nẵng. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3546,7 +3546,7 @@
             },
             "tenUser": "Người dùng mẫu 036",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -3596,10 +3596,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Hồ Con Rùa tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3649,7 +3649,7 @@
             },
             "tenUser": "Người dùng mẫu 037",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -3664,7 +3664,7 @@
                 },
                 "tenUser": "Người dùng mẫu 038",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -3679,7 +3679,7 @@
                     },
                     "tenUser": "Người dùng mẫu 039",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -3752,10 +3752,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Sơn Trà tại Đà Nẵng. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3805,7 +3805,7 @@
             },
             "tenUser": "Người dùng mẫu 038",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -3836,10 +3836,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bãi biển Mỹ Khê tại Đà Nẵng. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3922,10 +3922,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Khu du lịch Văn hóa Suối Tiên tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -3975,7 +3975,7 @@
             },
             "tenUser": "Người dùng mẫu 040",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4044,10 +4044,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bảo tàng Điêu khắc Chăm Đà Nẵng tại Đà Nẵng. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4111,10 +4111,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Kinh thành Huế tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4164,7 +4164,7 @@
             },
             "tenUser": "Người dùng mẫu 042",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4179,7 +4179,7 @@
                 },
                 "tenUser": "Người dùng mẫu 043",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -4194,7 +4194,7 @@
                     },
                     "tenUser": "Người dùng mẫu 044",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -4248,10 +4248,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cầu Thuận Phước tại Đà Nẵng. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4353,10 +4353,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cầu Rồng tại Đà Nẵng. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4406,7 +4406,7 @@
             },
             "tenUser": "Người dùng mẫu 044",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4437,10 +4437,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe3"
+          "$oid": "6ad7b1099f4fb2c0fa75781c"
         },
-        "ten": "Lưu trú mẫu 80480f7c",
-        "slug": "luu-tru-mau-80480f7c"
+        "ten": "Lưu trú",
+        "slug": "luu-tru"
       }
     ],
     "moTa": "Khách sạn Caravelle Sài Gòn tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4523,10 +4523,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chợ Bình Tây tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4576,7 +4576,7 @@
             },
             "tenUser": "Người dùng mẫu 046",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4645,10 +4645,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe3"
+          "$oid": "6ad7b1099f4fb2c0fa75781c"
         },
-        "ten": "Lưu trú mẫu 80480f7c",
-        "slug": "luu-tru-mau-80480f7c"
+        "ten": "Lưu trú",
+        "slug": "luu-tru"
       }
     ],
     "moTa": "Khách sạn Rex tại TP. Hồ Chí Minh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4698,7 +4698,7 @@
             },
             "tenUser": "Người dùng mẫu 047",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4713,7 +4713,7 @@
                 },
                 "tenUser": "Người dùng mẫu 048",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -4728,7 +4728,7 @@
                     },
                     "tenUser": "Người dùng mẫu 049",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -4763,10 +4763,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cầu Vàng tại Đà Nẵng. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4816,7 +4816,7 @@
             },
             "tenUser": "Người dùng mẫu 048",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -4866,10 +4866,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Thánh địa Mỹ Sơn tại Hội An. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -4971,10 +4971,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Phố cổ Hội An tại Hội An. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5024,7 +5024,7 @@
             },
             "tenUser": "Người dùng mẫu 050",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5055,10 +5055,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Thiên Mụ tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5141,10 +5141,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Cầu tại Hội An. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5194,7 +5194,7 @@
             },
             "tenUser": "Người dùng mẫu 052",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5209,7 +5209,7 @@
                 },
                 "tenUser": "Người dùng mẫu 053",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -5224,7 +5224,7 @@
                     },
                     "tenUser": "Người dùng mẫu 054",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -5297,10 +5297,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Lăng Tự Đức tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5364,10 +5364,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cầu Trường Tiền tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5417,7 +5417,7 @@
             },
             "tenUser": "Người dùng mẫu 054",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5467,10 +5467,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cù lao Chàm tại Hội An. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5572,10 +5572,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Lăng Minh Mạng tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5625,7 +5625,7 @@
             },
             "tenUser": "Người dùng mẫu 056",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5656,10 +5656,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Tam Cốc – Bích Động tại Ninh Bình. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5709,7 +5709,7 @@
             },
             "tenUser": "Người dùng mẫu 057",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5724,7 +5724,7 @@
                 },
                 "tenUser": "Người dùng mẫu 058",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -5739,7 +5739,7 @@
                     },
                     "tenUser": "Người dùng mẫu 059",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -5793,10 +5793,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Lăng Khải Định tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5846,7 +5846,7 @@
             },
             "tenUser": "Người dùng mẫu 058",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -5915,10 +5915,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Lăng Gia Long tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -5982,10 +5982,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Lăng Thiệu Trị tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6035,7 +6035,7 @@
             },
             "tenUser": "Người dùng mẫu 060",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -6085,10 +6085,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Điện Hòn Chén tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6190,10 +6190,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Bái Đính tại Ninh Bình. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6243,7 +6243,7 @@
             },
             "tenUser": "Người dùng mẫu 062",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -6258,7 +6258,7 @@
                 },
                 "tenUser": "Người dùng mẫu 063",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -6273,7 +6273,7 @@
                     },
                     "tenUser": "Người dùng mẫu 064",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -6308,10 +6308,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Cung An Định tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6394,10 +6394,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chợ Đông Ba tại Huế. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6447,7 +6447,7 @@
             },
             "tenUser": "Người dùng mẫu 064",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -6516,10 +6516,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Vịnh Hạ Long tại Quảng Ninh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6583,10 +6583,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chùa Linh Phước tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6636,7 +6636,7 @@
             },
             "tenUser": "Người dùng mẫu 066",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -6686,10 +6686,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Hang Sửng Sốt tại Quảng Ninh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6739,7 +6739,7 @@
             },
             "tenUser": "Người dùng mẫu 067",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -6754,7 +6754,7 @@
                 },
                 "tenUser": "Người dùng mẫu 068",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -6769,7 +6769,7 @@
                     },
                     "tenUser": "Người dùng mẫu 069",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -6842,10 +6842,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà thờ chính tòa Phát Diệm tại Ninh Bình. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -6895,7 +6895,7 @@
             },
             "tenUser": "Người dùng mẫu 068",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -6926,10 +6926,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Vườn quốc gia Cúc Phương tại Ninh Bình. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7012,10 +7012,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Ga Đà Lạt tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7065,7 +7065,7 @@
             },
             "tenUser": "Người dùng mẫu 070",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -7134,10 +7134,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Thiền viện Trúc Lâm Đà Lạt tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7201,10 +7201,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Thung lũng Tình Yêu tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7254,7 +7254,7 @@
             },
             "tenUser": "Người dùng mẫu 072",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -7269,7 +7269,7 @@
                 },
                 "tenUser": "Người dùng mẫu 073",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -7284,7 +7284,7 @@
                     },
                     "tenUser": "Người dùng mẫu 074",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -7338,10 +7338,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Dinh III tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7443,10 +7443,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Đảo Cô Tô tại Quảng Ninh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7496,7 +7496,7 @@
             },
             "tenUser": "Người dùng mẫu 074",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -7527,10 +7527,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Biệt thự Hằng Nga tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7613,10 +7613,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Vườn quốc gia Phong Nha – Kẻ Bàng tại Quảng Bình. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7666,7 +7666,7 @@
             },
             "tenUser": "Người dùng mẫu 076",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -7735,10 +7735,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Động Phong Nha tại Quảng Bình. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7788,7 +7788,7 @@
             },
             "tenUser": "Người dùng mẫu 077",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -7803,7 +7803,7 @@
                 },
                 "tenUser": "Người dùng mẫu 078",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -7818,7 +7818,7 @@
                     },
                     "tenUser": "Người dùng mẫu 079",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -7853,10 +7853,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Động Thiên Đường tại Quảng Bình. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -7906,7 +7906,7 @@
             },
             "tenUser": "Người dùng mẫu 078",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -7956,10 +7956,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà thờ chính tòa Đà Lạt tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8061,10 +8061,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Núi Langbiang tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8114,7 +8114,7 @@
             },
             "tenUser": "Người dùng mẫu 080",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -8145,10 +8145,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Thác Datanla tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8231,10 +8231,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà thờ Núi Nha Trang tại Khánh Hòa. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8284,7 +8284,7 @@
             },
             "tenUser": "Người dùng mẫu 082",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -8299,7 +8299,7 @@
                 },
                 "tenUser": "Người dùng mẫu 083",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -8314,7 +8314,7 @@
                     },
                     "tenUser": "Người dùng mẫu 084",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -8387,10 +8387,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Bản Cát Cát tại Lào Cai. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8454,10 +8454,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Hang Sơn Đoòng tại Quảng Bình. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8507,7 +8507,7 @@
             },
             "tenUser": "Người dùng mẫu 084",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -8557,10 +8557,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe3"
+          "$oid": "6ad7b1099f4fb2c0fa75781c"
         },
-        "ten": "Lưu trú mẫu 80480f7c",
-        "slug": "luu-tru-mau-80480f7c"
+        "ten": "Lưu trú",
+        "slug": "luu-tru"
       }
     ],
     "moTa": "Khách sạn Dalat Palace tại Đà Lạt. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8662,10 +8662,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Đảo Bình Ba tại Khánh Hòa. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8715,7 +8715,7 @@
             },
             "tenUser": "Người dùng mẫu 086",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -8746,10 +8746,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Vịnh Nha Trang tại Khánh Hòa. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8799,7 +8799,7 @@
             },
             "tenUser": "Người dùng mẫu 087",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -8814,7 +8814,7 @@
                 },
                 "tenUser": "Người dùng mẫu 088",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -8829,7 +8829,7 @@
                     },
                     "tenUser": "Người dùng mẫu 089",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -8883,10 +8883,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Phú Quốc tại Kiên Giang. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -8936,7 +8936,7 @@
             },
             "tenUser": "Người dùng mẫu 088",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -9005,10 +9005,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà tù Phú Quốc tại Kiên Giang. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9072,10 +9072,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Mũi Né tại Bình Thuận. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9125,7 +9125,7 @@
             },
             "tenUser": "Người dùng mẫu 090",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -9175,10 +9175,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Vườn quốc gia Tràm Chim tại Đồng Tháp. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9280,10 +9280,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Tháp Po Sah Inư tại Bình Thuận. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9333,7 +9333,7 @@
             },
             "tenUser": "Người dùng mẫu 092",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -9348,7 +9348,7 @@
                 },
                 "tenUser": "Người dùng mẫu 093",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -9363,7 +9363,7 @@
                     },
                     "tenUser": "Người dùng mẫu 094",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -9398,10 +9398,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Nhà tù Côn Đảo tại Bà Rịa – Vũng Tàu. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9484,10 +9484,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Chợ nổi Cái Răng tại Cần Thơ. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9537,7 +9537,7 @@
             },
             "tenUser": "Người dùng mẫu 094",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -9606,10 +9606,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Tượng Chúa Kitô Vua (Vũng Tàu) tại Bà Rịa – Vũng Tàu. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9673,10 +9673,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Hải đăng Kê Gà tại Bình Thuận. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9726,7 +9726,7 @@
             },
             "tenUser": "Người dùng mẫu 096",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -9776,10 +9776,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Tòa Thánh Tây Ninh tại Tây Ninh. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9829,7 +9829,7 @@
             },
             "tenUser": "Người dùng mẫu 097",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+            "noiDung": "Mình đang tìm hiểu địa điểm này.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -9844,7 +9844,7 @@
                 },
                 "tenUser": "Người dùng mẫu 098",
                 "avatarUser": null,
-                "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+                "noiDung": "Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
                 "ngayTao": {
                   "$date": "2026-09-14T03:00:00Z"
                 },
@@ -9859,7 +9859,7 @@
                     },
                     "tenUser": "Người dùng mẫu 099",
                     "avatarUser": null,
-                    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+                    "noiDung": "Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
                     "ngayTao": {
                       "$date": "2026-09-14T03:00:00Z"
                     },
@@ -9932,10 +9932,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Miếu Bà Chúa Xứ Núi Sam tại An Giang. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -9985,7 +9985,7 @@
             },
             "tenUser": "Người dùng mẫu 098",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -10016,10 +10016,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Rừng tràm Trà Sư tại An Giang. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -10102,10 +10102,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe2"
+          "$oid": "6ad7b1099f4fb2c0fa75781b"
         },
-        "ten": "Du lịch mẫu 80480f7c",
-        "slug": "du-lich-mau-80480f7c"
+        "ten": "Du lịch",
+        "slug": "du-lich"
       }
     ],
     "moTa": "Hải đăng Vũng Tàu tại Bà Rịa – Vũng Tàu. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",
@@ -10155,7 +10155,7 @@
             },
             "tenUser": "Người dùng mẫu 100",
             "avatarUser": null,
-            "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+            "noiDung": "Mình cũng đang tham khảo địa điểm này cho lịch trình.",
             "ngayTao": {
               "$date": "2026-09-14T03:00:00Z"
             },
@@ -10224,10 +10224,10 @@
     "danhMuc": [
       {
         "danhMucId": {
-          "$oid": "6ad82f319ce5059580480fe1"
+          "$oid": "6ad7b1099f4fb2c0fa75781a"
         },
-        "ten": "Ăn uống mẫu 80480f7c",
-        "slug": "an-uong-mau-80480f7c"
+        "ten": "Ăn uống",
+        "slug": "an-uong"
       }
     ],
     "moTa": "Cà phê Giảng tại Hà Nội. Thông tin nhận diện và ảnh tham khảo được đối chiếu từ Wikipedia/Wikimedia Commons. Đánh giá, điểm số và bình luận là dữ liệu mẫu phục vụ kiểm thử.",

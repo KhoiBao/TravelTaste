@@ -1,77 +1,16 @@
-<<<<<<< Updated upstream
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemDetail.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\CommentService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\MongoIds.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\exception\ApiException.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\CommentLikeService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\User.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\admin\UserAdminController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\YeuThichApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ApiResponse.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ReviewDto.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemRequest.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DiaDiemApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaChiRequest.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\UserRepository.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemSummary.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\RegisterRequest.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\exception\GlobalExceptionHandler.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\AuthApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\config\SecurityConfig.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\SlugUtil.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\config\FlatSyncConfig.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\YeuThichRepository.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\UploadApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\DiaDiemRepository.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DanhMuc.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\YeuThich.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaChiSummary.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DanhMucRequest.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\FileStorageService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DanhMucRefDto.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\RatingService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\DanhMucRepository.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\LoginRequest.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\SecurityUtil.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\YeuThichService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\ReviewdiadiemApplication.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\admin\DanhMucAdminController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\SearchRequest.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DiaChi.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\AuthService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\ReviewService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\DanhMucService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\config\DataSeeder.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ReviewRequest.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DiaDiem.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\FlatCollectionService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\DiaDiemService.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\CommentApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DiscoverApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ViTriRequest.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\config\WebConfig.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\admin\DiaDiemAdminController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DanhMucRef.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\ReviewApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\CommentDto.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\LikeAware.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\ViTri.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\Review.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\BinhLuan.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\PageResponse.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DanhMucApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\SearchApiController.java
-K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\CommentRequest.java
-=======
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\AuthApiController.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\FileStorageService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\FlatCollectionService.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DiscoverApiController.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\CommentRequest.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaChiRequest.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\admin\DiaDiemAdminController.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\BinhLuan.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\YeuThich.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\exception\GlobalExceptionHandler.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\YeuThichRepository.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaChiSummary.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\config\FlatSyncConfig.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DanhMucApiController.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DanhMuc.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\CommentService.java
@@ -93,6 +32,7 @@ D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\SlugUtil.jav
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\DiaDiemRepository.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\AuthService.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\CommentLikeService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\YeuThichService.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\SearchApiController.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ReviewDto.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DiaDiemApiController.java
@@ -111,12 +51,13 @@ D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DanhMucRefDto
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemDetail.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\User.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DanhMucRef.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\YeuThichApiController.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\admin\DanhMucAdminController.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemSummary.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\LikeAware.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\ReviewdiadiemApplication.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\MongoIds.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\PageResponse.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ApiResponse.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\UserRepository.java
 D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DiaDiem.java
->>>>>>> Stashed changes

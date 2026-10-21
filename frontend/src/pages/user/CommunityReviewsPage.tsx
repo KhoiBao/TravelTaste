@@ -40,6 +40,7 @@ export default function CommunityReviewsPage() {
   const [draft, setDraft] = useState({ q: '', category: '', district: '', sort: 'newest' });
   const [applied, setApplied] = useState(draft);
   const [page, setPage] = useState(1);
+  const [pageQuery, setPageQuery] = useState('');
   const [open, setOpen] = useState(true);
   const [view, setView] = useState<'list' | 'grid'>('list');
 
@@ -67,6 +68,9 @@ export default function CommunityReviewsPage() {
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
+  const pageNumbers = totalPages <= 7
+    ? Array.from({ length: totalPages }, (_, index) => index + 1)
+    : [...new Set([1, Math.max(2, currentPage - 1), currentPage, Math.min(totalPages - 1, currentPage + 1), totalPages])].sort((a, b) => a - b);
   const shown = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
   const hasFilters = Boolean(applied.q || applied.category || applied.district);
 
@@ -143,7 +147,7 @@ export default function CommunityReviewsPage() {
       </form>
     </section>
 
-    <section aria-label="Danh sách đánh giá" className="w-full rounded-2xl border border-line bg-surface p-4 tablet:p-5">
+    <section aria-label="Danh sách đánh giá" className="min-w-0 w-full rounded-2xl border border-line bg-surface p-4 tablet:p-5">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line pb-4">
         <div className="flex flex-wrap items-center gap-2.5">
           <button type="button" aria-expanded={open} aria-controls="community-review-results" aria-label={open ? 'Thu gọn danh sách đánh giá' : 'Mở rộng danh sách đánh giá'} onClick={() => setOpen(value => !value)} className="flex h-8 w-8 items-center justify-center rounded-full text-primary hover:bg-pale"><svg viewBox="0 0 24 24" aria-hidden="true" className={`h-4 w-4 transition-transform ${open ? '' : '-rotate-90'}`} fill="currentColor"><path d="M7 9.5h10L12 16z" /></svg></button>
@@ -160,11 +164,28 @@ export default function CommunityReviewsPage() {
       </div>
       <div id="community-review-results" hidden={!open}>
         {shown.length ? <div className={view === 'list' ? 'mt-4 flex flex-col gap-3' : 'mt-4 grid gap-3 tablet:grid-cols-2'}>{shown.map(card)}</div> : <p role="status" className="mt-4 rounded-xl border border-dashed border-line p-8 text-center text-sm text-muted">Không tìm thấy đánh giá phù hợp.</p>}
-        {open && totalPages > 1 && <nav aria-label="Phân trang đánh giá" className="mt-5 flex items-center justify-center gap-1.5 text-[13px]">
+        {open && totalPages > 1 && <div className="mt-5 flex max-w-full flex-wrap items-center justify-between gap-4">
+        <nav aria-label="Phân trang đánh giá" className="flex min-w-0 max-w-full flex-wrap items-center justify-center gap-1.5 text-[13px]">
           <button type="button" aria-label="Trang trước" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)} className="flex h-9 w-9 items-center justify-center rounded-full text-primary hover:bg-pale disabled:opacity-40">‹</button>
-          {Array.from({ length: totalPages }, (_, index) => index + 1).map(number => <button key={number} type="button" aria-label={`Trang ${number}`} aria-current={number === currentPage ? 'page' : undefined} onClick={() => setPage(number)} className={`h-9 min-w-9 rounded-full px-2 ${number === currentPage ? 'bg-primary font-bold text-white' : 'text-muted hover:bg-pale hover:text-primary'}`}>{number}</button>)}
+          {pageNumbers.map((number, index) => <span key={number} className="inline-flex items-center gap-1.5">
+            {index > 0 && number - pageNumbers[index - 1] > 1 && <span aria-hidden="true" className="px-1 text-muted">…</span>}
+            <button type="button" aria-label={`Trang ${number}`} aria-current={number === currentPage ? 'page' : undefined} onClick={() => setPage(number)} className={`h-9 min-w-9 rounded-full px-2 ${number === currentPage ? 'bg-primary font-bold text-white' : 'text-muted hover:bg-pale hover:text-primary'}`}>{number}</button>
+          </span>)}
           <button type="button" aria-label="Trang sau" disabled={currentPage === totalPages} onClick={() => setPage(currentPage + 1)} className="flex h-9 w-9 items-center justify-center rounded-full text-primary hover:bg-pale disabled:opacity-40">›</button>
-        </nav>}
+        </nav>
+        <form aria-label="Chuyển đến trang" className="ml-auto flex max-w-full flex-wrap items-center gap-2 text-[13px]" onSubmit={event => {
+          event.preventDefault();
+          const targetPage = Number(pageQuery);
+          if (!Number.isInteger(targetPage) || targetPage < 1 || targetPage > totalPages) return;
+          setPage(targetPage);
+          setPageQuery('');
+        }}>
+          <label htmlFor="community-page-search" className="text-muted">Đến trang</label>
+          <input id="community-page-search" type="number" inputMode="numeric" min={1} max={totalPages} step={1} required value={pageQuery} onChange={event => setPageQuery(event.target.value)} placeholder={String(currentPage)} className="h-9 w-20 min-w-0 rounded-lg border border-line bg-surface px-2 text-center text-ink focus:border-primary" />
+          <span className="text-muted">/ {totalPages}</span>
+          <button type="submit" className="h-9 rounded-lg bg-primary px-3 font-bold text-white hover:brightness-95">Đi</button>
+        </form>
+        </div>}
       </div>
     </section>
   </PublicLayout>;
