@@ -94,11 +94,15 @@ Hoặc chạy từng lệnh:
 cd K:\NoSQL projects\TravelTaste\database
 npm install          # chỉ lần đầu
 npm run seed         # tạo index + seed dữ liệu
-npm run sync-collections # đồng bộ collection phụ và tạo yeuthich
+ npm run sync-collections # đồng bộ collection phụ và tạo yeuthich
 npm run fix-comment-validator # sửa validator nếu MongoDB báo thiếu id ở bình luận
 npm run verify       # kiểm tra kết quả
+<<<<<<< Updated upstream
 npm run advanced     # chạy text search + Top 10 từ danhgia, không xóa/seed lại dữ liệu
 npm run compass      # in pipeline Top 10 dạng JSON để dán vào tab Aggregations của Compass
+=======
+npm run advanced    # chạy text search + Top 10 từ danhgia, không xóa/seed lại dữ liệu
+>>>>>>> Stashed changes
 ```
 
 Database gồm 7 collection: `users`, `danhmuc`, `diadiem`, `danhgia`, `binhluan`, `hinhanh`, `yeuthich`. Script đồng bộ giữ các bản nhúng gốc, đồng thời upsert tài liệu sang các collection riêng và xóa tài liệu cũ không còn trong nguồn; có thể chạy lại an toàn. `binhluan` làm phẳng các reply và liên kết bằng `reviewId`, `diaDiemId`, `parentCommentId`; `hinhanh` liên kết URL ảnh với địa điểm hoặc đánh giá; `yeuthich` lưu cặp `userId`/`diaDiemId` và ngày thích, có unique index để một người không lưu trùng một địa điểm. `hinhanh` hiện chưa có document vì dữ liệu chưa có URL ảnh; `yeuthich` mới tạo, chưa có document vì chưa có lượt thích thực tế. Top 10 dùng aggregation từ `danhgia`, `$lookup` thông tin địa điểm, chỉ lấy địa điểm ACTIVE có ít nhất 3 review và tính điểm Bayesian (rating prior 3.5, trọng số 5). `sync_collections.mjs` là đồng bộ một lần; để review từ app được cập nhật liên tục sang `danhgia`, chạy watcher `watch-review-sync` theo hướng dẫn bên dưới.

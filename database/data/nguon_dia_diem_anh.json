@@ -1,0 +1,3322 @@
+{
+  "collectedAt": "2026-10-21T03:24:25.525Z",
+  "notes": [
+    "Địa điểm và ảnh có thật; đánh giá, điểm số và bình luận là dữ liệu giả lập.",
+    "Ảnh trong đánh giá là ảnh tham khảo, không phải ảnh của người dùng.",
+    "Địa chỉ chưa xác minh để trống; tọa độ lấy từ Wikidata, ngoại trừ Cà phê Giảng có nguồn riêng.",
+    "File này lưu nguồn tham khảo, không phải collection để import."
+  ],
+  "places": [
+    {
+      "city": "Hà Nội",
+      "title": "Hồ Tây",
+      "pageId": 15359,
+      "qid": "Q1187394",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/H%E1%BB%93_T%C3%A2y_ho%C3%A0ng_h%C3%B4n_-_NKS.jpg/1280px-H%E1%BB%93_T%C3%A2y_ho%C3%A0ng_h%C3%B4n_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/H%E1%BB%93_T%C3%A2y",
+      "coordinates": [
+        105.82,
+        21.055
+      ],
+      "fileTitle": "File:Hồ_Tây_hoàng_hôn_-_NKS.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/4/4a/H%E1%BB%93_T%C3%A2y_ho%C3%A0ng_h%C3%B4n_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:H%E1%BB%93_T%C3%A2y_ho%C3%A0ng_h%C3%B4n_-_NKS.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:NKSTTSSHNVN\" title=\"User:NKSTTSSHNVN\">NKSTTSSHNVN</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Hồ Tây hoàng hôn",
+      "width": 5884,
+      "height": 3922,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580480fe4"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5511"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Hồ Hoàn Kiếm",
+      "pageId": 15360,
+      "qid": "Q1151254",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Hoan_Kiem_10082026.jpg/1280px-Hoan_Kiem_10082026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Ho%C3%A0n_Ki%E1%BA%BFm",
+      "coordinates": [
+        105.8525,
+        21.028888888889
+      ],
+      "fileTitle": "File:Hoan_Kiem_10082026.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/Hoan_Kiem_10082026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hoan_Kiem_10082026.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Chuhai07?action=edit&amp;redlink=1\" title=\"User:Chuhai07 (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Chuhai07\"]}}'>Chuhai07</a>",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "imageDescription": "Hoan Kiem 10082026",
+      "width": 3888,
+      "height": 2592,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580480fe8"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5514"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Nhà hát Lớn Hà Nội",
+      "pageId": 15631,
+      "qid": "Q1186043",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Hanoi_Opera_House_1.jpg/1280px-Hanoi_Opera_House_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_h%C3%A1t_L%E1%BB%9Bn_H%C3%A0_N%E1%BB%99i",
+      "coordinates": [
+        105.85777777778,
+        21.024166666667
+      ],
+      "fileTitle": "File:Hanoi_Opera_House_1.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/24/Hanoi_Opera_House_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hanoi_Opera_House_1.jpg",
+      "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q122977591\" class=\"extiw\" title=\"d:Q122977591\"><span title=\"photographer\">Dennis G. Jarvis</span></a></bdi>",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "imageDescription": "Hanoi Opera House",
+      "width": 4339,
+      "height": 2924,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580480fec"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5519"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Chùa Thầy",
+      "pageId": 24443,
+      "qid": "Q7799949",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Ch%C3%B9a_Th%E1%BA%A7y_%289414542634%29.jpg/1280px-Ch%C3%B9a_Th%E1%BA%A7y_%289414542634%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Th%E1%BA%A7y",
+      "coordinates": [
+        105.645517,
+        21.02273
+      ],
+      "fileTitle": "File:Chùa_Thầy_(9414542634).jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ch%C3%B9a_Th%E1%BA%A7y_%289414542634%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ch%C3%B9a_Th%E1%BA%A7y_(9414542634).jpg",
+      "artist": "<a href=\"//www.flickr.com/people/32346930@N05\" class=\"extiw\" title=\"flickruser:32346930@N05\">BemPhoto.0983194978</a>",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "Thiên Phúc Pagoda in Quốc Oai Commune of the rural Hanoi.",
+      "width": 4288,
+      "height": 2848,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580480ff2"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e551b"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Chùa Trấn Quốc",
+      "pageId": 24613,
+      "qid": "Q864770",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ch%C3%B9a_Tr%E1%BA%A5n_Qu%E1%BB%91c%2C_H%C3%A0_N%E1%BB%99i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Tr%E1%BA%A5n_Qu%E1%BB%91c",
+      "coordinates": [
+        105.837,
+        21.0479
+      ],
+      "fileTitle": "File:Chùa_Trấn_Quốc,_Hà_Nội.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ch%C3%B9a_Tr%E1%BA%A5n_Qu%E1%BB%91c%2C_H%C3%A0_N%E1%BB%99i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ch%C3%B9a_Tr%E1%BA%A5n_Qu%E1%BB%91c,_H%C3%A0_N%E1%BB%99i.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/70209763@N00\">Thang Nguyen</a>",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "imageDescription": "Chùa Trấn Quốc, Hà Nội.",
+      "width": 1280,
+      "height": 960,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580480ff5"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e551f"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Chùa Hương",
+      "pageId": 24774,
+      "qid": "Q7168306",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ch%C3%B9a_H%C6%B0%C6%A1ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_H%C6%B0%C6%A1ng",
+      "coordinates": [
+        105.7475,
+        20.618333333333332
+      ],
+      "fileTitle": "File:Chùa_Hương.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ch%C3%B9a_H%C6%B0%C6%A1ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ch%C3%B9a_H%C6%B0%C6%A1ng.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/61532128@N00\">Everjean</a> from Antwerp, Belgium",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "Perfume Pagoda, Hatay, Vietnam.",
+      "width": 800,
+      "height": 537,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580480ffa"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5523"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Đền Ngọc Sơn",
+      "pageId": 25334,
+      "qid": "Q3517494",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/C%E1%BB%95ng_%C4%91%E1%BB%81n_Ng%E1%BB%8Dc_S%C6%A1n.jpg/1280px-C%E1%BB%95ng_%C4%91%E1%BB%81n_Ng%E1%BB%8Dc_S%C6%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%81n_Ng%E1%BB%8Dc_S%C6%A1n",
+      "coordinates": [
+        105.85239166666666,
+        21.030694444444446
+      ],
+      "fileTitle": "File:Cổng_đền_Ngọc_Sơn.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/C%E1%BB%95ng_%C4%91%E1%BB%81n_Ng%E1%BB%8Dc_S%C6%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:C%E1%BB%95ng_%C4%91%E1%BB%81n_Ng%E1%BB%8Dc_S%C6%A1n.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "NGoc Son Shirine in Hoan Kiem Lake, Hanoi",
+      "width": 4608,
+      "height": 3456,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580480fff"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5526"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Bảo tàng Dân tộc học Việt Nam",
+      "pageId": 28445,
+      "qid": "Q1048345",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Dan_toc_hoc_1.jpg/1280px-Dan_toc_hoc_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_D%C3%A2n_t%E1%BB%99c_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam",
+      "coordinates": [
+        105.799,
+        21.0406
+      ],
+      "fileTitle": "File:Dan_toc_hoc_1.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Dan_toc_hoc_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dan_toc_hoc_1.jpg",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Rungbachduong\" class=\"extiw\" title=\"vi:User:Rungbachduong\">vi:User:Rungbachduong</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "imageDescription": "Entrance to the <a href=\"https://en.wikipedia.org/wiki/Vietnam_Museum_of_Ethnology\" class=\"extiw\" title=\"en:Vietnam Museum of Ethnology\">Vietnam Museum of Ethnology</a>",
+      "width": 2592,
+      "height": 1944,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481003"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5529"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Cầu Long Biên",
+      "pageId": 34151,
+      "qid": "Q2670019",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Long_bien_bridge.jpg/1280px-Long_bien_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%E1%BA%A7u_Long_Bi%C3%AAn",
+      "coordinates": [
+        105.85888888889,
+        21.043333333333
+      ],
+      "fileTitle": "File:Long_bien_bridge.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/7/78/Long_bien_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Long_bien_bridge.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Pierredh\" title=\"User:Pierredh\">Pierre De Hanscutter</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Pont Long Bien, construit dans le style Eiffel à Hanoï, Vietnam. En partie détruit par les bombardements pendant la guerre du Vietnam",
+      "width": 3072,
+      "height": 2048,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481007"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e552e"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Đường Lâm",
+      "pageId": 40893,
+      "qid": "Q10840980",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/C%E1%BB%95ng_v%C3%A0o_l%C3%A0ng_c%E1%BB%95_%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m.jpg/1280px-C%E1%BB%95ng_v%C3%A0o_l%C3%A0ng_c%E1%BB%95_%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m",
+      "coordinates": [
+        105.47388888889,
+        21.154444444444
+      ],
+      "fileTitle": "File:Cổng_vào_làng_cổ_Đường_Lâm.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/8a/C%E1%BB%95ng_v%C3%A0o_l%C3%A0ng_c%E1%BB%95_%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:C%E1%BB%95ng_v%C3%A0o_l%C3%A0ng_c%E1%BB%95_%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Cổng vào làng cổ Đường Lâm ở thị xã Sơn Tây, Hà Nội, Việt Nam.",
+      "width": 4608,
+      "height": 3456,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048100d"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5530"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Cột cờ Hà Nội",
+      "pageId": 42334,
+      "qid": "Q864752",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_tower%2C_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/C%E1%BB%99t_c%E1%BB%9D_H%C3%A0_N%E1%BB%99i",
+      "coordinates": [
+        105.839772,
+        21.032558
+      ],
+      "fileTitle": "File:Flag_tower,_Hanoi.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_tower%2C_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Flag_tower,_Hanoi.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/46751481@N00\">Chinasaur</a>",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "imageDescription": "Flag tower at the site of the Military History Museum, Hanoi.  This tower was built in 1812.  Since the current flag of the Socialist Republic of Vietnam was created in 1954, it has flown from this tower since then.",
+      "width": 720,
+      "height": 1024,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481010"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5534"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Đền Quán Thánh",
+      "pageId": 69565,
+      "qid": "Q5370148",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hanoi_-_Quan-Thanh-Tempel_0001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%81n_Qu%C3%A1n_Th%C3%A1nh",
+      "coordinates": [
+        105.836508,
+        21.043113
+      ],
+      "fileTitle": "File:Hanoi_-_Quan-Thanh-Tempel_0001.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hanoi_-_Quan-Thanh-Tempel_0001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hanoi_-_Quan-Thanh-Tempel_0001.JPG",
+      "artist": "<bdi><a href=\"//commons.wikimedia.org/wiki/User:DerFussi\" title=\"User:DerFussi\">Stefan Fussan</a></bdi>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Quán Thánh Temple, Hanoi, Vietnam",
+      "width": 1200,
+      "height": 788,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481015"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5538"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Nhà tù Hỏa Lò",
+      "pageId": 80901,
+      "qid": "Q1359941",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Ho%E1%BA%A3_L%C3%B2.jpg/1280px-Ho%E1%BA%A3_L%C3%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_t%C3%B9_H%E1%BB%8Fa_L%C3%B2",
+      "coordinates": [
+        105.84638888889,
+        21.025277777778
+      ],
+      "fileTitle": "File:Hoả_Lò.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/00/Ho%E1%BA%A3_L%C3%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ho%E1%BA%A3_L%C3%B2.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28697629@N00\">thalling55</a>",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "Maison Centrale or <i>Hoả Lò</i>",
+      "width": 2592,
+      "height": 1944,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048101a"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e553b"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Lăng Chủ tịch Hồ Chí Minh",
+      "pageId": 359401,
+      "qid": "Q874234",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/L%C4%83ng_B%C3%A1c_-_NKS.jpg/1280px-L%C4%83ng_B%C3%A1c_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/L%C4%83ng_Ch%E1%BB%A7_t%E1%BB%8Bch_H%E1%BB%93_Ch%C3%AD_Minh",
+      "coordinates": [
+        105.83472222,
+        21.03666667
+      ],
+      "fileTitle": "File:Lăng_Bác_-_NKS.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/L%C4%83ng_B%C3%A1c_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_B%C3%A1c_-_NKS.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:NKSTTSSHNVN\" title=\"User:NKSTTSSHNVN\">NKSTTSSHNVN</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Lăng Bác - NKS",
+      "width": 3917,
+      "height": 2611,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048101e"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e553e"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Chùa Một Cột",
+      "pageId": 372820,
+      "qid": "Q1186292",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/One_Pillar_Pagoda_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_M%E1%BB%99t_C%E1%BB%99t",
+      "coordinates": [
+        105.833428,
+        21.035745
+      ],
+      "fileTitle": "File:One_Pillar_Pagoda_Hanoi.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/9/90/One_Pillar_Pagoda_Hanoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:One_Pillar_Pagoda_Hanoi.jpg",
+      "artist": "Staffan Scherz",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "One Pillar Pagoda",
+      "width": 809,
+      "height": 680,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481022"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5543"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Dinh Độc Lập",
+      "pageId": 7703,
+      "qid": "Q933384",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Dinh_%C4%90%E1%BB%99c_L%E1%BA%ADp_v%C3%A0o_n%C3%A0m_2024.jpg/1280px-Dinh_%C4%90%E1%BB%99c_L%E1%BA%ADp_v%C3%A0o_n%C3%A0m_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Dinh_%C4%90%E1%BB%99c_L%E1%BA%ADp",
+      "coordinates": [
+        106.69537,
+        10.77705
+      ],
+      "fileTitle": "File:Dinh_Độc_Lập_vào_nàm_2024.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Dinh_%C4%90%E1%BB%99c_L%E1%BA%ADp_v%C3%A0o_n%C3%A0m_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dinh_%C4%90%E1%BB%99c_L%E1%BA%ADp_v%C3%A0o_n%C3%A0m_2024.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yesvn123&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yesvn123 (page does not exist)\">Yesvn123</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Hình ảnh mặt trước của Dinh Độc Lập",
+      "width": 1616,
+      "height": 1080,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481028"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5545"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Chùa Giác Lâm",
+      "pageId": 24865,
+      "qid": "Q3360457",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/ChuaGiacLam01.jpg/1280px-ChuaGiacLam01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Gi%C3%A1c_L%C3%A2m",
+      "coordinates": [
+        106.64916667,
+        10.77944444
+      ],
+      "fileTitle": "File:ChuaGiacLam01.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/9/99/ChuaGiacLam01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ChuaGiacLam01.jpg",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Phan_Ba\" class=\"extiw\" title=\"vi:User:Phan Ba\">Phan Ba</a> at <a class=\"external text\" data-mw-original-href=\"http://vi.wikipedia.org\" href=\"https://vi.wikipedia.org\">vi.wikipedia</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "<a href=\"https://vi.wikipedia.org/wiki/Ch%C3%B9a_Gi%C3%A1c_L%C3%A2m\" class=\"extiw\" title=\"vi:Chùa Giác Lâm\">Chùa Giác Lâm</a>, <a href=\"https://vi.wikipedia.org/wiki/th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh\" class=\"extiw\" title=\"vi:thành phố Hồ Chí Minh\">thành phố Hồ Chí Minh</a>.\nHình này do <a href=\"https://vi.wikipedia.org/wiki/Th%C3%A0nh_vi%C3%AAn:Phan_Ba\" class=\"extiw\" title=\"vi:Thành viên:Phan Ba\">Phan Ba</a> tự chụp vào tháng 12 năm 2005 và đưa vào phạm vi công cộng.",
+      "width": 2220,
+      "height": 1599,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048102b"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5549"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Hồ Trúc Bạch",
+      "pageId": 29972,
+      "qid": "Q1320141",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Truc_bach_lake_mccain_memorial_hanoi_2007_01.jpg/1280px-Truc_bach_lake_mccain_memorial_hanoi_2007_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Tr%C3%BAc_B%E1%BA%A1ch",
+      "coordinates": [
+        105.83805555556,
+        21.045555555556
+      ],
+      "fileTitle": "File:Truc_bach_lake_mccain_memorial_hanoi_2007_01.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Truc_bach_lake_mccain_memorial_hanoi_2007_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Truc_bach_lake_mccain_memorial_hanoi_2007_01.jpg",
+      "artist": "Rolf Müller (<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rolfmueller&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rolfmueller (page does not exist)\">User:Rolfmueller</a>)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "imageDescription": "Photograph of the monument commemorating the capture of  <a href=\"https://en.wikipedia.org/wiki/John_McCain\" class=\"extiw\" title=\"en:John McCain\">John McCain</a> on the west shore of <a href=\"https://en.wikipedia.org/wiki/Lake_Truc_Bach\" class=\"extiw\" title=\"en:Lake Truc Bach\">Truc Bach Lake</a> in <a href=\"//commons.wikimedia.org/wiki/Hanoi\" class=\"mw-redirect\" title=\"Hanoi\">Hanoi</a>, <a href=\"//commons.wikimedia.org/wiki/Vietnam\" class=\"mw-redirect\" title=\"Vietnam\">Vietnam</a>.",
+      "width": 1728,
+      "height": 1152,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481030"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e554d"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Thành Cổ Loa",
+      "pageId": 37634,
+      "qid": "Q798059",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/An_Duong_Vuong_Temple_Gate_Co_Loa.jpg/1280px-An_Duong_Vuong_Temple_Gate_Co_Loa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Th%C3%A0nh_C%E1%BB%95_Loa",
+      "coordinates": [
+        105.873206,
+        21.113408
+      ],
+      "fileTitle": "File:An_Duong_Vuong_Temple_Gate_Co_Loa.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/6/62/An_Duong_Vuong_Temple_Gate_Co_Loa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:An_Duong_Vuong_Temple_Gate_Co_Loa.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Julez_A.\" title=\"User:Julez A.\">Julez A.</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Main Gate to the An Duong Vuong Temple in Co Loa, Dong Anh District, Hanoi, Vietnam",
+      "width": 4000,
+      "height": 3000,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481035"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5550"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Công viên Thống Nhất",
+      "pageId": 45977,
+      "qid": "Q10752058",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/CongvienThongNhat-HaNoi-18122008475.jpg/1280px-CongvienThongNhat-HaNoi-18122008475.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%C3%B4ng_vi%C3%AAn_Th%E1%BB%91ng_Nh%E1%BA%A5t",
+      "coordinates": [
+        105.844818,
+        21.015762
+      ],
+      "fileTitle": "File:CongvienThongNhat-HaNoi-18122008475.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/8f/CongvienThongNhat-HaNoi-18122008475.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:CongvienThongNhat-HaNoi-18122008475.jpg",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Newone\" class=\"extiw\" title=\"vi:User:Newone\">Newone</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Newone\" class=\"extiw\" title=\"vi:User talk:Newone\">thảo luận</a>)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "<a href=\"https://vi.wikipedia.org/wiki/C%C3%B4ng_vi%C3%AAn_Th%E1%BB%91ng_Nh%E1%BA%A5t\" class=\"extiw\" title=\"vi:Công viên Thống Nhất\">vi:Công viên Thống Nhất</a>, Hà Nội chào đón <a href=\"https://vi.wikipedia.org/wiki/Noel\" class=\"extiw\" title=\"vi:Noel\">vi:Noel</a>",
+      "width": 2048,
+      "height": 1536,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481039"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5553"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Bến Nhà Rồng",
+      "pageId": 51748,
+      "qid": "Q10743440",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ho_Chi_Minh_Museum%2C_Saigon.jpg/1280px-Ho_Chi_Minh_Museum%2C_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/B%E1%BA%BFn_Nh%C3%A0_R%E1%BB%93ng",
+      "coordinates": [
+        106.706799,
+        10.76824
+      ],
+      "fileTitle": "File:Ho_Chi_Minh_Museum,_Saigon.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ho_Chi_Minh_Museum%2C_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_Museum,_Saigon.jpg",
+      "artist": "Gary Todd",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "imageDescription": "Ho Chi Minh Museum, Ho Chi Minh City/Saigon. Complete indexed photo collection at WorldHistoryPics.com.",
+      "width": 5184,
+      "height": 3456,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048103d"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5558"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Nhà thờ chính tòa Đức Bà Sài Gòn",
+      "pageId": 52436,
+      "qid": "Q428129",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_05.JPG/1280px-Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%E1%BB%A9c_B%C3%A0_S%C3%A0i_G%C3%B2n",
+      "coordinates": [
+        106.699167,
+        10.779722
+      ],
+      "fileTitle": "File:Basílica_de_Nuestra_Señora,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_05.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/3/34/Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_Nuestra_Se%C3%B1ora,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_05.JPG",
+      "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Notre-Dame Basilica, Ho Chi Minh City, Vietnam.",
+      "width": 2596,
+      "height": 4886,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481043"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e555a"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Chợ Bến Thành",
+      "pageId": 53599,
+      "qid": "Q3232879",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ben_Thanh_market_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_B%E1%BA%BFn_Th%C3%A0nh",
+      "coordinates": [
+        106.698019,
+        10.772521
+      ],
+      "fileTitle": "File:Ben_Thanh_market_2.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ben_Thanh_market_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ben_Thanh_market_2.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/rnugraha/\">Riza</a>",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "Bến Thành Market",
+      "width": 1024,
+      "height": 685,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481046"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e555e"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Địa đạo Củ Chi",
+      "pageId": 59446,
+      "qid": "Q192721",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/W_C%E1%BB%A7_Chi_%C4%90%E1%BB%8Ba_%C4%91%E1%BA%A1o_C%E1%BB%A7_Chi_ng%E1%BB%A5y_trang.JPG/1280px-W_C%E1%BB%A7_Chi_%C4%90%E1%BB%8Ba_%C4%91%E1%BA%A1o_C%E1%BB%A7_Chi_ng%E1%BB%A5y_trang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Ba_%C4%91%E1%BA%A1o_C%E1%BB%A7_Chi",
+      "coordinates": [
+        106.526,
+        11.061
+      ],
+      "fileTitle": "File:W_Củ_Chi_Địa_đạo_Củ_Chi_ngụy_trang.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/00/W_C%E1%BB%A7_Chi_%C4%90%E1%BB%8Ba_%C4%91%E1%BA%A1o_C%E1%BB%A7_Chi_ng%E1%BB%A5y_trang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:W_C%E1%BB%A7_Chi_%C4%90%E1%BB%8Ba_%C4%91%E1%BA%A1o_C%E1%BB%A7_Chi_ng%E1%BB%A5y_trang.JPG",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Ph%C6%B0%C6%A1ng_Huy\" class=\"extiw\" title=\"vi:User:Phương Huy\">Phương Huy</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Ph%C6%B0%C6%A1ng_Huy\" class=\"extiw\" title=\"vi:User talk:Phương Huy\">thảo luận</a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "W Củ Chi Địa đạo Củ Chi ngụy trang",
+      "width": 5184,
+      "height": 3456,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048104b"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5562"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Nhà hát Thành phố Hồ Chí Minh",
+      "pageId": 60586,
+      "qid": "Q1949129",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG/1280px-%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_h%C3%A1t_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh",
+      "coordinates": [
+        106.70278,
+        10.77639
+      ],
+      "fileTitle": "File:Ópera,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_02.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%C3%93pera,_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_02.JPG",
+      "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Opera house, Ho Chi Minh City, Vietnam",
+      "width": 5114,
+      "height": 3101,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481050"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5565"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Thảo Cầm Viên Sài Gòn",
+      "pageId": 60587,
+      "qid": "Q3162430",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Th%E1%BA%A3o_C%E1%BA%A7m_vi%C3%AAn%2C_quan_1%2C_saigon%2C_vietnam_-_panoramio.jpg/1280px-Th%E1%BA%A3o_C%E1%BA%A7m_vi%C3%AAn%2C_quan_1%2C_saigon%2C_vietnam_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Th%E1%BA%A3o_C%E1%BA%A7m_Vi%C3%AAn_S%C3%A0i_G%C3%B2n",
+      "coordinates": [
+        106.70472222,
+        10.78805556
+      ],
+      "fileTitle": "File:Thảo_Cầm_viên,_quan_1,_saigon,_vietnam_-_panoramio.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/1/13/Th%E1%BA%A3o_C%E1%BA%A7m_vi%C3%AAn%2C_quan_1%2C_saigon%2C_vietnam_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Th%E1%BA%A3o_C%E1%BA%A7m_vi%C3%AAn,_quan_1,_saigon,_vietnam_-_panoramio.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020014806/http://www.panoramio.com/user/5317517?with_photo_id=62249181\">trungydang</a>",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "imageDescription": "Thảo Cầm viên, quan 1, saigon, vietnam",
+      "width": 1282,
+      "height": 1930,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481054"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5568"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Bảo tàng Chứng tích chiến tranh",
+      "pageId": 79988,
+      "qid": "Q703871",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/War_Remnants_Museum%2C_HCMC%2C_front.JPG/1280px-War_Remnants_Museum%2C_HCMC%2C_front.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_Ch%E1%BB%A9ng_t%C3%ADch_chi%E1%BA%BFn_tranh",
+      "coordinates": [
+        106.692,
+        10.7795
+      ],
+      "fileTitle": "File:War_Remnants_Museum,_HCMC,_front.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/4/47/War_Remnants_Museum%2C_HCMC%2C_front.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:War_Remnants_Museum,_HCMC,_front.JPG",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Prenn\" title=\"User:Prenn\">Prenn</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Front view of War Remnants Museum in Ho Chi Minh City",
+      "width": 4401,
+      "height": 3264,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481058"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e556d"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Bưu điện Sài Gòn",
+      "pageId": 80559,
+      "qid": "Q2227270",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Saigon_Central_Post_Office_2022.jpg/1280px-Saigon_Central_Post_Office_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/B%C6%B0u_%C4%91i%E1%BB%87n_S%C3%A0i_G%C3%B2n",
+      "coordinates": [
+        106.7,
+        10.78
+      ],
+      "fileTitle": "File:Saigon_Central_Post_Office_2022.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Saigon_Central_Post_Office_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Saigon_Central_Post_Office_2022.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Yesvn123?action=edit&amp;redlink=1\" title=\"User:Yesvn123 (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Yesvn123\"]}}'>Yesvn123</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "The main gate of Saigon Central Post Office",
+      "width": 6000,
+      "height": 4000,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048105e"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e556f"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+      "pageId": 87170,
+      "qid": "Q2756351",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/B%E1%BA%A3o_t%C3%A0ng_M%E1%BB%B9_thu%E1%BA%ADt_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg/1280px-B%E1%BA%A3o_t%C3%A0ng_M%E1%BB%B9_thu%E1%BA%ADt_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_M%E1%BB%B9_thu%E1%BA%ADt_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh",
+      "coordinates": [
+        106.7,
+        10.76944444
+      ],
+      "fileTitle": "File:Bảo_tàng_Mỹ_thuật_Thành_phố_Hồ_Chí_Minh.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/B%E1%BA%A3o_t%C3%A0ng_M%E1%BB%B9_thu%E1%BA%ADt_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:B%E1%BA%A3o_t%C3%A0ng_M%E1%BB%B9_thu%E1%BA%ADt_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh (Fine Arts Museum of Ho Chi Minh city) xây xong năm 1934. Chủ tòa nhà này khi xưa là ông Hui Bon Hoa (1845-1901), là một thương nhân giàu có và nổi tiếng của đất Sài Gòn xưa.",
+      "width": 4608,
+      "height": 3456,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481061"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5573"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Chùa Ngọc Hoàng",
+      "pageId": 87236,
+      "qid": "Q6121304",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ph%C6%B0%E1%BB%9Bc_H%E1%BA%A3i_T%E1%BB%B1.jpg/1280px-Ph%C6%B0%E1%BB%9Bc_H%E1%BA%A3i_T%E1%BB%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Ng%E1%BB%8Dc_Ho%C3%A0ng",
+      "coordinates": [
+        106.69777777778,
+        10.791666666667
+      ],
+      "fileTitle": "File:Phước_Hải_Tự.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ph%C6%B0%E1%BB%9Bc_H%E1%BA%A3i_T%E1%BB%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ph%C6%B0%E1%BB%9Bc_H%E1%BA%A3i_T%E1%BB%B1.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Điện Ngọc Hoàng (có khi gọi là chùa) tên chữ là Phước Hải Tự; hiện tọa lạc tại số 73 đường Mai Thị Lựu, quận 1, Thành phố Hồ Chí Minh, Việt Nam.",
+      "width": 4608,
+      "height": 3456,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481066"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5577"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Bảo tàng Lịch sử Thành phố Hồ Chí Minh",
+      "pageId": 87318,
+      "qid": "Q6941045",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Vietnam_History_Museum_HCMC.JPG/1280px-Vietnam_History_Museum_HCMC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_L%E1%BB%8Bch_s%E1%BB%AD_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh",
+      "coordinates": [
+        106.70759,
+        10.78484
+      ],
+      "fileTitle": "File:Vietnam_History_Museum_HCMC.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/57/Vietnam_History_Museum_HCMC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Vietnam_History_Museum_HCMC.JPG",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Nguy%E1%BB%85n_Thanh_Quang\" title=\"User:Nguyễn Thanh Quang\">Nguyễn Thanh Quang</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Vietnam History Museum HCMC.",
+      "width": 4000,
+      "height": 3000,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048106b"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e557a"
+      }
+    },
+    {
+      "city": "Hà Nội",
+      "title": "Vườn quốc gia Ba Vì",
+      "pageId": 116507,
+      "qid": "Q1134517",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Vuon_QG_Ba_Vi_2.JPG/1280px-Vuon_QG_Ba_Vi_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Ba_V%C3%AC",
+      "coordinates": [
+        105.35833333,
+        21.07805556
+      ],
+      "fileTitle": "File:Vuon_QG_Ba_Vi_2.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/57/Vuon_QG_Ba_Vi_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Vuon_QG_Ba_Vi_2.JPG",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Viethavvh\" class=\"extiw\" title=\"vi:User:Viethavvh\">Khương Việt Hà</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Viethavvh\" class=\"extiw\" title=\"vi:User talk:Viethavvh\">thảo luận</a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Một phần của <a href=\"https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Ba_V%C3%AC\" class=\"extiw\" title=\"vi:Vườn quốc gia Ba Vì\">Vườn quốc gia Ba Vì</a>.",
+      "width": 2848,
+      "height": 2136,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048106f"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e557d"
+      }
+    },
+    {
+      "city": "Đà Nẵng",
+      "title": "Cầu Sông Hàn",
+      "pageId": 17574,
+      "qid": "Q10752400",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Han_River_Bridge_Apr08.jpg/1280px-Han_River_Bridge_Apr08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%E1%BA%A7u_S%C3%B4ng_H%C3%A0n",
+      "coordinates": [
+        108.22672222,
+        16.07227778
+      ],
+      "fileTitle": "File:Han_River_Bridge_Apr08.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Han_River_Bridge_Apr08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Han_River_Bridge_Apr08.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/78487455@N00\">Gene Bromberg</a>",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "imageDescription": "The Han River Bridge, Da Nang, Vietnam.",
+      "width": 3888,
+      "height": 2592,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481073"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5582"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Công viên Văn hóa Đầm Sen",
+      "pageId": 36483,
+      "qid": "Q2056423",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dam-sen-tuonglamphotos.jpg/1280px-Dam-sen-tuonglamphotos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%C3%B4ng_vi%C3%AAn_V%C4%83n_h%C3%B3a_%C4%90%E1%BA%A7m_Sen",
+      "coordinates": [
+        106.63806,
+        10.76611
+      ],
+      "fileTitle": "File:Dam-sen-tuonglamphotos.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/3/36/Dam-sen-tuonglamphotos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dam-sen-tuonglamphotos.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Trantuonglam?action=edit&amp;redlink=1\" title=\"User:Trantuonglam (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Trantuonglam\"]}}'>tuonglamphotos.com</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Dam Sen theme park",
+      "width": 4000,
+      "height": 2250,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481079"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5584"
+      }
+    },
+    {
+      "city": "Đà Nẵng",
+      "title": "Ngũ Hành Sơn",
+      "pageId": 39895,
+      "qid": "Q6755207",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Ngu_hanh_son_toan_canh.jpg/1280px-Ngu_hanh_son_toan_canh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ng%C5%A9_H%C3%A0nh_S%C6%A1n",
+      "coordinates": [
+        108.26,
+        16
+      ],
+      "fileTitle": "File:Ngu_hanh_son_toan_canh.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ngu_hanh_son_toan_canh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ngu_hanh_son_toan_canh.jpg",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Viethavvh\" class=\"extiw\" title=\"vi:User:Viethavvh\">Viethavvh</a> at <a class=\"external text\" data-mw-original-href=\"http://vi.wikipedia.org\" href=\"https://vi.wikipedia.org\">vi.wikipedia</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "",
+      "width": 2048,
+      "height": 1536,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048107c"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5588"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Hồ Con Rùa",
+      "pageId": 56413,
+      "qid": "Q10771949",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cong_truong_con_rua.jpg/1280px-Cong_truong_con_rua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Con_R%C3%B9a",
+      "coordinates": [
+        106.69594444444,
+        10.782722222222
+      ],
+      "fileTitle": "File:Cong_truong_con_rua.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Cong_truong_con_rua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cong_truong_con_rua.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:P4ntt&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:P4ntt (page does not exist)\">P4ntt</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Place \"Tortue\"",
+      "width": 3000,
+      "height": 1187,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481081"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e558c"
+      }
+    },
+    {
+      "city": "Đà Nẵng",
+      "title": "Sơn Trà",
+      "pageId": 61293,
+      "qid": "Q7560606",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ban_dao_Son_Tra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/S%C6%A1n_Tr%C3%A0",
+      "coordinates": [
+        108.2868,
+        16.1197
+      ],
+      "fileTitle": "File:Ban_dao_Son_Tra.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ban_dao_Son_Tra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ban_dao_Son_Tra.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ph%C3%B3_Nh%C3%A1y\" title=\"User:Phó Nháy\">Phó Nháy</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Ph%C3%B3_Nh%C3%A1y\" title=\"User talk:Phó Nháy\"><span class=\"signature-talk\">talk</span></a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Son Tra Peninsular in Danang, Vietnam.<br>The Tien Sa Terminal of Danang Port.<br>Thuan Phuoc Bridge.",
+      "width": 1024,
+      "height": 768,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481086"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e558f"
+      }
+    },
+    {
+      "city": "Đà Nẵng",
+      "title": "Bãi biển Mỹ Khê",
+      "pageId": 66503,
+      "qid": "Q10796763",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Bai_bien_My_Khe.jpg/1280px-Bai_bien_My_Khe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/B%C3%A3i_bi%E1%BB%83n_M%E1%BB%B9_Kh%C3%AA",
+      "coordinates": [
+        108.2461,
+        16.0704
+      ],
+      "fileTitle": "File:Bai_bien_My_Khe.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/22/Bai_bien_My_Khe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bai_bien_My_Khe.jpg",
+      "artist": "<a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/vi:User:Viethavvh\" title=\"w:vi:User:Viethavvh\" class=\"extiw\">Viethavvh</a> at <a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/vi:\" title=\"w:vi:\" class=\"extiw\">Vietnamese Wikipedia</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "",
+      "width": 2048,
+      "height": 1536,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048108a"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5592"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Khu du lịch Văn hóa Suối Tiên",
+      "pageId": 80349,
+      "qid": "Q2930683",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/SuoiTien1.JPG/1280px-SuoiTien1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Khu_du_l%E1%BB%8Bch_V%C4%83n_h%C3%B3a_Su%E1%BB%91i_Ti%C3%AAn",
+      "coordinates": [
+        106.802173,
+        10.863885
+      ],
+      "fileTitle": "File:SuoiTien1.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/2e/SuoiTien1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:SuoiTien1.JPG",
+      "artist": "MyName (<a href=\"//commons.wikimedia.org/w/index.php?title=User:Genghiskhanviet&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Genghiskhanviet (page does not exist)\">Genghiskhanviet</a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Suoi Tien Park in Saigon",
+      "width": 2592,
+      "height": 1944,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048108e"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5597"
+      }
+    },
+    {
+      "city": "Đà Nẵng",
+      "title": "Bảo tàng Điêu khắc Chăm Đà Nẵng",
+      "pageId": 143043,
+      "qid": "Q6940790",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Museum_of_Cham_Sculpture.jpg/1280px-Museum_of_Cham_Sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_t%C3%A0ng_%C4%90i%C3%AAu_kh%E1%BA%AFc_Ch%C4%83m_%C4%90%C3%A0_N%E1%BA%B5ng",
+      "coordinates": [
+        108.222641,
+        16.059894
+      ],
+      "fileTitle": "File:Museum_of_Cham_Sculpture.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Museum_of_Cham_Sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Museum_of_Cham_Sculpture.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Ph%C3%B3_Nh%C3%A1y\" title=\"User:Phó Nháy\">Phó Nháy</a> (<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User_talk:Ph%C3%B3_Nh%C3%A1y\" title=\"User talk:Phó Nháy\"><span class=\"signature-talk\">talk</span></a>) 04:57, 27 August 2011 (UTC)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Museum of Cham Sculpture, Danang, Vietnam",
+      "width": 2592,
+      "height": 1944,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481094"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5599"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Kinh thành Huế",
+      "pageId": 229895,
+      "qid": "Q877185",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Ngomon2.jpg/1280px-Ngomon2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Kinh_th%C3%A0nh_Hu%E1%BA%BF",
+      "coordinates": [
+        107.57777778,
+        16.46972222
+      ],
+      "fileTitle": "File:Ngomon2.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ngomon2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ngomon2.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "",
+      "width": 1400,
+      "height": 935,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481097"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e559d"
+      }
+    },
+    {
+      "city": "Đà Nẵng",
+      "title": "Cầu Thuận Phước",
+      "pageId": 397504,
+      "qid": "Q7798648",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Thuan_Phuoc_bridge%2CDN_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/C%E1%BA%A7u_Thu%E1%BA%ADn_Ph%C6%B0%E1%BB%9Bc",
+      "coordinates": [
+        108.222,
+        16.0919
+      ],
+      "fileTitle": "File:Thuan_Phuoc_bridge,DN_city.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Thuan_Phuoc_bridge%2CDN_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Thuan_Phuoc_bridge,DN_city.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/45683834@N04\">Cuong Nguyen</a> from HCM city, Vietnam",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "Thuan Phuoc bridge,DN city",
+      "width": 1024,
+      "height": 584,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048109c"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55a1"
+      }
+    },
+    {
+      "city": "Đà Nẵng",
+      "title": "Cầu Rồng",
+      "pageId": 399768,
+      "qid": "Q5305270",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Dragon_Bridge%2C_Da_Nang_during_day_-_20230819_%28cropped%29.jpg/1280px-Dragon_Bridge%2C_Da_Nang_during_day_-_20230819_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%E1%BA%A7u_R%E1%BB%93ng",
+      "coordinates": [
+        108.22666667,
+        16.06111111
+      ],
+      "fileTitle": "File:Dragon_Bridge,_Da_Nang_during_day_-_20230819_(cropped).jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Dragon_Bridge%2C_Da_Nang_during_day_-_20230819_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dragon_Bridge,_Da_Nang_during_day_-_20230819_(cropped).jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Somerset999\" title=\"User:Somerset999\">Somerset999</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "",
+      "width": 3828,
+      "height": 2003,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810a1"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55a4"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Khách sạn Caravelle Sài Gòn",
+      "pageId": 1360539,
+      "qid": "Q5037804",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Immeubles_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Kh%C3%A1ch_s%E1%BA%A1n_Caravelle_S%C3%A0i_G%C3%B2n",
+      "coordinates": [
+        106.7033333,
+        10.77611111
+      ],
+      "fileTitle": "File:Immeubles_Saigon.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/00/Immeubles_Saigon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Immeubles_Saigon.jpg",
+      "artist": "Étienne André",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "imageDescription": "Immeuble à Saigon",
+      "width": 960,
+      "height": 1280,
+      "type": "LUU_TRU",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810a5"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55a7"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Chợ Bình Tây",
+      "pageId": 1639060,
+      "qid": "Q15265989",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Vn-hcm-cho-binh-tay-27-07-07.JPG/1280px-Vn-hcm-cho-binh-tay-27-07-07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_B%C3%ACnh_T%C3%A2y",
+      "coordinates": [
+        106.651078,
+        10.749375
+      ],
+      "fileTitle": "File:Vn-hcm-cho-binh-tay-27-07-07.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Vn-hcm-cho-binh-tay-27-07-07.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Vn-hcm-cho-binh-tay-27-07-07.JPG",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wikivoyage-old.org/shared/User%3ABgabel\">Bgabel</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Markt Cho Binh Tay",
+      "width": 1536,
+      "height": 1152,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810a9"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55ac"
+      }
+    },
+    {
+      "city": "TP. Hồ Chí Minh",
+      "title": "Khách sạn Rex",
+      "pageId": 2284686,
+      "qid": "Q7319215",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Rex_Hotel.jpg/1280px-Rex_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Kh%C3%A1ch_s%E1%BA%A1n_Rex",
+      "coordinates": [
+        106.7015,
+        10.77583333
+      ],
+      "fileTitle": "File:Rex_Hotel.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rex_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Rex_Hotel.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ng%C3%B4_Trung&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ngô Trung (page does not exist)\">Ngô Trung</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Rex Hotel is located on the corner of Le Loi and Nguyen Hue streets",
+      "width": 2554,
+      "height": 1915,
+      "type": "LUU_TRU",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810af"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55ae"
+      }
+    },
+    {
+      "city": "Đà Nẵng",
+      "title": "Cầu Vàng",
+      "pageId": 14230122,
+      "qid": "Q55954790",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/The_Golden_Bridge%2C_Ba_Na_Hills%2C_Vietnam.jpg/1280px-The_Golden_Bridge%2C_Ba_Na_Hills%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%E1%BA%A7u_V%C3%A0ng",
+      "coordinates": [
+        107.99625,
+        15.99486
+      ],
+      "fileTitle": "File:The_Golden_Bridge,_Ba_Na_Hills,_Vietnam.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/a/a5/The_Golden_Bridge%2C_Ba_Na_Hills%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:The_Golden_Bridge,_Ba_Na_Hills,_Vietnam.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/21186555@N07\">. Ray in Manila</a>",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "The Golden Bridge, Ba Na Hills, Vietnam",
+      "width": 6515,
+      "height": 4640,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810b2"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55b2"
+      }
+    },
+    {
+      "city": "Hội An",
+      "title": "Thánh địa Mỹ Sơn",
+      "pageId": 4478,
+      "qid": "Q391406",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/2024_-_M%E1%BB%B9_S%C6%A1n_Group_B%2C_C_and_D_-_img_23.jpg/1280px-2024_-_M%E1%BB%B9_S%C6%A1n_Group_B%2C_C_and_D_-_img_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Th%C3%A1nh_%C4%91%E1%BB%8Ba_M%E1%BB%B9_S%C6%A1n",
+      "coordinates": [
+        108.124446,
+        15.76324
+      ],
+      "fileTitle": "File:2024_-_Mỹ_Sơn_Group_B,_C_and_D_-_img_23.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/07/2024_-_M%E1%BB%B9_S%C6%A1n_Group_B%2C_C_and_D_-_img_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:2024_-_M%E1%BB%B9_S%C6%A1n_Group_B,_C_and_D_-_img_23.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Chainwit.\" title=\"User:Chainwit.\">Chainwit.</a>",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "imageDescription": "Mỹ Sơn Sanctuary Group B, C and D",
+      "width": 4032,
+      "height": 3024,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810b7"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55b6"
+      }
+    },
+    {
+      "city": "Hội An",
+      "title": "Phố cổ Hội An",
+      "pageId": 4490,
+      "qid": "Q5965459",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/PhoCoHoiAn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Ph%E1%BB%91_c%E1%BB%95_H%E1%BB%99i_An",
+      "coordinates": [
+        108.328631,
+        15.877135
+      ],
+      "fileTitle": "File:PhoCoHoiAn.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/f3/PhoCoHoiAn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:PhoCoHoiAn.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Crazy3108&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Crazy3108 (page does not exist)\">Crazy3108</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "imageDescription": "A photo of <a href=\"//commons.wikimedia.org/w/index.php?title=Hoi_An&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Hoi An (page does not exist)\">Hoi An</a> Ancient Town",
+      "width": 850,
+      "height": 563,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810bc"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55b9"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Chùa Thiên Mụ",
+      "pageId": 24101,
+      "qid": "Q975568",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/ThienMuPagoda.jpg/1280px-ThienMuPagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Thi%C3%AAn_M%E1%BB%A5",
+      "coordinates": [
+        107.544812,
+        16.453599
+      ],
+      "fileTitle": "File:ThienMuPagoda.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/88/ThienMuPagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:ThienMuPagoda.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:L%C6%B0u_Ly\" title=\"User:Lưu Ly\">Lưu Ly</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Tháp Phước Duyên, Chùa Thiên Mụ",
+      "width": 3168,
+      "height": 4224,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810c0"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55bc"
+      }
+    },
+    {
+      "city": "Hội An",
+      "title": "Chùa Cầu",
+      "pageId": 25874,
+      "qid": "Q1091054",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Cau_Nhat_Ban.jpg/1280px-Cau_Nhat_Ban.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_C%E1%BA%A7u",
+      "coordinates": [
+        108.32596805556,
+        15.87719
+      ],
+      "fileTitle": "File:Cau_Nhat_Ban.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Cau_Nhat_Ban.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cau_Nhat_Ban.jpg",
+      "artist": "User dalbera on Flickr",
+      "license": "CC BY 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/1.0",
+      "imageDescription": "Chùa Cầu.",
+      "width": 1800,
+      "height": 1000,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810c4"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55c1"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Lăng Tự Đức",
+      "pageId": 32335,
+      "qid": "Q7481171",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Annam_-_Hu%C3%A9_-_Pavillons_sur_le_bassin_fleuri_au_Tombeau_de_Tu-Duc.jpg/1280px-Annam_-_Hu%C3%A9_-_Pavillons_sur_le_bassin_fleuri_au_Tombeau_de_Tu-Duc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/L%C4%83ng_T%E1%BB%B1_%C4%90%E1%BB%A9c",
+      "coordinates": [
+        107.566,
+        16.4325
+      ],
+      "fileTitle": "File:Annam_-_Hué_-_Pavillons_sur_le_bassin_fleuri_au_Tombeau_de_Tu-Duc.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Annam_-_Hu%C3%A9_-_Pavillons_sur_le_bassin_fleuri_au_Tombeau_de_Tu-Duc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Annam_-_Hu%C3%A9_-_Pavillons_sur_le_bassin_fleuri_au_Tombeau_de_Tu-Duc.jpg",
+      "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Pavillons sur le bassin fleuri au Tombeau de Tu-Duc",
+      "width": 1620,
+      "height": 1043,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810ca"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55c3"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Cầu Trường Tiền",
+      "pageId": 36349,
+      "qid": "Q10752407",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Hue%2C_le_pont_Trang_Tien.jpg/1280px-Hue%2C_le_pont_Trang_Tien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%E1%BA%A7u_Tr%C6%B0%E1%BB%9Dng_Ti%E1%BB%81n",
+      "coordinates": [
+        107.588611,
+        16.468889
+      ],
+      "fileTitle": "File:Hue,_le_pont_Trang_Tien.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Hue%2C_le_pont_Trang_Tien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hue,_le_pont_Trang_Tien.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:P4ntt&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:P4ntt (page does not exist)\">ntt</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Hué, le pont Trang Tien, ancien pont Clemenceau",
+      "width": 3000,
+      "height": 2000,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810cd"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55c7"
+      }
+    },
+    {
+      "city": "Hội An",
+      "title": "Cù lao Chàm",
+      "pageId": 59002,
+      "qid": "Q386184",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%C4%90%E1%BA%A3o_C%C3%B9_Lao_Ch%C3%A0m_g%C3%B3c_nh%C3%ACn_t%E1%BB%AB_Cano.jpg/1280px-%C4%90%E1%BA%A3o_C%C3%B9_Lao_Ch%C3%A0m_g%C3%B3c_nh%C3%ACn_t%E1%BB%AB_Cano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%C3%B9_lao_Ch%C3%A0m",
+      "coordinates": [
+        108.68194444444,
+        15.950555555556
+      ],
+      "fileTitle": "File:Đảo_Cù_Lao_Chàm_góc_nhìn_từ_Cano.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/06/%C4%90%E1%BA%A3o_C%C3%B9_Lao_Ch%C3%A0m_g%C3%B3c_nh%C3%ACn_t%E1%BB%AB_Cano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BA%A3o_C%C3%B9_Lao_Ch%C3%A0m_g%C3%B3c_nh%C3%ACn_t%E1%BB%AB_Cano.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:L%C3%AA_Uy_L%C3%A2n?action=edit&amp;redlink=1\" title=\"User:Lê Uy Lân (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Lê Uy Lân\"]}}'>Lê Uy Lân</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Chụp từ hè năm 2023",
+      "width": 2592,
+      "height": 4608,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810d2"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55cb"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Lăng Minh Mạng",
+      "pageId": 98207,
+      "qid": "Q7481070",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/L%C4%83ng_Minh_M%E1%BA%A1ng_-_Minh_L%C3%A2u_%282024%29_-_img_02.jpg/1280px-L%C4%83ng_Minh_M%E1%BA%A1ng_-_Minh_L%C3%A2u_%282024%29_-_img_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/L%C4%83ng_Minh_M%E1%BA%A1ng",
+      "coordinates": [
+        107.56777777778,
+        16.387777777778
+      ],
+      "fileTitle": "File:Lăng_Minh_Mạng_-_Minh_Lâu_(2024)_-_img_02.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/a/a2/L%C4%83ng_Minh_M%E1%BA%A1ng_-_Minh_L%C3%A2u_%282024%29_-_img_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_Minh_M%E1%BA%A1ng_-_Minh_L%C3%A2u_(2024)_-_img_02.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Chainwit.\" title=\"User:Chainwit.\">Chainwit.</a>",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "imageDescription": "Minh Lâu Pavilion, Mausoleum of Minh Mang",
+      "width": 4032,
+      "height": 3024,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810d7"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55ce"
+      }
+    },
+    {
+      "city": "Ninh Bình",
+      "title": "Tam Cốc – Bích Động",
+      "pageId": 102432,
+      "qid": "Q1406000",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Muaxuantamcoc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Tam_C%E1%BB%91c_%E2%80%93_B%C3%ADch_%C4%90%E1%BB%99ng",
+      "coordinates": [
+        105.916,
+        20.2185
+      ],
+      "fileTitle": "File:Muaxuantamcoc.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/08/Muaxuantamcoc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Muaxuantamcoc.jpg",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Kien1980v\" class=\"extiw\" title=\"vi:User:Kien1980v\">Kien1980v</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Kien1980v\" class=\"extiw\" title=\"vi:User talk:Kien1980v\">thảo luận</a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Tam Cốc-Bích Động, Ninh Binh province, Vietnam",
+      "width": 760,
+      "height": 496,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810db"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55d1"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Lăng Khải Định",
+      "pageId": 202284,
+      "qid": "Q7818621",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/L%C4%83ng_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_-_NKS.jpg/1280px-L%C4%83ng_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/L%C4%83ng_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh",
+      "coordinates": [
+        107.588,
+        16.3986
+      ],
+      "fileTitle": "File:Lăng_Khải_Định_-_NKS.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/4/49/L%C4%83ng_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh_-_NKS.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:NKSTTSSHNVN\" title=\"User:NKSTTSSHNVN\">NKSTTSSHNVN</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Lăng Khải Định",
+      "width": 6000,
+      "height": 4000,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810df"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55d6"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Lăng Gia Long",
+      "pageId": 216866,
+      "qid": "Q7818615",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/L%C4%83ng_vua_Gia_Long_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/L%C4%83ng_Gia_Long",
+      "coordinates": [
+        107.596,
+        16.375
+      ],
+      "fileTitle": "File:Lăng_vua_Gia_Long_3.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/b/bc/L%C4%83ng_vua_Gia_Long_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_vua_Gia_Long_3.JPG",
+      "artist": "<b><a href=\"https://vi.wikipedia.org/wiki/User:L%C3%8A_T%E1%BA%A4N_L%E1%BB%98C\" class=\"extiw\" title=\"vi:User:LÊ TẤN LỘC\">LÊ TẤN LỘC</a></b>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Lăng <a href=\"https://vi.wikipedia.org/wiki/Vua_Vi%E1%BB%87t_Nam\" class=\"extiw\" title=\"vi:Vua Việt Nam\">vua</a> <a href=\"https://vi.wikipedia.org/wiki/Gia_Long\" class=\"extiw\" title=\"vi:Gia Long\">Gia Long</a>",
+      "width": 1050,
+      "height": 768,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810e5"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55d8"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Lăng Thiệu Trị",
+      "pageId": 217457,
+      "qid": "Q16511573",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/L%C4%83ng_vua_Thi%E1%BB%87u_Tr%E1%BB%8B.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/L%C4%83ng_Thi%E1%BB%87u_Tr%E1%BB%8B",
+      "coordinates": [
+        107.573,
+        16.418
+      ],
+      "fileTitle": "File:Lăng_vua_Thiệu_Trị.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/2f/L%C4%83ng_vua_Thi%E1%BB%87u_Tr%E1%BB%8B.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:L%C4%83ng_vua_Thi%E1%BB%87u_Tr%E1%BB%8B.JPG",
+      "artist": "<a href=\"https://en.wikipedia.org/wiki/vi:User:L%C3%8A_T%E1%BA%A4N_L%E1%BB%98C\" class=\"extiw\" title=\"w:vi:User:LÊ TẤN LỘC\">LÊ TẤN LỘC</a> at <a href=\"https://en.wikipedia.org/wiki/vi:\" class=\"extiw\" title=\"w:vi:\">Vietnamese Wikipedia</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "<a href=\"https://vi.wikipedia.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:Nh%C3%A0_Nguy%E1%BB%85n\" class=\"extiw\" title=\"vi:Thể loại:Nhà Nguyễn\">Thể loại:Nhà Nguyễn</a>\n<p><a href=\"https://vi.wikipedia.org/wiki/Th%E1%BB%83_Lo%E1%BA%A1i:Di_t%C3%ADch_c%E1%BB%91_%C4%91%C3%B4_Hu%E1%BA%BF\" class=\"extiw\" title=\"vi:Thể Loại:Di tích cố đô Huế\">Thể Loại:Di tích cố đô Huế</a>\n<a href=\"https://vi.wikipedia.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:L%C4%83ng_t%E1%BA%A9m_c%C3%A1c_Vua_ch%C3%BAa_Nguy%E1%BB%85n\" class=\"extiw\" title=\"vi:Thể loại:Lăng tẩm các Vua chúa Nguyễn\">Thể loại:Lăng tẩm các Vua chúa Nguyễn</a>\n</p>\n<a href=\"https://vi.wikipedia.org/wiki/Th%E1%BB%83_lo%E1%BA%A1i:Di_t%C3%ADch_ngo%C3%A0i_Kinh_Th%C3%A0nh_Hu%E1%BA%BF\" class=\"extiw\" title=\"vi:Thể loại:Di tích ngoài Kinh Thành Huế\">Thể loại:Di tích ngoài Kinh Thành Huế</a>",
+      "width": 1024,
+      "height": 768,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810e8"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55dc"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Điện Hòn Chén",
+      "pageId": 221545,
+      "qid": "Q10840229",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/%C4%90i%E1%BB%87n_H%C3%B2n_Ch%C3%A9n1.jpg/1280px-%C4%90i%E1%BB%87n_H%C3%B2n_Ch%C3%A9n1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90i%E1%BB%87n_H%C3%B2n_Ch%C3%A9n",
+      "coordinates": [
+        107.562969,
+        16.421956
+      ],
+      "fileTitle": "File:Điện_Hòn_Chén1.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/f7/%C4%90i%E1%BB%87n_H%C3%B2n_Ch%C3%A9n1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%C4%90i%E1%BB%87n_H%C3%B2n_Ch%C3%A9n1.jpg",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:L%C6%B0u_Ly\" class=\"extiw\" title=\"vi:User:Lưu Ly\">Lưu Ly</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:L%C6%B0u_Ly\" class=\"extiw\" title=\"vi:User talk:Lưu Ly\">thảo luận</a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Chính <a href=\"https://vi.wikipedia.org/wiki/%C4%91i%E1%BB%87n_H%C3%B2n_Ch%C3%A9n\" class=\"extiw\" title=\"vi:điện Hòn Chén\">điện Hòn Chén</a>",
+      "width": 1936,
+      "height": 1288,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810ed"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55e0"
+      }
+    },
+    {
+      "city": "Ninh Bình",
+      "title": "Chùa Bái Đính",
+      "pageId": 229031,
+      "qid": "Q3360468",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Chua_Bai_Dinh_X8.JPG/1280px-Chua_Bai_Dinh_X8.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_B%C3%A1i_%C4%90%C3%ADnh",
+      "coordinates": [
+        105.86277778,
+        20.27694444
+      ],
+      "fileTitle": "File:Chua_Bai_Dinh_X8.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Chua_Bai_Dinh_X8.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Chua_Bai_Dinh_X8.JPG",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Kien1980v\" class=\"extiw\" title=\"vi:User:Kien1980v\">Kien1980v</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Kien1980v\" class=\"extiw\" title=\"vi:User talk:Kien1980v\">thảo luận</a>) 01:40, ngày 3 tháng 9 năm 2017 (UTC)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Overview of Tam The Temple in Bai Dinh Temple Complex in Ninh Binh",
+      "width": 2896,
+      "height": 1944,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810f2"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55e3"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Cung An Định",
+      "pageId": 232316,
+      "qid": "Q10751137",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/AnDinhResidence5.jpg/1280px-AnDinhResidence5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Cung_An_%C4%90%E1%BB%8Bnh",
+      "coordinates": [
+        107.598424,
+        16.456475
+      ],
+      "fileTitle": "File:AnDinhResidence5.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/0a/AnDinhResidence5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:AnDinhResidence5.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:L%C6%B0u_Ly\" title=\"User:Lưu Ly\">Lưu Ly</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Palais An Dinh construit en 1917-1919 par Kai Dinh, puis demeure de la reine-mère Tu Cung. Confisqué en 1954.",
+      "width": 2816,
+      "height": 1880,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810f6"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55e6"
+      }
+    },
+    {
+      "city": "Huế",
+      "title": "Chợ Đông Ba",
+      "pageId": 19356227,
+      "qid": "Q97273263",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dong_Ba_Market_%28Hue%29_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_Hu%E1%BA%BF_%28July_2024%29_-_img_03.jpg/1280px-Dong_Ba_Market_%28Hue%29_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_Hu%E1%BA%BF_%28July_2024%29_-_img_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba",
+      "coordinates": [
+        107.5886111111111,
+        16.4725
+      ],
+      "fileTitle": "File:Dong_Ba_Market_(Hue)_-_Chợ_Đông_Ba_Huế_(July_2024)_-_img_03.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/3/36/Dong_Ba_Market_%28Hue%29_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_Hu%E1%BA%BF_%28July_2024%29_-_img_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dong_Ba_Market_(Hue)_-_Ch%E1%BB%A3_%C4%90%C3%B4ng_Ba_Hu%E1%BA%BF_(July_2024)_-_img_03.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Chainwit.\" title=\"User:Chainwit.\">Chainwit.</a>",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "imageDescription": "Dong Ba Market, Hue",
+      "width": 4032,
+      "height": 3024,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804810fa"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55eb"
+      }
+    },
+    {
+      "city": "Quảng Ninh",
+      "title": "Vịnh Hạ Long",
+      "pageId": 4483,
+      "qid": "Q190128",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/V%E1%BB%8Bnh_H%E1%BA%A1_Long_-_NKS.jpg/1280px-V%E1%BB%8Bnh_H%E1%BA%A1_Long_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/V%E1%BB%8Bnh_H%E1%BA%A1_Long",
+      "coordinates": [
+        107.2,
+        20.9
+      ],
+      "fileTitle": "File:Vịnh_Hạ_Long_-_NKS.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/29/V%E1%BB%8Bnh_H%E1%BA%A1_Long_-_NKS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:V%E1%BB%8Bnh_H%E1%BA%A1_Long_-_NKS.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:NKSTTSSHNVN\" title=\"User:NKSTTSSHNVN\">NKSTTSSHNVN</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Vịnh Hạ Long",
+      "width": 5568,
+      "height": 3133,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481100"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55ed"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Chùa Linh Phước",
+      "pageId": 25097,
+      "qid": "Q10748461",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Linh_Phuoc_Pagoda_01.jpg/1280px-Linh_Phuoc_Pagoda_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%C3%B9a_Linh_Ph%C6%B0%E1%BB%9Bc",
+      "coordinates": [
+        108.4995,
+        11.94428333
+      ],
+      "fileTitle": "File:Linh_Phuoc_Pagoda_01.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Linh_Phuoc_Pagoda_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Linh_Phuoc_Pagoda_01.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Diane_Selwyn&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Diane Selwyn (page does not exist)\">Diane Selwyn</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Linh Phuoc Pagoda",
+      "width": 3072,
+      "height": 2304,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481103"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55f1"
+      }
+    },
+    {
+      "city": "Quảng Ninh",
+      "title": "Hang Sửng Sốt",
+      "pageId": 39644,
+      "qid": "Q10765376",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hang_S%E1%BB%ADng_S%E1%BB%91t_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Hang_S%E1%BB%ADng_S%E1%BB%91t",
+      "coordinates": [
+        107.09144,
+        20.84441
+      ],
+      "fileTitle": "File:Hang_Sửng_Sốt_2.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hang_S%E1%BB%ADng_S%E1%BB%91t_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hang_S%E1%BB%ADng_S%E1%BB%91t_2.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/92126232@N00\">audrey_sel</a>",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "imageDescription": "The Amazing Cave in Ha Long Bay.",
+      "width": 800,
+      "height": 533,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481108"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55f5"
+      }
+    },
+    {
+      "city": "Ninh Bình",
+      "title": "Nhà thờ chính tòa Phát Diệm",
+      "pageId": 54155,
+      "qid": "Q782099",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Phatdiemk-77.jpg/1280px-Phatdiemk-77.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_Ph%C3%A1t_Di%E1%BB%87m",
+      "coordinates": [
+        106.07972222222222,
+        20.092777777777776
+      ],
+      "fileTitle": "File:Phatdiemk-77.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/07/Phatdiemk-77.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Phatdiemk-77.jpg",
+      "artist": "<a href=\"https://en.wikipedia.org/wiki/vi:User:Kien1980v\" class=\"extiw\" title=\"w:vi:User:Kien1980v\">Kien1980v</a> at <a href=\"https://en.wikipedia.org/wiki/vi:\" class=\"extiw\" title=\"w:vi:\">Vietnamese Wikipedia</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Phát Diệm Church",
+      "width": 3648,
+      "height": 2736,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048110d"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55f8"
+      }
+    },
+    {
+      "city": "Ninh Bình",
+      "title": "Vườn quốc gia Cúc Phương",
+      "pageId": 59251,
+      "qid": "Q478280",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Cuc_Phuong_01.jpg/1280px-Cuc_Phuong_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_C%C3%BAc_Ph%C6%B0%C6%A1ng",
+      "coordinates": [
+        105.60833333,
+        20.31666667
+      ],
+      "fileTitle": "File:Cuc_Phuong_01.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cuc_Phuong_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Cuc_Phuong_01.jpg",
+      "artist": "<a rel=\"mw:WikiLink/Interwiki\" href=\"https://vi.wikipedia.org/wiki/User:Kien1980v\" title=\"vi:User:Kien1980v\" class=\"extiw\">Kien1980v</a> (<a rel=\"mw:WikiLink/Interwiki\" href=\"https://vi.wikipedia.org/wiki/User%20talk:Kien1980v\" title=\"vi:User talk:Kien1980v\" class=\"extiw\">thảo luận</a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "<a rel=\"mw:WikiLink/Interwiki\" href=\"https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn%20qu%E1%BB%91c%20gia%20C%C3%BAc%20Ph%C6%B0%C6%A1ng\" title=\"vi:Vườn quốc gia Cúc Phương\" class=\"extiw\">Vườn quốc gia Cúc Phương</a> ở <a rel=\"mw:WikiLink/Interwiki\" href=\"https://vi.wikipedia.org/wiki/H%C3%B2a%20B%C3%ACnh\" title=\"vi:Hòa Bình\" class=\"extiw\">Hòa Bình</a> - <a rel=\"mw:WikiLink/Interwiki\" href=\"https://vi.wikipedia.org/wiki/Ninh%20B%C3%ACnh\" title=\"vi:Ninh Bình\" class=\"extiw\">Ninh Bình</a> - <a rel=\"mw:WikiLink/Interwiki\" href=\"https://vi.wikipedia.org/wiki/Thanh%20H%C3%B3a\" title=\"vi:Thanh Hóa\" class=\"extiw\">Thanh Hóa</a>",
+      "width": 2048,
+      "height": 1536,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481111"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e55fb"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Ga Đà Lạt",
+      "pageId": 80902,
+      "qid": "Q3096348",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Da_Lat_train_station_37.jpg/1280px-Da_Lat_train_station_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ga_%C4%90%C3%A0_L%E1%BA%A1t",
+      "coordinates": [
+        108.455,
+        11.942
+      ],
+      "fileTitle": "File:Da_Lat_train_station_37.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Da_Lat_train_station_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Da_Lat_train_station_37.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Diane_Selwyn&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Diane Selwyn (page does not exist)\">Diane Selwyn</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Da Lat train station",
+      "width": 3072,
+      "height": 2304,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481115"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5600"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Thiền viện Trúc Lâm Đà Lạt",
+      "pageId": 80906,
+      "qid": "Q7847137",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Zen_Monastery_Truc_Lam_Da_Lat.JPG/1280px-Zen_Monastery_Truc_Lam_Da_Lat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Thi%E1%BB%81n_vi%E1%BB%87n_Tr%C3%BAc_L%C3%A2m_%C4%90%C3%A0_L%E1%BA%A1t",
+      "coordinates": [
+        108.436,
+        11.9025
+      ],
+      "fileTitle": "File:Zen_Monastery_Truc_Lam_Da_Lat.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Zen_Monastery_Truc_Lam_Da_Lat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Zen_Monastery_Truc_Lam_Da_Lat.JPG",
+      "artist": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/vi:User:Liftold\" class=\"extiw\" title=\"w:vi:User:Liftold\">Liftold</a> at <a href=\"https://en.wikipedia.org/wiki/vi:\" class=\"extiw\" title=\"w:vi:\">Vietnamese Wikipedia</a>.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Gardens at <a href=\"//commons.wikimedia.org/wiki/Category:Truc_Lam_Zen_Monastery,_Da_Lat\" title=\"Category:Truc Lam Zen Monastery, Da Lat\">Truc Lam Zen Monastery</a>, Da Lat, Vietnam.",
+      "width": 1632,
+      "height": 1224,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048111b"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5602"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Thung lũng Tình Yêu",
+      "pageId": 87343,
+      "qid": "Q10825388",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/TLTY2.jpg/1280px-TLTY2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Thung_l%C5%A9ng_T%C3%ACnh_Y%C3%AAu",
+      "coordinates": [
+        108.4503889,
+        11.98084722
+      ],
+      "fileTitle": "File:TLTY2.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/c/c7/TLTY2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:TLTY2.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Thienlt1993&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Thienlt1993 (page does not exist)\">Thienlt1993</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "TTC World - Thung lũng Tình yêu: Nơi ước đến, chốn mong về",
+      "width": 5127,
+      "height": 3017,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048111e"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5606"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Dinh III",
+      "pageId": 318696,
+      "qid": "Q10755588",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bao_Dai%27s_Summer_Palace_00.jpg/1280px-Bao_Dai%27s_Summer_Palace_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Dinh_III",
+      "coordinates": [
+        108.4296611,
+        11.93017222
+      ],
+      "fileTitle": "File:Bao_Dai's_Summer_Palace_00.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/6/67/Bao_Dai%27s_Summer_Palace_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bao_Dai%27s_Summer_Palace_00.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Diane_Selwyn&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Diane Selwyn (page does not exist)\">Diane Selwyn</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Diane_Selwyn\" title=\"User talk:Diane Selwyn\"><span class=\"signature-talk\">talk</span></a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Bao Dai's Summer Palace",
+      "width": 3072,
+      "height": 1754,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481123"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e560a"
+      }
+    },
+    {
+      "city": "Quảng Ninh",
+      "title": "Đảo Cô Tô",
+      "pageId": 486428,
+      "qid": "Q10751934",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/%C3%82u_c%E1%BA%A3ng.jpg/1280px-%C3%82u_c%E1%BA%A3ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A3o_C%C3%B4_T%C3%B4",
+      "coordinates": [
+        107.6980556,
+        20.94722222
+      ],
+      "fileTitle": "File:Âu_cảng.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/%C3%82u_c%E1%BA%A3ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%C3%82u_c%E1%BA%A3ng.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Phuotcafe&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Phuotcafe (page does not exist)\">Phuotcafe</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "âu cảng dài hơn 200m, là khu vực trú đậu cho tàu thuyền",
+      "width": 5371,
+      "height": 3018,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481128"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e560d"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Biệt thự Hằng Nga",
+      "pageId": 575757,
+      "qid": "Q1171693",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hang_Nga_guesthouse_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Bi%E1%BB%87t_th%E1%BB%B1_H%E1%BA%B1ng_Nga",
+      "coordinates": [
+        108.43063888889,
+        11.934722222222
+      ],
+      "fileTitle": "File:Hang_Nga_guesthouse_02.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hang_Nga_guesthouse_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hang_Nga_guesthouse_02.jpg",
+      "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/photos/43391993@N03/\" class=\"external text\">Tom Ravenscroft</a>",
+      "license": "CC BY 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/1.0",
+      "imageDescription": "Hang Nga guesthouse",
+      "width": 1024,
+      "height": 768,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048112c"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5610"
+      }
+    },
+    {
+      "city": "Quảng Bình",
+      "title": "Vườn quốc gia Phong Nha – Kẻ Bàng",
+      "pageId": 52223,
+      "qid": "Q23513",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Phongnhakebang6.jpg/1280px-Phongnhakebang6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Phong_Nha_%E2%80%93_K%E1%BA%BB_B%C3%A0ng",
+      "coordinates": [
+        106.15,
+        17.533333333333
+      ],
+      "fileTitle": "File:Phongnhakebang6.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Phongnhakebang6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Phongnhakebang6.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Genghiskhanviet&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Genghiskhanviet (page does not exist)\">Genghiskhanviet</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Phong Nha-Ke Bang National Park, Vietnam",
+      "width": 3072,
+      "height": 2304,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481130"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5615"
+      }
+    },
+    {
+      "city": "Quảng Bình",
+      "title": "Động Phong Nha",
+      "pageId": 60613,
+      "qid": "Q3395915",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/V%C3%A0o_%C4%91%E1%BB%99ng_Phong_Nha.jpg/1280px-V%C3%A0o_%C4%91%E1%BB%99ng_Phong_Nha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99ng_Phong_Nha",
+      "coordinates": [
+        106.2824154,
+        17.5823815
+      ],
+      "fileTitle": "File:Vào_động_Phong_Nha.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/a/a6/V%C3%A0o_%C4%91%E1%BB%99ng_Phong_Nha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:V%C3%A0o_%C4%91%E1%BB%99ng_Phong_Nha.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Sông Son, đoạn ở cửa động phong Nha thuộc huyện Bố Trạch, tỉnh Quảng Bình, Việt Nam.",
+      "width": 2472,
+      "height": 3296,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481136"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5617"
+      }
+    },
+    {
+      "city": "Quảng Bình",
+      "title": "Động Thiên Đường",
+      "pageId": 202312,
+      "qid": "Q43171",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Grotte_Thien_Duong.jpg/1280px-Grotte_Thien_Duong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99ng_Thi%C3%AAn_%C4%90%C6%B0%E1%BB%9Dng",
+      "coordinates": [
+        106.2229718,
+        17.5195141
+      ],
+      "fileTitle": "File:Grotte_Thien_Duong.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/88/Grotte_Thien_Duong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Grotte_Thien_Duong.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Preparetavalise?action=edit&amp;redlink=1\" title=\"User:Preparetavalise (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Preparetavalise\"]}}'>Preparetavalise.com</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Les grottes du parc de Phong Nha-Ke Bang",
+      "width": 5568,
+      "height": 3712,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481139"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e561b"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Nhà thờ chính tòa Đà Lạt",
+      "pageId": 274550,
+      "qid": "Q10800904",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Church_of_Chicken_in_Da_Lat%2C_Vietnam_-_panoramio_%282%29.jpg/1280px-Church_of_Chicken_in_Da_Lat%2C_Vietnam_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_ch%C3%ADnh_t%C3%B2a_%C4%90%C3%A0_L%E1%BA%A1t",
+      "coordinates": [
+        108.437674,
+        11.936524
+      ],
+      "fileTitle": "File:Church_of_Chicken_in_Da_Lat,_Vietnam_-_panoramio_(2).jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/89/Church_of_Chicken_in_Da_Lat%2C_Vietnam_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Church_of_Chicken_in_Da_Lat,_Vietnam_-_panoramio_(2).jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161024200937/http://www.panoramio.com/user/5677660?with_photo_id=87657517\">The Erica Chang</a>",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "imageDescription": "Church of Chicken in Da Lat, Vietnam",
+      "width": 1484,
+      "height": 1978,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048113e"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e561f"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Núi Langbiang",
+      "pageId": 321709,
+      "qid": "Q3217169",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%C4%90%E1%BB%89nh_Langbiang.JPG/1280px-%C4%90%E1%BB%89nh_Langbiang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/N%C3%BAi_Langbiang",
+      "coordinates": [
+        108.441,
+        12.0472
+      ],
+      "fileTitle": "File:Đỉnh_Langbiang.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/8/84/%C4%90%E1%BB%89nh_Langbiang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%89nh_Langbiang.JPG",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Liftold\" class=\"extiw\" title=\"vi:User:Liftold\">Liftold</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Liftold\" class=\"extiw\" title=\"vi:User talk:Liftold\">thảo luận</a>)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Langbiang Mountain in Lac Duong District, Lam Dong Province, Vietnam",
+      "width": 2048,
+      "height": 1536,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481143"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5622"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Thác Datanla",
+      "pageId": 322732,
+      "qid": "Q10825643",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Th%C3%A1c_Datanla.jpg/1280px-Th%C3%A1c_Datanla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Th%C3%A1c_Datanla",
+      "coordinates": [
+        108.44875,
+        11.901583333333
+      ],
+      "fileTitle": "File:Thác_Datanla.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/02/Th%C3%A1c_Datanla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Th%C3%A1c_Datanla.jpg",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28697629@N00\">thalling55</a>",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "Datanla Waterfall",
+      "width": 2592,
+      "height": 1944,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481147"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5625"
+      }
+    },
+    {
+      "city": "Khánh Hòa",
+      "title": "Nhà thờ Núi Nha Trang",
+      "pageId": 323705,
+      "qid": "Q2942901",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ntct3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_th%E1%BB%9D_N%C3%BAi_Nha_Trang",
+      "coordinates": [
+        109.18813,
+        12.24677
+      ],
+      "fileTitle": "File:Ntct3.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ntct3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Ntct3.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Ngocquang2502?action=edit&amp;redlink=1\" title=\"User:Ngocquang2502 (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Ngocquang2502\"]}}'>Ngocquang2502</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Ntct3",
+      "width": 600,
+      "height": 392,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048114b"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e562a"
+      }
+    },
+    {
+      "city": "Lào Cai",
+      "title": "Bản Cát Cát",
+      "pageId": 334456,
+      "qid": "Q10743160",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/B%E1%BA%A3n_C%C3%A1t_C%C3%A1t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/B%E1%BA%A3n_C%C3%A1t_C%C3%A1t",
+      "coordinates": [
+        103.8341,
+        22.3277
+      ],
+      "fileTitle": "File:Bản_Cát_Cát.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/6/66/B%E1%BA%A3n_C%C3%A1t_C%C3%A1t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_C%C3%A1t_C%C3%A1t.jpg",
+      "artist": "<a rel=\"mw:WikiLink/Interwiki\" href=\"https://vi.wikipedia.org/wiki/User:Liftold\" title=\"vi:User:Liftold\" class=\"extiw\">Liftold</a> (<a rel=\"mw:WikiLink/Interwiki\" href=\"https://vi.wikipedia.org/wiki/User%20talk:Liftold\" title=\"vi:User talk:Liftold\" class=\"extiw\">thảo luận</a>)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Đường vào Bản Cát Cát",
+      "width": 1024,
+      "height": 768,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481151"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e562c"
+      }
+    },
+    {
+      "city": "Quảng Bình",
+      "title": "Hang Sơn Đoòng",
+      "pageId": 348026,
+      "qid": "Q44889",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Son_Doong_Cave_by_Daniel_Burka.jpg/1280px-Son_Doong_Cave_by_Daniel_Burka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng",
+      "coordinates": [
+        106.2875,
+        17.456944444444
+      ],
+      "fileTitle": "File:Son_Doong_Cave_by_Daniel_Burka.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Son_Doong_Cave_by_Daniel_Burka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Son_Doong_Cave_by_Daniel_Burka.jpg",
+      "artist": "Daniel Burka",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "imageDescription": "Bên trọn Hang Sơn Đoòng –  hang động tự nhiên lớn nhất thế giới tại xã Tân Trạch, huyện Bố Trạch, tỉnh Quảng Bình, Việt Nam.",
+      "width": 4000,
+      "height": 6000,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481154"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5630"
+      }
+    },
+    {
+      "city": "Đà Lạt",
+      "title": "Khách sạn Dalat Palace",
+      "pageId": 747751,
+      "qid": "Q5210229",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Dalat_Palace_Hotel.jpg/1280px-Dalat_Palace_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Kh%C3%A1ch_s%E1%BA%A1n_Dalat_Palace",
+      "coordinates": [
+        108.44047778,
+        11.93758333
+      ],
+      "fileTitle": "File:Dalat_Palace_Hotel.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/04/Dalat_Palace_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Dalat_Palace_Hotel.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Diane_Selwyn&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Diane Selwyn (page does not exist)\">Diane Selwyn</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Diane_Selwyn\" title=\"User talk:Diane Selwyn\"><span class=\"signature-talk\">talk</span></a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Dalat Palace Hotel",
+      "width": 3066,
+      "height": 2063,
+      "type": "LUU_TRU",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481159"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5634"
+      }
+    },
+    {
+      "city": "Khánh Hòa",
+      "title": "Đảo Bình Ba",
+      "pageId": 2301185,
+      "qid": "Q16480237",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/B%C3%ACnh_Ba_Island.jpg/1280px-B%C3%ACnh_Ba_Island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A3o_B%C3%ACnh_Ba",
+      "coordinates": [
+        109.240193,
+        11.837678
+      ],
+      "fileTitle": "File:Bình_Ba_Island.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/5/56/B%C3%ACnh_Ba_Island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:B%C3%ACnh_Ba_Island.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Violetbonmua\" title=\"User:Violetbonmua\">Violetbonmua</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Đảo Bình Ba, Cam Ranh, Việt Nam",
+      "width": 5184,
+      "height": 3173,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048115e"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5637"
+      }
+    },
+    {
+      "city": "Khánh Hòa",
+      "title": "Vịnh Nha Trang",
+      "pageId": 19688294,
+      "qid": "Q110718456",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Arriving_in_Nha_Trang_-_Vietnam.jpg/1280px-Arriving_in_Nha_Trang_-_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/V%E1%BB%8Bnh_Nha_Trang",
+      "coordinates": [
+        109.23333333333333,
+        12.25
+      ],
+      "fileTitle": "File:Arriving_in_Nha_Trang_-_Vietnam.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Arriving_in_Nha_Trang_-_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Arriving_in_Nha_Trang_-_Vietnam.jpg",
+      "artist": "bvi4092",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "imageDescription": "A faint rainbow emerging in Nha Trang Bay, Vietnam",
+      "width": 3000,
+      "height": 1688,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481162"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e563a"
+      }
+    },
+    {
+      "city": "Kiên Giang",
+      "title": "Phú Quốc",
+      "pageId": 4487,
+      "qid": "Q146695",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Phu_Quoc%2C_Viet_Nam.jpg/1280px-Phu_Quoc%2C_Viet_Nam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ph%C3%BA_Qu%E1%BB%91c",
+      "coordinates": [
+        103.95722222222,
+        10.228888888889
+      ],
+      "fileTitle": "File:Phu_Quoc,_Viet_Nam.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Phu_Quoc%2C_Viet_Nam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Phu_Quoc,_Viet_Nam.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Trantuonglam&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Trantuonglam (page does not exist)\"><span class=\"plainlinks\">[//commons.wikimedia.org/wiki/User:Trantuonglam Trantuonglam]</span></a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Phu Quoc, Viet Nam",
+      "width": 6000,
+      "height": 4000,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481166"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e563f"
+      }
+    },
+    {
+      "city": "Kiên Giang",
+      "title": "Nhà tù Phú Quốc",
+      "pageId": 17050,
+      "qid": "Q10800918",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Tr%E1%BA%A1i_giam_Ph%C3%BA_Qu%E1%BB%91c.jpg/1280px-Tr%E1%BA%A1i_giam_Ph%C3%BA_Qu%E1%BB%91c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_t%C3%B9_Ph%C3%BA_Qu%E1%BB%91c",
+      "coordinates": [
+        104.017833,
+        10.044333
+      ],
+      "fileTitle": "File:Trại_giam_Phú_Quốc.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Tr%E1%BA%A1i_giam_Ph%C3%BA_Qu%E1%BB%91c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tr%E1%BA%A1i_giam_Ph%C3%BA_Qu%E1%BB%91c.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Trại giam Tù binh Chiến tranh Phú Quốc (Kiên Giang, Việt Nam).",
+      "width": 4428,
+      "height": 3321,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048116c"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5641"
+      }
+    },
+    {
+      "city": "Bình Thuận",
+      "title": "Mũi Né",
+      "pageId": 24390,
+      "qid": "Q1317125",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/M%C5%A9i_N%C3%A9_Fishing_Village.jpg/1280px-M%C5%A9i_N%C3%A9_Fishing_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/M%C5%A9i_N%C3%A9",
+      "coordinates": [
+        108.25118304681762,
+        10.98199922600232
+      ],
+      "fileTitle": "File:Mũi_Né_Fishing_Village.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/06/M%C5%A9i_N%C3%A9_Fishing_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:M%C5%A9i_N%C3%A9_Fishing_Village.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Woong_Deewaa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Woong Deewaa (page does not exist)\">Woong Deewaa</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Panorama of the Mũi Né Fishing Village at sunrise.",
+      "width": 4032,
+      "height": 3024,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048116f"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5645"
+      }
+    },
+    {
+      "city": "Đồng Tháp",
+      "title": "Vườn quốc gia Tràm Chim",
+      "pageId": 39061,
+      "qid": "Q586985",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/%C4%90%E1%BB%93ng_c%E1%BB%8F_v%C3%A0_chim_n%C6%B0%E1%BB%9Bc.jpg/1280px-%C4%90%E1%BB%93ng_c%E1%BB%8F_v%C3%A0_chim_n%C6%B0%E1%BB%9Bc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Tr%C3%A0m_Chim",
+      "coordinates": [
+        105.517,
+        10.725
+      ],
+      "fileTitle": "File:Đồng_cỏ_và_chim_nước.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/%C4%90%E1%BB%93ng_c%E1%BB%8F_v%C3%A0_chim_n%C6%B0%E1%BB%9Bc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BB%93ng_c%E1%BB%8F_v%C3%A0_chim_n%C6%B0%E1%BB%9Bc.jpg",
+      "artist": "<a href=\"https://en.wikipedia.org/wiki/vi:User:Quoilp\" class=\"extiw\" title=\"w:vi:User:Quoilp\">Quoilp</a> at <a href=\"https://en.wikipedia.org/wiki/vi:\" class=\"extiw\" title=\"w:vi:\">Vietnamese Wikipedia</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "imageDescription": "Dồng cỏ ở Tràm Chim",
+      "width": 2240,
+      "height": 1488,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481174"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5649"
+      }
+    },
+    {
+      "city": "Bình Thuận",
+      "title": "Tháp Po Sah Inư",
+      "pageId": 42822,
+      "qid": "Q10825853",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Th%C3%A1p_Po_Sah_Inu%2C_Phan_Thi%E1%BA%BFt%2C_B%C3%ACnh_Thu%E1%BA%ADn.JPG/1280px-Th%C3%A1p_Po_Sah_Inu%2C_Phan_Thi%E1%BA%BFt%2C_B%C3%ACnh_Thu%E1%BA%ADn.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Th%C3%A1p_Po_Sah_In%C6%B0",
+      "coordinates": [
+        108.146173,
+        10.935947
+      ],
+      "fileTitle": "File:Tháp_Po_Sah_Inu,_Phan_Thiết,_Bình_Thuận.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Th%C3%A1p_Po_Sah_Inu%2C_Phan_Thi%E1%BA%BFt%2C_B%C3%ACnh_Thu%E1%BA%ADn.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Th%C3%A1p_Po_Sah_Inu,_Phan_Thi%E1%BA%BFt,_B%C3%ACnh_Thu%E1%BA%ADn.JPG",
+      "artist": "<a href=\"https://en.wikipedia.org/wiki/vi:User:Dongson*vmvn\" class=\"extiw\" title=\"w:vi:User:Dongson*vmvn\">Dongson*vmvn</a> at <a href=\"https://en.wikipedia.org/wiki/vi:\" class=\"extiw\" title=\"w:vi:\">Vietnamese Wikipedia</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Tháp Po Sah Inu, Phan Thiết, Bình Thuận",
+      "width": 3264,
+      "height": 2448,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481179"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e564c"
+      }
+    },
+    {
+      "city": "Bà Rịa – Vũng Tàu",
+      "title": "Nhà tù Côn Đảo",
+      "pageId": 80900,
+      "qid": "Q2879088",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nh%C3%A0_t%C3%B9_C%C3%B4n_%C4%90%E1%BA%A3o.JPG/1280px-Nh%C3%A0_t%C3%B9_C%C3%B4n_%C4%90%E1%BA%A3o.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Nh%C3%A0_t%C3%B9_C%C3%B4n_%C4%90%E1%BA%A3o",
+      "coordinates": [
+        106.6147995,
+        8.68889999
+      ],
+      "fileTitle": "File:Nhà_tù_Côn_Đảo.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nh%C3%A0_t%C3%B9_C%C3%B4n_%C4%90%E1%BA%A3o.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_t%C3%B9_C%C3%B4n_%C4%90%E1%BA%A3o.JPG",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Shansov.net\" title=\"User:Shansov.net\"><b>[Tycho]</b></a>  <sup><a href=\"//commons.wikimedia.org/wiki/User_talk:Shansov.net\" title=\"User talk:Shansov.net\">talk</a> </sup>, <a rel=\"nofollow\" class=\"external free\" href=\"http://shansov.net\">http://shansov.net</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "<a href=\"https://en.wikipedia.org/wiki/C%C3%B4n_%C4%90%E1%BA%A3o_Prison\" class=\"extiw\" title=\"w:Côn Đảo Prison\">Côn Đảo Prison</a> on Côn Sơn Island (also known as Côn Lôn) the largest island of the Côn Đảo archipelago in southern Vietnam.",
+      "width": 2545,
+      "height": 1723,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048117d"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e564f"
+      }
+    },
+    {
+      "city": "Cần Thơ",
+      "title": "Chợ nổi Cái Răng",
+      "pageId": 81260,
+      "qid": "Q10748803",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/M%E1%BB%99t_c%E1%BA%A3nh_%E1%BB%9F_ch%E1%BB%A3_n%E1%BB%95i_C%C3%A1i_R%C4%83ng.jpg/1280px-M%E1%BB%99t_c%E1%BA%A3nh_%E1%BB%9F_ch%E1%BB%A3_n%E1%BB%95i_C%C3%A1i_R%C4%83ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Ch%E1%BB%A3_n%E1%BB%95i_C%C3%A1i_R%C4%83ng",
+      "coordinates": [
+        105.746,
+        10.005
+      ],
+      "fileTitle": "File:Một_cảnh_ở_chợ_nổi_Cái_Răng.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/6/62/M%E1%BB%99t_c%E1%BA%A3nh_%E1%BB%9F_ch%E1%BB%A3_n%E1%BB%95i_C%C3%A1i_R%C4%83ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99t_c%E1%BA%A3nh_%E1%BB%9F_ch%E1%BB%A3_n%E1%BB%95i_C%C3%A1i_R%C4%83ng.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Một cảnh ở chợ nổi Cái Răng, thuộc quận Cái Răng, thành phố Cần Thơ, Việt Nam.",
+      "width": 4608,
+      "height": 3092,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481181"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5654"
+      }
+    },
+    {
+      "city": "Bà Rịa – Vũng Tàu",
+      "title": "Tượng Chúa Kitô Vua (Vũng Tàu)",
+      "pageId": 82967,
+      "qid": "Q277837",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Statue_of_Jesus_in_Vungtau.jpg/1280px-Statue_of_Jesus_in_Vungtau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/T%C6%B0%E1%BB%A3ng_Ch%C3%BAa_Kit%C3%B4_Vua_(V%C5%A9ng_T%C3%A0u)",
+      "coordinates": [
+        107.08444,
+        10.32639
+      ],
+      "fileTitle": "File:Statue_of_Jesus_in_Vungtau.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Statue_of_Jesus_in_Vungtau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Statue_of_Jesus_in_Vungtau.jpg",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Genghiskhanviet?action=edit&amp;redlink=1\" title=\"User:Genghiskhanviet (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Genghiskhanviet\"]}}'>Genghiskhanviet</a>",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Statue of Jesus in Vung Tau",
+      "width": 3072,
+      "height": 2048,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481187"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5656"
+      }
+    },
+    {
+      "city": "Bình Thuận",
+      "title": "Hải đăng Kê Gà",
+      "pageId": 90272,
+      "qid": "Q1496675",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/H%E1%BA%A3i_%C4%91%C4%83ng_Khe_G%C3%A0.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "https://vi.wikipedia.org/wiki/H%E1%BA%A3i_%C4%91%C4%83ng_K%C3%AA_G%C3%A0",
+      "coordinates": [
+        107.99134,
+        10.69596
+      ],
+      "fileTitle": "File:Hải_đăng_Khe_Gà.PNG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/1/18/H%E1%BA%A3i_%C4%91%C4%83ng_Khe_G%C3%A0.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:H%E1%BA%A3i_%C4%91%C4%83ng_Khe_G%C3%A0.PNG",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Tr%E1%BA%A7n_Th%E1%BA%BF_Vinh\" class=\"extiw\" title=\"vi:User:Trần Thế Vinh\">vi:User:Trần Thế Vinh</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "ngọn hải đăng Khe Gà",
+      "width": 489,
+      "height": 347,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048118a"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e565a"
+      }
+    },
+    {
+      "city": "Tây Ninh",
+      "title": "Tòa Thánh Tây Ninh",
+      "pageId": 113059,
+      "qid": "Q10831162",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/T%C3%B2a_Th%C3%A1nh_T%C3%A2y_Ninh_042013.JPG/1280px-T%C3%B2a_Th%C3%A1nh_T%C3%A2y_Ninh_042013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/T%C3%B2a_Th%C3%A1nh_T%C3%A2y_Ninh",
+      "coordinates": [
+        106.133525,
+        11.303858
+      ],
+      "fileTitle": "File:Tòa_Thánh_Tây_Ninh_042013.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/1/1a/T%C3%B2a_Th%C3%A1nh_T%C3%A2y_Ninh_042013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:T%C3%B2a_Th%C3%A1nh_T%C3%A2y_Ninh_042013.JPG",
+      "artist": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Tony_L.25?action=edit&amp;redlink=1\" title=\"User:Tony L.25 (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Tony L.25\"]}}'>Anthony Leekien</a>",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "imageDescription": "Mặt tiền Tòa Thánh Tây Ninh - hướng chính tây",
+      "width": 2736,
+      "height": 3648,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048118f"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e565e"
+      }
+    },
+    {
+      "city": "An Giang",
+      "title": "Miếu Bà Chúa Xứ Núi Sam",
+      "pageId": 191812,
+      "qid": "Q32208850",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Mieuba2.jpg/1280px-Mieuba2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/Mi%E1%BA%BFu_B%C3%A0_Ch%C3%BAa_X%E1%BB%A9_N%C3%BAi_Sam",
+      "coordinates": [
+        105.080132,
+        10.682254
+      ],
+      "fileTitle": "File:Mieuba2.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mieuba2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mieuba2.jpg",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" class=\"extiw\" title=\"vi:User:Bùi Thụy Đào Nguyên\">Bùi Thuỵ Đào Nguyên</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" class=\"extiw\" title=\"vi:User talk:Bùi Thụy Đào Nguyên\">thảo luận</a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "<a href=\"https://vi.wikipedia.org/wiki/Mi%E1%BA%BFu_B%C3%A0_Ch%C3%BAa_X%E1%BB%A9_N%C3%BAi_Sam\" class=\"extiw\" title=\"vi:Miếu Bà Chúa Xứ Núi Sam\">Miếu Bà Chúa Xứ Núi Sam</a> (nhìn từ phía bên ngoài), núi Sam, Châu Đốc, An Giang",
+      "width": 3296,
+      "height": 2472,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481194"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5661"
+      }
+    },
+    {
+      "city": "An Giang",
+      "title": "Rừng tràm Trà Sư",
+      "pageId": 1751285,
+      "qid": "Q16480259",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Tr%C3%A0_S%C6%B0_1.jpg/1280px-Tr%C3%A0_S%C6%B0_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/R%E1%BB%ABng_tr%C3%A0m_Tr%C3%A0_S%C6%B0",
+      "coordinates": [
+        105.058611,
+        10.585556
+      ],
+      "fileTitle": "File:Trà_Sư_1.jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Tr%C3%A0_S%C6%B0_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tr%C3%A0_S%C6%B0_1.jpg",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Rừng tràm Trà Sư nằm trên địa bàn xã Văn Giáo, huyện Tịnh Biên, tỉnh An Giang, Việt Nam.",
+      "width": 3552,
+      "height": 2663,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce5059580481198"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5664"
+      }
+    },
+    {
+      "city": "Bà Rịa – Vũng Tàu",
+      "title": "Hải đăng Vũng Tàu",
+      "pageId": 2413985,
+      "qid": "Q16480605",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/H%E1%BA%A3i_%C4%91%C4%83ng_V%C5%A9ng_T%C3%A0u.JPG/1280px-H%E1%BA%A3i_%C4%91%C4%83ng_V%C5%A9ng_T%C3%A0u.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/H%E1%BA%A3i_%C4%91%C4%83ng_V%C5%A9ng_T%C3%A0u",
+      "coordinates": [
+        107.0776611,
+        10.3341143
+      ],
+      "fileTitle": "File:Hải_đăng_Vũng_Tàu.JPG",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/0/03/H%E1%BA%A3i_%C4%91%C4%83ng_V%C5%A9ng_T%C3%A0u.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:H%E1%BA%A3i_%C4%91%C4%83ng_V%C5%A9ng_T%C3%A0u.JPG",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Hoangvantoanajc\" title=\"User:Hoangvantoanajc\">Hoangvantoanajc</a>",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "imageDescription": "Đèn hải đăng Vũng Tàu",
+      "width": 3056,
+      "height": 4592,
+      "type": "DU_LICH",
+      "diaDiemId": {
+        "$oid": "6ad82f319ce505958048119c"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e5669"
+      }
+    },
+    {
+      "title": "Cà phê Giảng",
+      "city": "Hà Nội",
+      "coordinates": [
+        105.85467,
+        21.03354
+      ],
+      "coordinateSource": "https://hanoi.worldplaces.me/vi/review/21373963-cafe-giang-39-nguyen-huu-huan.html",
+      "addressSource": "https://cafegiang.vn/",
+      "address": {
+        "so": "39",
+        "duong": "Nguyễn Hữu Huân",
+        "quan": "",
+        "thanhPho": "Hà Nội"
+      },
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_%28c%E1%BB%ADa_ti%E1%BB%87m%29.jpg/1280px-C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_%28c%E1%BB%ADa_ti%E1%BB%87m%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "https://vi.wikipedia.org/wiki/C%C3%A0%20ph%C3%AA%20Gi%E1%BA%A3ng",
+      "type": "AN_UONG",
+      "fileTitle": "File:Cà_phê_trứng_Giảng_(cửa_tiệm).jpg",
+      "originalImage": "https://upload.wikimedia.org/wikipedia/commons/c/cb/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_%28c%E1%BB%ADa_ti%E1%BB%87m%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "filePage": "https://commons.wikimedia.org/wiki/File:C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_(c%E1%BB%ADa_ti%E1%BB%87m).jpg",
+      "artist": "<a href=\"https://vi.wikipedia.org/wiki/User:Ph%C6%B0%C6%A1ng_Huy\" class=\"extiw\" title=\"vi:User:Phương Huy\">Phương Huy</a> (<a href=\"https://vi.wikipedia.org/wiki/User_talk:Ph%C6%B0%C6%A1ng_Huy\" class=\"extiw\" title=\"vi:User talk:Phương Huy\">thảo luận</a>)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "imageDescription": "Hình tự chụp bằng máy điện thoại di động về cửa tiệm cà phê trứng Giảng trong chuyến du lịch Hà Nội",
+      "width": 2102,
+      "height": 2964,
+      "diaDiemId": {
+        "$oid": "6ad82f319ce50595804811a2"
+      },
+      "standaloneDiaDiemId": {
+        "$oid": "6ad82dea65a75941803e566b"
+      }
+    }
+  ],
+  "imageUrlCheck": {
+    "checkedAt": "2026-10-21T03:27:36.410Z",
+    "results": [
+      {
+        "title": "Hồ Hoàn Kiếm",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Trấn Quốc",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà hát Lớn Hà Nội",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Đền Ngọc Sơn",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bảo tàng Dân tộc học Việt Nam",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Đường Lâm",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cầu Long Biên",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Hồ Tây",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Thầy",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Hương",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cột cờ Hà Nội",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Đền Quán Thánh",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà tù Hỏa Lò",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Lăng Chủ tịch Hồ Chí Minh",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Một Cột",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Thành Cổ Loa",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Dinh Độc Lập",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Hồ Trúc Bạch",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Giác Lâm",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chợ Bến Thành",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Địa đạo Củ Chi",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bến Nhà Rồng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Công viên Thống Nhất",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà thờ chính tòa Đức Bà Sài Gòn",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bưu điện Sài Gòn",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bảo tàng Chứng tích chiến tranh",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà hát Thành phố Hồ Chí Minh",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Thảo Cầm Viên Sài Gòn",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bảo tàng Lịch sử Thành phố Hồ Chí Minh",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Ngọc Hoàng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Công viên Văn hóa Đầm Sen",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Sơn Trà",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Ngũ Hành Sơn",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Vườn quốc gia Ba Vì",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cầu Sông Hàn",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Kinh thành Huế",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Hồ Con Rùa",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bảo tàng Điêu khắc Chăm Đà Nẵng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Khu du lịch Văn hóa Suối Tiên",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cầu Rồng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cầu Thuận Phước",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bãi biển Mỹ Khê",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cầu Vàng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Thánh địa Mỹ Sơn",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Phố cổ Hội An",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Khách sạn Caravelle Sài Gòn",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Khách sạn Rex",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chợ Bình Tây",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Lăng Tự Đức",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Cầu",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Thiên Mụ",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cầu Trường Tiền",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Lăng Minh Mạng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Tam Cốc – Bích Động",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Lăng Khải Định",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Lăng Gia Long",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cù lao Chàm",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Bái Đính",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cung An Định",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Lăng Thiệu Trị",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Hang Sửng Sốt",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chợ Đông Ba",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Điện Hòn Chén",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà thờ chính tòa Phát Diệm",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Vườn quốc gia Cúc Phương",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Vịnh Hạ Long",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chùa Linh Phước",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Đảo Cô Tô",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Thiền viện Trúc Lâm Đà Lạt",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Ga Đà Lạt",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Vườn quốc gia Phong Nha – Kẻ Bàng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Động Thiên Đường",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Thung lũng Tình Yêu",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Biệt thự Hằng Nga",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Dinh III",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Núi Langbiang",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Thác Datanla",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Động Phong Nha",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Bản Cát Cát",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Hang Sơn Đoòng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà thờ chính tòa Đà Lạt",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Vịnh Nha Trang",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Khách sạn Dalat Palace",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Phú Quốc",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà thờ Núi Nha Trang",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Mũi Né",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Vườn quốc gia Tràm Chim",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Tháp Po Sah Inư",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Đảo Bình Ba",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà tù Phú Quốc",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Nhà tù Côn Đảo",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Chợ nổi Cái Răng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Miếu Bà Chúa Xứ Núi Sam",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Rừng tràm Trà Sư",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Tượng Chúa Kitô Vua (Vũng Tàu)",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Tòa Thánh Tây Ninh",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Hải đăng Vũng Tàu",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Cà phê Giảng",
+        "status": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "title": "Hải đăng Kê Gà",
+        "status": 200,
+        "contentType": "image/png"
+      }
+    ]
+  }
+}

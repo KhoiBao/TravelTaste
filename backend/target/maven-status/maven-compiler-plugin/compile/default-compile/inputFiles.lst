@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemDetail.java
 K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\CommentService.java
 K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\MongoIds.java
@@ -61,3 +62,61 @@ K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\PageRe
 K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DanhMucApiController.java
 K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\SearchApiController.java
 K:\NoSQL projects\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\CommentRequest.java
+=======
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\AuthApiController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\FileStorageService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DiscoverApiController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\CommentRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaChiRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\admin\DiaDiemAdminController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\BinhLuan.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\exception\GlobalExceptionHandler.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaChiSummary.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DanhMucApiController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DanhMuc.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\CommentService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\exception\ApiException.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\DiaDiemService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\SearchRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\DanhMucService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ViTriRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\ReviewApiController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\RatingService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\SecurityUtil.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\config\DataSeeder.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\admin\UserAdminController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\ViTri.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\RegisterRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\ReviewService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\SlugUtil.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\DiaDiemRepository.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\AuthService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\service\CommentLikeService.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\SearchApiController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ReviewDto.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\DiaDiemApiController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\DanhMucRepository.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\CommentDto.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DanhMucRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\UploadApiController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DiaChi.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ReviewRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\Review.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\LoginRequest.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\config\SecurityConfig.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\config\WebConfig.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\api\CommentApiController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DanhMucRefDto.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemDetail.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\User.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DanhMucRef.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\controller\admin\DanhMucAdminController.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\DiaDiemSummary.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\ReviewdiadiemApplication.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\util\MongoIds.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\PageResponse.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\dto\ApiResponse.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\repository\UserRepository.java
+D:\danhgia\TravelTaste\backend\src\main\java\com\reviewdiadiem\model\DiaDiem.java
+>>>>>>> Stashed changes

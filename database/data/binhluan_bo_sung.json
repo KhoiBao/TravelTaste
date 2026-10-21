@@ -1,0 +1,2202 @@
+[
+  {
+    "commentId": "6ad82f319ce5059580480fe6",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f7e"
+    },
+    "tenUser": "Người dùng mẫu 002",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580480fe6",
+    "reviewId": "6ad82f319ce5059580480fe5",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480fe4"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807107",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f7f"
+    },
+    "tenUser": "Người dùng mẫu 003",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807107",
+    "reviewId": "6ad82f319ce5059580480fe5",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480fe4"
+    },
+    "parentCommentId": "6ad82f319ce5059580480fe6",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807108",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f80"
+    },
+    "tenUser": "Người dùng mẫu 004",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807108",
+    "reviewId": "6ad82f319ce5059580480fe5",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480fe4"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807107",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580480fee",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f80"
+    },
+    "tenUser": "Người dùng mẫu 004",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580480fee",
+    "reviewId": "6ad82f319ce5059580480fed",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480fec"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580480ff7",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f82"
+    },
+    "tenUser": "Người dùng mẫu 006",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580480ff7",
+    "reviewId": "6ad82f319ce5059580480ff6",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480ff5"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807109",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f83"
+    },
+    "tenUser": "Người dùng mẫu 007",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807109",
+    "reviewId": "6ad82f319ce5059580480ffb",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480ffa"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480710a",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f84"
+    },
+    "tenUser": "Người dùng mẫu 008",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480710a",
+    "reviewId": "6ad82f319ce5059580480ffb",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480ffa"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807109",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb480710b",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f85"
+    },
+    "tenUser": "Người dùng mẫu 009",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480710b",
+    "reviewId": "6ad82f319ce5059580480ffb",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480ffa"
+    },
+    "parentCommentId": "6ad8310d842e532bb480710a",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580481001",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f84"
+    },
+    "tenUser": "Người dùng mẫu 008",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481001",
+    "reviewId": "6ad82f319ce5059580481000",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580480fff"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481009",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f86"
+    },
+    "tenUser": "Người dùng mẫu 010",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481009",
+    "reviewId": "6ad82f319ce5059580481008",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481007"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481012",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f88"
+    },
+    "tenUser": "Người dùng mẫu 012",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481012",
+    "reviewId": "6ad82f319ce5059580481011",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481010"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480710c",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f89"
+    },
+    "tenUser": "Người dùng mẫu 013",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480710c",
+    "reviewId": "6ad82f319ce5059580481011",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481010"
+    },
+    "parentCommentId": "6ad82f319ce5059580481012",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb480710d",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f8a"
+    },
+    "tenUser": "Người dùng mẫu 014",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480710d",
+    "reviewId": "6ad82f319ce5059580481011",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481010"
+    },
+    "parentCommentId": "6ad8310d842e532bb480710c",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce505958048101c",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f8a"
+    },
+    "tenUser": "Người dùng mẫu 014",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048101c",
+    "reviewId": "6ad82f319ce505958048101b",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048101a"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481024",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f8c"
+    },
+    "tenUser": "Người dùng mẫu 016",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481024",
+    "reviewId": "6ad82f319ce5059580481023",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481022"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480710e",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f8d"
+    },
+    "tenUser": "Người dùng mẫu 017",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480710e",
+    "reviewId": "6ad82f319ce5059580481029",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481028"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480710f",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f8e"
+    },
+    "tenUser": "Người dùng mẫu 018",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480710f",
+    "reviewId": "6ad82f319ce5059580481029",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481028"
+    },
+    "parentCommentId": "6ad8310d842e532bb480710e",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807110",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f8f"
+    },
+    "tenUser": "Người dùng mẫu 019",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807110",
+    "reviewId": "6ad82f319ce5059580481029",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481028"
+    },
+    "parentCommentId": "6ad8310d842e532bb480710f",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce505958048102d",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f8e"
+    },
+    "tenUser": "Người dùng mẫu 018",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048102d",
+    "reviewId": "6ad82f319ce505958048102c",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048102b"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481037",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f90"
+    },
+    "tenUser": "Người dùng mẫu 020",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481037",
+    "reviewId": "6ad82f319ce5059580481036",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481035"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce505958048103f",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f92"
+    },
+    "tenUser": "Người dùng mẫu 022",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048103f",
+    "reviewId": "6ad82f319ce505958048103e",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048103d"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807111",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f93"
+    },
+    "tenUser": "Người dùng mẫu 023",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807111",
+    "reviewId": "6ad82f319ce505958048103e",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048103d"
+    },
+    "parentCommentId": "6ad82f319ce505958048103f",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807112",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f94"
+    },
+    "tenUser": "Người dùng mẫu 024",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807112",
+    "reviewId": "6ad82f319ce505958048103e",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048103d"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807111",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580481048",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f94"
+    },
+    "tenUser": "Người dùng mẫu 024",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481048",
+    "reviewId": "6ad82f319ce5059580481047",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481046"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481052",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f96"
+    },
+    "tenUser": "Người dùng mẫu 026",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481052",
+    "reviewId": "6ad82f319ce5059580481051",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481050"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807113",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f97"
+    },
+    "tenUser": "Người dùng mẫu 027",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807113",
+    "reviewId": "6ad82f319ce5059580481055",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481054"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807114",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f98"
+    },
+    "tenUser": "Người dùng mẫu 028",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807114",
+    "reviewId": "6ad82f319ce5059580481055",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481054"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807113",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807115",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f99"
+    },
+    "tenUser": "Người dùng mẫu 029",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807115",
+    "reviewId": "6ad82f319ce5059580481055",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481054"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807114",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce505958048105a",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f98"
+    },
+    "tenUser": "Người dùng mẫu 028",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048105a",
+    "reviewId": "6ad82f319ce5059580481059",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481058"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481063",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f9a"
+    },
+    "tenUser": "Người dùng mẫu 030",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481063",
+    "reviewId": "6ad82f319ce5059580481062",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481061"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce505958048106d",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f9c"
+    },
+    "tenUser": "Người dùng mẫu 032",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048106d",
+    "reviewId": "6ad82f319ce505958048106c",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048106b"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807116",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f9d"
+    },
+    "tenUser": "Người dùng mẫu 033",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807116",
+    "reviewId": "6ad82f319ce505958048106c",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048106b"
+    },
+    "parentCommentId": "6ad82f319ce505958048106d",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807117",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f9e"
+    },
+    "tenUser": "Người dùng mẫu 034",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807117",
+    "reviewId": "6ad82f319ce505958048106c",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048106b"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807116",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580481075",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480f9e"
+    },
+    "tenUser": "Người dùng mẫu 034",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481075",
+    "reviewId": "6ad82f319ce5059580481074",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481073"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce505958048107e",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa0"
+    },
+    "tenUser": "Người dùng mẫu 036",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048107e",
+    "reviewId": "6ad82f319ce505958048107d",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048107c"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807118",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa1"
+    },
+    "tenUser": "Người dùng mẫu 037",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807118",
+    "reviewId": "6ad82f319ce5059580481082",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481081"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807119",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa2"
+    },
+    "tenUser": "Người dùng mẫu 038",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807119",
+    "reviewId": "6ad82f319ce5059580481082",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481081"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807118",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb480711a",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa3"
+    },
+    "tenUser": "Người dùng mẫu 039",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480711a",
+    "reviewId": "6ad82f319ce5059580481082",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481081"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807119",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580481088",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa2"
+    },
+    "tenUser": "Người dùng mẫu 038",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481088",
+    "reviewId": "6ad82f319ce5059580481087",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481086"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481090",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa4"
+    },
+    "tenUser": "Người dùng mẫu 040",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481090",
+    "reviewId": "6ad82f319ce505958048108f",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048108e"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481099",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa6"
+    },
+    "tenUser": "Người dùng mẫu 042",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481099",
+    "reviewId": "6ad82f319ce5059580481098",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481097"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480711b",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa7"
+    },
+    "tenUser": "Người dùng mẫu 043",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480711b",
+    "reviewId": "6ad82f319ce5059580481098",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481097"
+    },
+    "parentCommentId": "6ad82f319ce5059580481099",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb480711c",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa8"
+    },
+    "tenUser": "Người dùng mẫu 044",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480711c",
+    "reviewId": "6ad82f319ce5059580481098",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481097"
+    },
+    "parentCommentId": "6ad8310d842e532bb480711b",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce50595804810a3",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fa8"
+    },
+    "tenUser": "Người dùng mẫu 044",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810a3",
+    "reviewId": "6ad82f319ce50595804810a2",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810a1"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce50595804810ab",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480faa"
+    },
+    "tenUser": "Người dùng mẫu 046",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810ab",
+    "reviewId": "6ad82f319ce50595804810aa",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810a9"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480711d",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fab"
+    },
+    "tenUser": "Người dùng mẫu 047",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480711d",
+    "reviewId": "6ad82f319ce50595804810b0",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810af"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480711e",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fac"
+    },
+    "tenUser": "Người dùng mẫu 048",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480711e",
+    "reviewId": "6ad82f319ce50595804810b0",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810af"
+    },
+    "parentCommentId": "6ad8310d842e532bb480711d",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb480711f",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fad"
+    },
+    "tenUser": "Người dùng mẫu 049",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480711f",
+    "reviewId": "6ad82f319ce50595804810b0",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810af"
+    },
+    "parentCommentId": "6ad8310d842e532bb480711e",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce50595804810b4",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fac"
+    },
+    "tenUser": "Người dùng mẫu 048",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810b4",
+    "reviewId": "6ad82f319ce50595804810b3",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810b2"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce50595804810be",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fae"
+    },
+    "tenUser": "Người dùng mẫu 050",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810be",
+    "reviewId": "6ad82f319ce50595804810bd",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810bc"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce50595804810c6",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb0"
+    },
+    "tenUser": "Người dùng mẫu 052",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810c6",
+    "reviewId": "6ad82f319ce50595804810c5",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810c4"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807120",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb1"
+    },
+    "tenUser": "Người dùng mẫu 053",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807120",
+    "reviewId": "6ad82f319ce50595804810c5",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810c4"
+    },
+    "parentCommentId": "6ad82f319ce50595804810c6",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807121",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb2"
+    },
+    "tenUser": "Người dùng mẫu 054",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807121",
+    "reviewId": "6ad82f319ce50595804810c5",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810c4"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807120",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce50595804810cf",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb2"
+    },
+    "tenUser": "Người dùng mẫu 054",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810cf",
+    "reviewId": "6ad82f319ce50595804810ce",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810cd"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce50595804810d9",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb4"
+    },
+    "tenUser": "Người dùng mẫu 056",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810d9",
+    "reviewId": "6ad82f319ce50595804810d8",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810d7"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807122",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb5"
+    },
+    "tenUser": "Người dùng mẫu 057",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807122",
+    "reviewId": "6ad82f319ce50595804810dc",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810db"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807123",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb6"
+    },
+    "tenUser": "Người dùng mẫu 058",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807123",
+    "reviewId": "6ad82f319ce50595804810dc",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810db"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807122",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807124",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb7"
+    },
+    "tenUser": "Người dùng mẫu 059",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807124",
+    "reviewId": "6ad82f319ce50595804810dc",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810db"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807123",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce50595804810e1",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb6"
+    },
+    "tenUser": "Người dùng mẫu 058",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810e1",
+    "reviewId": "6ad82f319ce50595804810e0",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810df"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce50595804810ea",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fb8"
+    },
+    "tenUser": "Người dùng mẫu 060",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810ea",
+    "reviewId": "6ad82f319ce50595804810e9",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810e8"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce50595804810f4",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fba"
+    },
+    "tenUser": "Người dùng mẫu 062",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810f4",
+    "reviewId": "6ad82f319ce50595804810f3",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810f2"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807125",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fbb"
+    },
+    "tenUser": "Người dùng mẫu 063",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807125",
+    "reviewId": "6ad82f319ce50595804810f3",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810f2"
+    },
+    "parentCommentId": "6ad82f319ce50595804810f4",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807126",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fbc"
+    },
+    "tenUser": "Người dùng mẫu 064",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807126",
+    "reviewId": "6ad82f319ce50595804810f3",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810f2"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807125",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce50595804810fc",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fbc"
+    },
+    "tenUser": "Người dùng mẫu 064",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce50595804810fc",
+    "reviewId": "6ad82f319ce50595804810fb",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce50595804810fa"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481105",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fbe"
+    },
+    "tenUser": "Người dùng mẫu 066",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481105",
+    "reviewId": "6ad82f319ce5059580481104",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481103"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807127",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fbf"
+    },
+    "tenUser": "Người dùng mẫu 067",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807127",
+    "reviewId": "6ad82f319ce5059580481109",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481108"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807128",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc0"
+    },
+    "tenUser": "Người dùng mẫu 068",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807128",
+    "reviewId": "6ad82f319ce5059580481109",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481108"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807127",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807129",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc1"
+    },
+    "tenUser": "Người dùng mẫu 069",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807129",
+    "reviewId": "6ad82f319ce5059580481109",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481108"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807128",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce505958048110f",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc0"
+    },
+    "tenUser": "Người dùng mẫu 068",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048110f",
+    "reviewId": "6ad82f319ce505958048110e",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048110d"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481117",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc2"
+    },
+    "tenUser": "Người dùng mẫu 070",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481117",
+    "reviewId": "6ad82f319ce5059580481116",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481115"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481120",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc4"
+    },
+    "tenUser": "Người dùng mẫu 072",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481120",
+    "reviewId": "6ad82f319ce505958048111f",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048111e"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480712a",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc5"
+    },
+    "tenUser": "Người dùng mẫu 073",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480712a",
+    "reviewId": "6ad82f319ce505958048111f",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048111e"
+    },
+    "parentCommentId": "6ad82f319ce5059580481120",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb480712b",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc6"
+    },
+    "tenUser": "Người dùng mẫu 074",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480712b",
+    "reviewId": "6ad82f319ce505958048111f",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048111e"
+    },
+    "parentCommentId": "6ad8310d842e532bb480712a",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce505958048112a",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc6"
+    },
+    "tenUser": "Người dùng mẫu 074",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048112a",
+    "reviewId": "6ad82f319ce5059580481129",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481128"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481132",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc8"
+    },
+    "tenUser": "Người dùng mẫu 076",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481132",
+    "reviewId": "6ad82f319ce5059580481131",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481130"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480712c",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fc9"
+    },
+    "tenUser": "Người dùng mẫu 077",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480712c",
+    "reviewId": "6ad82f319ce5059580481137",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481136"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480712d",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fca"
+    },
+    "tenUser": "Người dùng mẫu 078",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480712d",
+    "reviewId": "6ad82f319ce5059580481137",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481136"
+    },
+    "parentCommentId": "6ad8310d842e532bb480712c",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb480712e",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fcb"
+    },
+    "tenUser": "Người dùng mẫu 079",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480712e",
+    "reviewId": "6ad82f319ce5059580481137",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481136"
+    },
+    "parentCommentId": "6ad8310d842e532bb480712d",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce505958048113b",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fca"
+    },
+    "tenUser": "Người dùng mẫu 078",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048113b",
+    "reviewId": "6ad82f319ce505958048113a",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481139"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481145",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fcc"
+    },
+    "tenUser": "Người dùng mẫu 080",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481145",
+    "reviewId": "6ad82f319ce5059580481144",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481143"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce505958048114d",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fce"
+    },
+    "tenUser": "Người dùng mẫu 082",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048114d",
+    "reviewId": "6ad82f319ce505958048114c",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048114b"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb480712f",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fcf"
+    },
+    "tenUser": "Người dùng mẫu 083",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb480712f",
+    "reviewId": "6ad82f319ce505958048114c",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048114b"
+    },
+    "parentCommentId": "6ad82f319ce505958048114d",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807130",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd0"
+    },
+    "tenUser": "Người dùng mẫu 084",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807130",
+    "reviewId": "6ad82f319ce505958048114c",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048114b"
+    },
+    "parentCommentId": "6ad8310d842e532bb480712f",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580481156",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd0"
+    },
+    "tenUser": "Người dùng mẫu 084",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481156",
+    "reviewId": "6ad82f319ce5059580481155",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481154"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481160",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd2"
+    },
+    "tenUser": "Người dùng mẫu 086",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481160",
+    "reviewId": "6ad82f319ce505958048115f",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048115e"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807131",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd3"
+    },
+    "tenUser": "Người dùng mẫu 087",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807131",
+    "reviewId": "6ad82f319ce5059580481163",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481162"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807132",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd4"
+    },
+    "tenUser": "Người dùng mẫu 088",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807132",
+    "reviewId": "6ad82f319ce5059580481163",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481162"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807131",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807133",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd5"
+    },
+    "tenUser": "Người dùng mẫu 089",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807133",
+    "reviewId": "6ad82f319ce5059580481163",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481162"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807132",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580481168",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd4"
+    },
+    "tenUser": "Người dùng mẫu 088",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481168",
+    "reviewId": "6ad82f319ce5059580481167",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481166"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce5059580481171",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd6"
+    },
+    "tenUser": "Người dùng mẫu 090",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481171",
+    "reviewId": "6ad82f319ce5059580481170",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048116f"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce505958048117b",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd8"
+    },
+    "tenUser": "Người dùng mẫu 092",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048117b",
+    "reviewId": "6ad82f319ce505958048117a",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481179"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807134",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fd9"
+    },
+    "tenUser": "Người dùng mẫu 093",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807134",
+    "reviewId": "6ad82f319ce505958048117a",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481179"
+    },
+    "parentCommentId": "6ad82f319ce505958048117b",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807135",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fda"
+    },
+    "tenUser": "Người dùng mẫu 094",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807135",
+    "reviewId": "6ad82f319ce505958048117a",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481179"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807134",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580481183",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fda"
+    },
+    "tenUser": "Người dùng mẫu 094",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481183",
+    "reviewId": "6ad82f319ce5059580481182",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481181"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce505958048118c",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fdc"
+    },
+    "tenUser": "Người dùng mẫu 096",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048118c",
+    "reviewId": "6ad82f319ce505958048118b",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048118a"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807136",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fdd"
+    },
+    "tenUser": "Người dùng mẫu 097",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình đang tìm hiểu địa điểm này.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807136",
+    "reviewId": "6ad82f319ce5059580481190",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048118f"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807137",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fde"
+    },
+    "tenUser": "Người dùng mẫu 098",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 2] Bạn có thể đọc trang nguồn để tìm hiểu thêm trước khi đi.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807137",
+    "reviewId": "6ad82f319ce5059580481190",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048118f"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807136",
+    "cap": 2
+  },
+  {
+    "commentId": "6ad8310d842e532bb4807138",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fdf"
+    },
+    "tenUser": "Người dùng mẫu 099",
+    "avatarUser": null,
+    "noiDung": "[TRẢ LỜI MẪU CẤP 3] Cảm ơn bạn, mình sẽ kiểm tra thông tin trước khi lên kế hoạch.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad8310d842e532bb4807138",
+    "reviewId": "6ad82f319ce5059580481190",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048118f"
+    },
+    "parentCommentId": "6ad8310d842e532bb4807137",
+    "cap": 3
+  },
+  {
+    "commentId": "6ad82f319ce5059580481196",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fde"
+    },
+    "tenUser": "Người dùng mẫu 098",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce5059580481196",
+    "reviewId": "6ad82f319ce5059580481195",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce5059580481194"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  },
+  {
+    "commentId": "6ad82f319ce505958048119e",
+    "userId": {
+      "$oid": "6ad82f319ce5059580480fe0"
+    },
+    "tenUser": "Người dùng mẫu 100",
+    "avatarUser": null,
+    "noiDung": "[BÌNH LUẬN MẪU] Mình cũng đang tham khảo địa điểm này cho lịch trình.",
+    "ngayTao": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "ngayCapNhat": {
+      "$date": "2026-09-14T03:00:00Z"
+    },
+    "_id": "6ad82f319ce505958048119e",
+    "reviewId": "6ad82f319ce505958048119d",
+    "diaDiemId": {
+      "$oid": "6ad82f319ce505958048119c"
+    },
+    "parentCommentId": null,
+    "cap": 1
+  }
+]
