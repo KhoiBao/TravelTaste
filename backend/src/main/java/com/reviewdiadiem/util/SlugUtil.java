@@ -12,7 +12,7 @@ public class SlugUtil {
         if (input == null || input.isBlank()) {
             return "";
         }
-        String normalized = Normalizer.normalize(input.trim(), Normalizer.Form.NFD);
+        String normalized = Normalizer.normalize(input.trim().replace('đ', 'd').replace('Đ', 'D'), Normalizer.Form.NFD);
         String noDiacritics = normalized.replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
         String lower = noDiacritics.toLowerCase();
         String noSpace = WHITESPACE.matcher(lower).replaceAll("-");
@@ -25,7 +25,7 @@ public class SlugUtil {
         if (input == null) {
             return "";
         }
-        String normalized = Normalizer.normalize(input, Normalizer.Form.NFD);
+        String normalized = Normalizer.normalize(input.replace('đ', 'd').replace('Đ', 'D'), Normalizer.Form.NFD);
         return normalized.replaceAll("\\p{InCombiningDiacriticalMarks}+", "").toLowerCase();
     }
 }

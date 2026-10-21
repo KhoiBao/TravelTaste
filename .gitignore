@@ -33,3 +33,6 @@ logs/
 # Local env
 .env
 .env.local
+
+# Isolated integration database, uploads, logs and browser output
+.runtime-test/

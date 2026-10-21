@@ -1,0 +1,593 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/search",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tìm địa điểm phù hợp với bạn"
+    },
+    {
+      "route": "/places/hoi-an",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Phố cổ Hội An"
+    },
+    {
+      "route": "/categories",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Khám phá theo sở thích"
+    },
+    {
+      "route": "/top-10",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Top 10 được yêu thích"
+    },
+    {
+      "route": "/reviews/hoi-an-review-1",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá và thảo luận"
+    },
+    {
+      "route": "/login",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/register",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/profile",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Hồ sơ thành viên"
+    },
+    {
+      "route": "/my-reviews",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá của tôi"
+    },
+    {
+      "route": "/reviews/new",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá của tôi"
+    },
+    {
+      "route": "/reviews/hoi-an-review-1/edit",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá và thảo luận"
+    },
+    {
+      "route": "/admin",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tổng quan hệ thống"
+    },
+    {
+      "route": "/admin/places",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/places/new",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/places/hoi-an/edit",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/categories",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Danh mục / Admin"
+    },
+    {
+      "route": "/admin/reviews",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Kiểm duyệt đánh giá"
+    },
+    {
+      "route": "/admin/comments",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Kiểm duyệt bình luận"
+    },
+    {
+      "route": "/admin/users",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tài khoản người dùng"
+    },
+    {
+      "route": "/admin/statistics",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Thống kê và báo cáo"
+    },
+    {
+      "route": "/status/403",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Bạn chưa có quyền truy cập"
+    },
+    {
+      "route": "/status/404",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Chưa tìm thấy trang này"
+    },
+    {
+      "route": "/status/500",
+      "width": 1440,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Có lỗi xảy ra"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/search",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tìm địa điểm phù hợp với bạn"
+    },
+    {
+      "route": "/places/hoi-an",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Phố cổ Hội An"
+    },
+    {
+      "route": "/categories",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Khám phá theo sở thích"
+    },
+    {
+      "route": "/top-10",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Top 10 được yêu thích"
+    },
+    {
+      "route": "/reviews/hoi-an-review-1",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá và thảo luận"
+    },
+    {
+      "route": "/login",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/register",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/profile",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Hồ sơ thành viên"
+    },
+    {
+      "route": "/my-reviews",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá của tôi"
+    },
+    {
+      "route": "/reviews/new",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá của tôi"
+    },
+    {
+      "route": "/reviews/hoi-an-review-1/edit",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá và thảo luận"
+    },
+    {
+      "route": "/admin",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tổng quan hệ thống"
+    },
+    {
+      "route": "/admin/places",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/places/new",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/places/hoi-an/edit",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/categories",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Danh mục / Admin"
+    },
+    {
+      "route": "/admin/reviews",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Kiểm duyệt đánh giá"
+    },
+    {
+      "route": "/admin/comments",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Kiểm duyệt bình luận"
+    },
+    {
+      "route": "/admin/users",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tài khoản người dùng"
+    },
+    {
+      "route": "/admin/statistics",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Thống kê và báo cáo"
+    },
+    {
+      "route": "/status/403",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Bạn chưa có quyền truy cập"
+    },
+    {
+      "route": "/status/404",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Chưa tìm thấy trang này"
+    },
+    {
+      "route": "/status/500",
+      "width": 768,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Có lỗi xảy ra"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/search",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tìm địa điểm phù hợp với bạn"
+    },
+    {
+      "route": "/places/hoi-an",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Phố cổ Hội An"
+    },
+    {
+      "route": "/categories",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Khám phá theo sở thích"
+    },
+    {
+      "route": "/top-10",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Top 10 được yêu thích"
+    },
+    {
+      "route": "/reviews/hoi-an-review-1",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá và thảo luận"
+    },
+    {
+      "route": "/login",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/register",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đi đâu, ăn gì? Bắt đầu từ đây."
+    },
+    {
+      "route": "/profile",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Hồ sơ thành viên"
+    },
+    {
+      "route": "/my-reviews",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá của tôi"
+    },
+    {
+      "route": "/reviews/new",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá của tôi"
+    },
+    {
+      "route": "/reviews/hoi-an-review-1/edit",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Đánh giá và thảo luận"
+    },
+    {
+      "route": "/admin",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tổng quan hệ thống"
+    },
+    {
+      "route": "/admin/places",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/places/new",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/places/hoi-an/edit",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Quản lý địa điểm"
+    },
+    {
+      "route": "/admin/categories",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Danh mục / Admin"
+    },
+    {
+      "route": "/admin/reviews",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Kiểm duyệt đánh giá"
+    },
+    {
+      "route": "/admin/comments",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Kiểm duyệt bình luận"
+    },
+    {
+      "route": "/admin/users",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Tài khoản người dùng"
+    },
+    {
+      "route": "/admin/statistics",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Thống kê và báo cáo"
+    },
+    {
+      "route": "/status/403",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Bạn chưa có quyền truy cập"
+    },
+    {
+      "route": "/status/404",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Chưa tìm thấy trang này"
+    },
+    {
+      "route": "/status/500",
+      "width": 390,
+      "overflow": false,
+      "dialogOverflow": false,
+      "brokenImages": [],
+      "h1": "Có lỗi xảy ra"
+    }
+  ],
+  "flows": [
+    "accent-insensitive search, load more, empty state",
+    "ranking sort, loading / empty / error and retry",
+    "invalid and valid mock login, user route guard",
+    "create / edit review, add / edit comment",
+    "three-level limit, comment soft deletion preserves replies",
+    "admin filter, confirmed soft delete and restore",
+    "admin place create / edit with upload and required validation, category create / edit / delete",
+    "registration validation, mock account creation and login",
+    "logout and guest denied admin access"
+  ],
+  "errors": []
+}

@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+@import './variables.css';
+
+@theme inline {
+  --font-sans: var(--tt-font);
+  --color-primary: var(--tt-primary);
+  --color-ink: var(--tt-text);
+  --color-accent: var(--tt-accent);
+  --color-canvas: var(--tt-background);
+  --color-surface: var(--tt-surface);
+  --color-muted: var(--tt-muted);
+  --color-line: var(--tt-border);
+  --color-pale: var(--tt-pale);
+  --radius-button: var(--tt-radius-button);
+  --radius-card: var(--tt-radius-card);
+  --radius-page: var(--tt-radius-page);
+  --radius-pill: var(--tt-radius-pill);
+  --color-rank-gold: #9b650f;
+  --color-danger: #b42318;
+  --color-success: #087f73;
+}
+
+/* Responsive thresholds are implementation proposals, not Figma tokens. */
+@theme {
+  --breakpoint-tablet: 40rem;
+  --breakpoint-desktop: 56.25rem;
+}
+
+@layer base {
+  html { font-family: var(--tt-font); color: var(--tt-text); line-height: normal; }
+  body { margin: 0; min-width: 320px; background: var(--tt-background); }
+  button, input { font: inherit; }
+  button:not(:disabled), a { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--tt-primary); outline-offset: 4px; }
+  ::selection { background: var(--tt-pale); color: var(--tt-primary); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+}
+

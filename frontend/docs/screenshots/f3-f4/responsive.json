@@ -1,0 +1,674 @@
+[
+  {
+    "name": "profile",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Hồ sơ thành viên",
+    "node": "2:304"
+  },
+  {
+    "name": "profile",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Hồ sơ thành viên",
+    "node": "2:304"
+  },
+  {
+    "name": "profile",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Hồ sơ thành viên",
+    "node": "2:304"
+  },
+  {
+    "name": "profile",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Hồ sơ thành viên",
+    "node": "2:304"
+  },
+  {
+    "name": "my-reviews",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá của tôi",
+    "node": "2:316"
+  },
+  {
+    "name": "my-reviews",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá của tôi",
+    "node": "2:316"
+  },
+  {
+    "name": "my-reviews",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá của tôi",
+    "node": "2:316"
+  },
+  {
+    "name": "my-reviews",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá của tôi",
+    "node": "2:316"
+  },
+  {
+    "name": "review-new",
+    "device": "desktop",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 900,
+        "height": 165
+      }
+    ],
+    "heading": "Chia sẻ trải nghiệm của bạn",
+    "node": "2:212"
+  },
+  {
+    "name": "review-new",
+    "device": "tablet",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 712,
+        "height": 165
+      }
+    ],
+    "heading": "Chia sẻ trải nghiệm của bạn",
+    "node": "2:212"
+  },
+  {
+    "name": "review-new",
+    "device": "mobile",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 350,
+        "height": 165
+      }
+    ],
+    "heading": "Chia sẻ trải nghiệm của bạn",
+    "node": "2:212"
+  },
+  {
+    "name": "review-new",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 280,
+        "height": 165
+      }
+    ],
+    "heading": "Chia sẻ trải nghiệm của bạn",
+    "node": "2:212"
+  },
+  {
+    "name": "review-edit",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Chỉnh sửa đánh giá",
+    "node": "2:328"
+  },
+  {
+    "name": "review-edit",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Chỉnh sửa đánh giá",
+    "node": "2:328"
+  },
+  {
+    "name": "review-edit",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Chỉnh sửa đánh giá",
+    "node": "2:328"
+  },
+  {
+    "name": "review-edit",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Chỉnh sửa đánh giá",
+    "node": "2:328"
+  },
+  {
+    "name": "review-detail",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá và thảo luận",
+    "node": "2:340"
+  },
+  {
+    "name": "review-detail",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá và thảo luận",
+    "node": "2:340"
+  },
+  {
+    "name": "review-detail",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá và thảo luận",
+    "node": "2:340"
+  },
+  {
+    "name": "review-detail",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá và thảo luận",
+    "node": "2:340"
+  },
+  {
+    "name": "community",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá cộng đồng",
+    "node": "2:316"
+  },
+  {
+    "name": "community",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá cộng đồng",
+    "node": "2:316"
+  },
+  {
+    "name": "community",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá cộng đồng",
+    "node": "2:316"
+  },
+  {
+    "name": "community",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Đánh giá cộng đồng",
+    "node": "2:316"
+  },
+  {
+    "name": "dashboard",
+    "device": "desktop",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 900,
+        "height": 165
+      }
+    ],
+    "heading": "Tổng quan hệ thống",
+    "node": "2:229"
+  },
+  {
+    "name": "dashboard",
+    "device": "tablet",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 712,
+        "height": 165
+      }
+    ],
+    "heading": "Tổng quan hệ thống",
+    "node": "2:229"
+  },
+  {
+    "name": "dashboard",
+    "device": "mobile",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 350,
+        "height": 165
+      }
+    ],
+    "heading": "Tổng quan hệ thống",
+    "node": "2:229"
+  },
+  {
+    "name": "dashboard",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 280,
+        "height": 165
+      }
+    ],
+    "heading": "Tổng quan hệ thống",
+    "node": "2:229"
+  },
+  {
+    "name": "admin-places",
+    "device": "desktop",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 900,
+        "height": 165
+      }
+    ],
+    "heading": "Quản lý địa điểm",
+    "node": "2:246"
+  },
+  {
+    "name": "admin-places",
+    "device": "tablet",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 712,
+        "height": 165
+      }
+    ],
+    "heading": "Quản lý địa điểm",
+    "node": "2:246"
+  },
+  {
+    "name": "admin-places",
+    "device": "mobile",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 350,
+        "height": 165
+      }
+    ],
+    "heading": "Quản lý địa điểm",
+    "node": "2:246"
+  },
+  {
+    "name": "admin-places",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 280,
+        "height": 165
+      }
+    ],
+    "heading": "Quản lý địa điểm",
+    "node": "2:246"
+  },
+  {
+    "name": "admin-categories",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Danh mục / Admin",
+    "node": "2:380"
+  },
+  {
+    "name": "admin-categories",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Danh mục / Admin",
+    "node": "2:380"
+  },
+  {
+    "name": "admin-categories",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Danh mục / Admin",
+    "node": "2:380"
+  },
+  {
+    "name": "admin-categories",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Danh mục / Admin",
+    "node": "2:380"
+  },
+  {
+    "name": "place-new",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Thêm / sửa địa điểm",
+    "node": "2:392"
+  },
+  {
+    "name": "place-new",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Thêm / sửa địa điểm",
+    "node": "2:392"
+  },
+  {
+    "name": "place-new",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Thêm / sửa địa điểm",
+    "node": "2:392"
+  },
+  {
+    "name": "place-new",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Thêm / sửa địa điểm",
+    "node": "2:392"
+  },
+  {
+    "name": "place-edit",
+    "device": "desktop",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 112,
+        "height": 80
+      }
+    ],
+    "heading": "Thêm / sửa địa điểm",
+    "node": "2:392"
+  },
+  {
+    "name": "place-edit",
+    "device": "tablet",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 112,
+        "height": 80
+      }
+    ],
+    "heading": "Thêm / sửa địa điểm",
+    "node": "2:392"
+  },
+  {
+    "name": "place-edit",
+    "device": "mobile",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 112,
+        "height": 80
+      }
+    ],
+    "heading": "Thêm / sửa địa điểm",
+    "node": "2:392"
+  },
+  {
+    "name": "place-edit",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 112,
+        "height": 80
+      }
+    ],
+    "heading": "Thêm / sửa địa điểm",
+    "node": "2:392"
+  },
+  {
+    "name": "admin-reviews",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Kiểm duyệt đánh giá",
+    "node": "2:404"
+  },
+  {
+    "name": "admin-reviews",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Kiểm duyệt đánh giá",
+    "node": "2:404"
+  },
+  {
+    "name": "admin-reviews",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Kiểm duyệt đánh giá",
+    "node": "2:404"
+  },
+  {
+    "name": "admin-reviews",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Kiểm duyệt đánh giá",
+    "node": "2:404"
+  },
+  {
+    "name": "admin-comments",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Kiểm duyệt bình luận",
+    "node": "2:416"
+  },
+  {
+    "name": "admin-comments",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Kiểm duyệt bình luận",
+    "node": "2:416"
+  },
+  {
+    "name": "admin-comments",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Kiểm duyệt bình luận",
+    "node": "2:416"
+  },
+  {
+    "name": "admin-comments",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Kiểm duyệt bình luận",
+    "node": "2:416"
+  },
+  {
+    "name": "admin-users",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Tài khoản người dùng",
+    "node": "2:432"
+  },
+  {
+    "name": "admin-users",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Tài khoản người dùng",
+    "node": "2:432"
+  },
+  {
+    "name": "admin-users",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Tài khoản người dùng",
+    "node": "2:432"
+  },
+  {
+    "name": "admin-users",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Tài khoản người dùng",
+    "node": "2:432"
+  },
+  {
+    "name": "statistics",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Thống kê và báo cáo",
+    "node": "2:444"
+  },
+  {
+    "name": "statistics",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Thống kê và báo cáo",
+    "node": "2:444"
+  },
+  {
+    "name": "statistics",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Thống kê và báo cáo",
+    "node": "2:444"
+  },
+  {
+    "name": "statistics",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Thống kê và báo cáo",
+    "node": "2:444"
+  },
+  {
+    "name": "403",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "403",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "403",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "403",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "404",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "404",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "404",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "404",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "500",
+    "device": "desktop",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "500",
+    "device": "tablet",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "500",
+    "device": "mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  },
+  {
+    "name": "500",
+    "device": "small-mobile",
+    "overflow": false,
+    "images": [],
+    "heading": "Trạng thái hệ thống",
+    "node": "2:480"
+  }
+]

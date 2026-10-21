@@ -15,6 +15,7 @@ public class DiaDiemRequest {
     private String ten;
 
     @NotNull(message = "Loại không được để trống")
+    @jakarta.validation.constraints.Pattern(regexp = "AN_UONG|DU_LICH|LUU_TRU")
     private String loai;
 
     @NotNull(message = "Danh mục không được để trống")
@@ -25,13 +26,18 @@ public class DiaDiemRequest {
     @Size(min = 20, max = 2000)
     private String moTa;
 
+    @jakarta.validation.Valid
+    @NotNull
     private DiaChiRequest diaChi;
 
     @NotNull(message = "Vị trí không được để trống")
+    @jakarta.validation.Valid
     private ViTriRequest viTri;
 
+    @NotNull
     @Size(min = 1, max = 8)
     private List<String> hinhAnh;
 
+    @jakarta.validation.constraints.Pattern(regexp = "ACTIVE|HIDDEN")
     private String trangThai;
 }

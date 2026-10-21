@@ -22,12 +22,12 @@ public class DanhMucAdminController {
     }
 
     @PostMapping
-    public ResponseEntity<ApiResponse<?>> create(@RequestBody DanhMucRequest req) {
+    public ResponseEntity<ApiResponse<?>> create(@RequestBody @jakarta.validation.Valid DanhMucRequest req) {
         return ResponseEntity.ok(danhMucService.create(req));
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<ApiResponse<?>> update(@PathVariable String id, @RequestBody DanhMucRequest req) {
+    public ResponseEntity<ApiResponse<?>> update(@PathVariable String id, @RequestBody @jakarta.validation.Valid DanhMucRequest req) {
         return ResponseEntity.ok(danhMucService.update(id, req));
     }
 

@@ -18,6 +18,7 @@ import java.util.stream.Collectors;
 public class DanhMucService {
 
     private final DanhMucRepository danhMucRepository;
+    private final org.springframework.data.mongodb.core.MongoTemplate mongoTemplate;
 
     public ApiResponse<?> list() {
         List<DanhMuc> items = danhMucRepository.findAll();
@@ -64,22 +65,26 @@ public class DanhMucService {
 
     public ApiResponse<?> update(String id, DanhMucRequest req) {
         DanhMuc d = danhMucRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Không tìm thấy danh mục"));
+                .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy danh mục"));
         d.setTen(req.getTen());
         d.setSlug(SlugUtil.toSlug(req.getTen()));
         d.setMoTa(req.getMoTa());
         d.setIcon(req.getIcon());
         d.setThuTu(req.getThuTu() == null ? 0 : req.getThuTu());
-        d.setTrangThai(req.getTrangThai());
+        d.setTrangThai(req.getTrangThai() == null ? d.getTrangThai() : req.getTrangThai());
         d.setNgayCapNhat(LocalDateTime.now());
         danhMucRepository.save(d);
+        mongoTemplate.updateMulti(org.springframework.data.mongodb.core.query.Query.query(org.springframework.data.mongodb.core.query.Criteria.where("danhMuc.danhMucId").in(com.reviewdiadiem.util.MongoIds.references(id))),
+            new org.springframework.data.mongodb.core.query.Update().set("danhMuc.$[category].ten", d.getTen()).set("danhMuc.$[category].slug", d.getSlug()).filterArray("category.danhMucId", new org.bson.Document("$in", com.reviewdiadiem.util.MongoIds.references(id))), com.reviewdiadiem.model.DiaDiem.class);
         return ApiResponse.ok(null, "Cập nhật danh mục thành công");
     }
 
     public ApiResponse<?> delete(String id) {
         if (!danhMucRepository.existsById(id)) {
-            throw new RuntimeException("Không tìm thấy danh mục");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy danh mục");
         }
+        if (mongoTemplate.exists(org.springframework.data.mongodb.core.query.Query.query(org.springframework.data.mongodb.core.query.Criteria.where("danhMuc.danhMucId").in(com.reviewdiadiem.util.MongoIds.references(id))), com.reviewdiadiem.model.DiaDiem.class))
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.CONFLICT, "Danh mục còn địa điểm liên quan");
         danhMucRepository.deleteById(id);
         return ApiResponse.ok(null, "Xoá danh mục thành công");
     }

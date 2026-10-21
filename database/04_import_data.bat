@@ -20,7 +20,7 @@ if errorlevel 1 (
 
 REM --- Cai dat dependencies lan dau ---
 if not exist "node_modules\mongodb" (
-    echo [1/3] Cai dat dependencies (mongodb, bcryptjs)...
+    echo [1/4] Cai dat dependencies (mongodb, bcryptjs)...
     call npm install --silent
     if errorlevel 1 (
         echo [LOI] npm install that bai. Kiem tra ket noi internet.
@@ -28,11 +28,11 @@ if not exist "node_modules\mongodb" (
         exit /b 1
     )
 ) else (
-    echo [1/3] Dependencies da co san, bo qua.
+    echo [1/4] Dependencies da co san, bo qua.
 )
 
 echo.
-echo [2/3] Tao index + seed du lieu mau...
+echo [2/4] Tao index + seed du lieu mau...
 node seed_db.mjs
 if errorlevel 1 (
     echo.
@@ -42,7 +42,17 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/3] Kiem tra du lieu...
+echo [3/4] Dong bo collections danhgia, binhluan, hinhanh...
+node sync_collections.mjs
+if errorlevel 1 (
+    echo.
+    echo [LOI] Dong bo collections that bai.
+    pause
+    exit /b 1
+)
+
+echo.
+echo [4/4] Kiem tra du lieu...
 node verify_db.mjs
 if errorlevel 1 (
     echo.

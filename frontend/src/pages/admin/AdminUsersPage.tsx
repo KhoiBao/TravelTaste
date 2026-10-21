@@ -1,0 +1,14 @@
+import {api} from '../../services/api';
+import {useState} from 'react';
+import {Link} from 'react-router-dom';
+import {useApp} from '../../state/AppContext';
+import {SimpleLayout} from '../../components/layout/PublicLayout';
+import {WorkspaceNavigation} from '../../components/common/WorkspaceUI';
+import {Input, Select, Badge, Pagination} from '../../components/common/Controls';
+import {EmptyState} from '../../components/feedback/AsyncState';
+import {normalize} from '../../utils/ranking';
+export default function AdminUsersPage() {
+  const {data, refresh, actorId, confirm} = useApp(); const [query, setQuery] = useState(''); const [role, setRole] = useState(''); const [page, setPage] = useState(1);
+  const users = data.users.filter(u => !!u.accountStatus && (!role || u.role === role) && normalize(u.name + ' ' + u.email).includes(normalize(query))); const total = Math.max(1, Math.ceil(users.length / 6)); const current = Math.min(page, total);
+  return <SimpleLayout title="Tài khoản người dùng" node="39:488"><WorkspaceNavigation admin /><section className="w-full space-y-5 rounded-2xl border border-line bg-surface p-5"><div className="grid gap-4 tablet:grid-cols-2"><Input label="Tìm người dùng" placeholder="Tên hoặc email" value={query} onChange={e => {setQuery(e.target.value); setPage(1);}} /><Select label="Lọc vai trò người dùng" value={role} onChange={e => {setRole(e.target.value); setPage(1);}}><option value="">Tất cả</option><option>USER</option><option>ADMIN</option></Select></div><ul className="divide-y divide-line">{users.slice((current - 1) * 6, current * 6).map(user => <li key={user.id} className="flex flex-wrap items-center justify-between gap-4 py-4"><div className="min-w-0"><h2 className="font-bold">{user.name}</h2><p className="my-2 break-all text-xs text-muted">{user.email}</p><Badge>{user.role} · {user.accountStatus}</Badge></div><Link to={`/admin/users/${user.id}`} className="rounded-button bg-pale px-4 py-3 text-xs text-primary">Xem hồ sơ {user.name}</Link>{user.id !== actorId && <button className="rounded-button bg-pale px-4 py-3 text-xs text-primary" onClick={() => confirm({title: user.accountStatus === 'BLOCKED' ? 'Mở khóa tài khoản?' : 'Khóa tài khoản?', message: user.name, onConfirm: async () => {try {await api.userStatus(user.id, user.accountStatus === 'BLOCKED' ? 'ACTIVE' : 'BLOCKED'); await refresh();} catch (e) {window.dispatchEvent(new CustomEvent('traveltaste:notice', {detail: {ok: false, message: e instanceof Error ? e.message : 'Không cập nhật được tài khoản.'}}));}}})}>{user.accountStatus === 'BLOCKED' ? 'Mở khóa' : 'Khóa tài khoản'}</button>}</li>)}</ul>{!users.length && <EmptyState>Không tìm thấy người dùng.</EmptyState>}<Pagination page={current} total={total} onChange={setPage} /><p className="text-xs text-muted">Danh sách tài khoản từ máy chủ.</p></section></SimpleLayout>;
+}

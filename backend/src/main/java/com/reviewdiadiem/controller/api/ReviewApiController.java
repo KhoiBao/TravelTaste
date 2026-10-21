@@ -18,7 +18,7 @@ public class ReviewApiController {
     @PostMapping
     public ResponseEntity<ApiResponse<?>> create(
             @PathVariable String placeId,
-            @RequestBody ReviewRequest req,
+            @RequestBody @jakarta.validation.Valid ReviewRequest req,
             HttpSession session) {
         String userId = (String) session.getAttribute("USER_ID");
         if (userId == null) {
@@ -31,7 +31,7 @@ public class ReviewApiController {
     public ResponseEntity<ApiResponse<?>> update(
             @PathVariable String placeId,
             @PathVariable String reviewId,
-            @RequestBody ReviewRequest req,
+            @RequestBody @jakarta.validation.Valid ReviewRequest req,
             HttpSession session) {
         String userId = (String) session.getAttribute("USER_ID");
         if (userId == null) {

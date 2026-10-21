@@ -52,13 +52,13 @@ public class AuthService {
     public ApiResponse<?> login(LoginRequest req, HttpSession session) {
         User user = userRepository.findByUsername(req.getUsernameOrEmail())
                 .or(() -> userRepository.findByEmail(req.getUsernameOrEmail()))
-                .orElseThrow(() -> new RuntimeException("Sai tên đăng nhập/email hoặc mật khẩu"));
+                .orElseThrow(() -> new org.springframework.security.authentication.BadCredentialsException("Thông tin đăng nhập không đúng"));
 
         if (!passwordEncoder.matches(req.getPassword(), user.getPasswordHash())) {
             throw new RuntimeException("Sai tên đăng nhập/email hoặc mật khẩu");
         }
         if ("BLOCKED".equals(user.getTrangThai())) {
-            throw new RuntimeException("Tài khoản đã bị khóa");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.FORBIDDEN, "Tài khoản đã bị khóa");
         }
 
         session.setAttribute("USER_ID", user.getId());
@@ -81,14 +81,17 @@ public class AuthService {
     public ApiResponse<?> me(HttpSession session) {
         String userId = (String) session.getAttribute("USER_ID");
         if (userId == null) {
-            return ApiResponse.error("Chưa đăng nhập");
+            throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.UNAUTHORIZED, "Chưa đăng nhập");
         }
-        User user = userRepository.findById(userId).orElseThrow(() -> new RuntimeException("Không tìm thấy user"));
+        User user = userRepository.findById(userId).orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy user"));
         Map<String, Object> data = new HashMap<>();
         data.put("id", user.getId());
         data.put("username", user.getUsername());
         data.put("hoTen", user.getHoTen());
         data.put("avatar", user.getAvatar());
+        data.put("email", user.getEmail());
+        data.put("trangThai", user.getTrangThai());
+        data.put("ngayTao", user.getNgayTao());
         data.put("role", user.getRole());
         return ApiResponse.ok(data);
     }
