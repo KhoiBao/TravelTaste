@@ -11,7 +11,9 @@
     "preview": "vite preview --host 127.0.0.1",
     "verify:integration": "node scripts/verify-integration.cjs",
     "verify:auth-comments": "node scripts/verify-auth-comments.cjs",
-    "verify:dashboard": "node scripts/verify-dashboard.cjs"
+    "verify:dashboard": "node scripts/verify-dashboard.cjs",
+    "verify:saved-places": "node scripts/verify-saved-places.cjs",
+    "verify:places": "node scripts/verify-places.cjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.3.0",

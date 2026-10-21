@@ -1,10 +1,10 @@
-const {chromium} = require('playwright');
+const {launchBrowser} = require('./browser.cjs');
 const assert = require('node:assert/strict');
 const path = require('node:path');
 const fs = require('node:fs/promises');
 (async () => {
   const server = await (await import('vite')).createServer({server: {host: '127.0.0.1', port: 0}}); await server.listen();
-  const browser = await chromium.launch({channel: 'chrome', headless: true});
+  const browser = await launchBrowser();
   const page = await browser.newPage();
   const base = server.resolvedUrls.local[0].replace(/\/$/, '');
   const out = path.resolve('../.runtime-test/dashboard'); await fs.mkdir(out, {recursive: true});

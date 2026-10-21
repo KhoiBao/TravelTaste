@@ -33,6 +33,8 @@ public class DiaDiemService {
     private final DiaDiemRepository diaDiemRepository;
     private final MongoTemplate mongoTemplate;
     private final com.reviewdiadiem.repository.DanhMucRepository danhMucRepository;
+    private final YeuThichService yeuThichService;
+    private final FlatCollectionService flatCollectionService;
 
     public PageResponse<DiaDiemSummary> list(SearchRequest req) {
         Criteria criteria = new Criteria();
@@ -79,19 +81,24 @@ public class DiaDiemService {
         query.fields().exclude("reviews");
         List<DiaDiem> items = mongoTemplate.find(query, DiaDiem.class);
         List<DiaDiemSummary> content = items.stream().map(this::toSummaryNoReviews).collect(Collectors.toList());
+        applyLikeState(content);
 
         return PageResponse.of(content, page + 1, size, total);
     }
 
     public List<DiaDiemDetail> adminList() {
-        return diaDiemRepository.findAll().stream().map(this::toDetail).collect(Collectors.toList());
+        List<DiaDiemDetail> details = diaDiemRepository.findAll().stream().map(this::toDetail).collect(Collectors.toList());
+        applyLikeState(details);
+        return details;
     }
 
     public DiaDiemDetail detail(String slug) {
         DiaDiem dd = diaDiemRepository.findBySlug(slug)
                 .orElseThrow(() -> new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm"));
         if (!"ACTIVE".equals(dd.getTrangThai()) && !com.reviewdiadiem.util.SecurityUtil.isAdmin()) throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm");
-        return toDetail(dd);
+        DiaDiemDetail detail = toDetail(dd);
+        applyLikeState(detail);
+        return detail;
     }
 
     public DiaDiemSummary create(DiaDiemRequest req) {
@@ -121,7 +128,10 @@ public class DiaDiemService {
         dd.setNgayCapNhat(LocalDateTime.now());
         diaDiemRepository.save(dd);
 
-        return toSummaryNoReviews(dd);
+        DiaDiemSummary created = toSummaryNoReviews(dd);
+        flatCollectionService.syncPlaceImages(dd.getId());
+        applyLikeState(created);
+        return created;
     }
 
     public DiaDiemSummary update(String id, DiaDiemRequest req) {
@@ -142,7 +152,10 @@ public class DiaDiemService {
         dd.setTrangThai(req.getTrangThai() == null ? dd.getTrangThai() : req.getTrangThai());
         dd.setNgayCapNhat(LocalDateTime.now());
         diaDiemRepository.save(dd);
-        return toSummaryNoReviews(dd);
+        DiaDiemSummary updated = toSummaryNoReviews(dd);
+        flatCollectionService.syncPlaceImages(dd.getId());
+        applyLikeState(updated);
+        return updated;
     }
 
     public void delete(String id) {
@@ -150,6 +163,7 @@ public class DiaDiemService {
             throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.NOT_FOUND, "Không tìm thấy địa điểm");
         }
         diaDiemRepository.deleteById(id);
+        flatCollectionService.removePlace(id);
     }
 
     public List<DiaDiemSummary> top10() {
@@ -163,7 +177,9 @@ public class DiaDiemService {
                 Aggregation.limit(10)
         );
         AggregationResults<DiaDiemSummary> result = mongoTemplate.aggregate(agg, "diadiem", DiaDiemSummary.class);
-        return result.getMappedResults();
+        List<DiaDiemSummary> top = result.getMappedResults();
+        applyLikeState(top);
+        return top;
     }
 
     public List<DiaDiemSummary> near(Double lat, Double lng, Double banKinhKm, Integer limit) {
@@ -207,7 +223,28 @@ public class DiaDiemService {
             s.setDanhMuc(List.of());
             summaries.add(s);
         }
+        applyLikeState(summaries);
         return summaries;
+    }
+
+    /**
+     * Gắn số lượt thích và trạng thái đã lưu của người dùng hiện tại vào danh sách địa điểm.
+     * Một truy vấn cho số lượt thích, một truy vấn cho danh sách đã lưu.
+     */
+    private <T extends LikeAware> void applyLikeState(List<T> items) {
+        if (items == null || items.isEmpty()) return;
+        String userId = com.reviewdiadiem.util.SecurityUtil.getCurrentUserId();
+        Set<String> saved = yeuThichService.savedPlaceIds(userId);
+        Map<String, Integer> counts = yeuThichService.likeCounts(items.stream().map(LikeAware::getId).collect(Collectors.toList()));
+        for (T item : items) {
+            item.setLuotThich(counts.getOrDefault(item.getId(), 0));
+            item.setDaYeuThich(saved.contains(item.getId()));
+        }
+    }
+
+    private <T extends LikeAware> void applyLikeState(T item) {
+        if (item == null) return;
+        applyLikeState(java.util.Collections.singletonList(item));
     }
 
     private DiaChi toDiaChi(DiaChiRequest req) {

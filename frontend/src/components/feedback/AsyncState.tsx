@@ -5,6 +5,6 @@ export function Skeleton({count = 3}: {count?: number}) {
 export function EmptyState({children, action}: {children: ReactNode; action?: ReactNode}) {
   return <div role="status" className="rounded-2xl border border-dashed border-line bg-surface p-8 text-center"><p className="text-muted">{children}</p>{action && <div className="mt-4">{action}</div>}</div>;
 }
-export function ErrorState({retry}: {retry: () => void}) {
-  return <div role="alert" className="rounded-2xl border border-red-200 bg-red-50 p-6"><p>Không tải được dữ liệu.</p><button onClick={retry} className="mt-3 rounded-button bg-primary px-4 py-3 text-sm font-bold text-white">Thử lại</button></div>;
+export function ErrorState({retry, message}: {retry: () => void; message?: string}) {
+  return <div role="alert" className="rounded-2xl border border-red-200 bg-red-50 p-6"><p>{message || 'Không tải được dữ liệu.'}</p><button onClick={retry} className="mt-3 rounded-button bg-primary px-4 py-3 text-sm font-bold text-white">Thử lại</button></div>;
 }

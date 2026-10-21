@@ -15,7 +15,8 @@ export function mapPlace(p: ApiPlace): Place {
     city: address.thanhPho || '', houseNumber: address.so || '', street: address.duong || '', district: address.quan || '',
     address: [address.so, address.duong, address.quan].filter(Boolean).join(', '), longitude: coordinates[0] ?? 0, latitude: coordinates[1] ?? 0,
     subtitle: [address.thanhPho, p.loai === 'AN_UONG' ? 'Ăn uống' : p.loai === 'LUU_TRU' ? 'Lưu trú' : 'Du lịch'].filter(Boolean).join(' · '),
-    description: p.moTa || '', image: p.hinhAnh?.[0] || placeholder, status: p.trangThai === 'HIDDEN' ? 'HIDDEN' : 'ACTIVE', rating: p.ratingAvg || 0, reviewCount: p.reviewCount || 0};
+    description: p.moTa || '', image: p.hinhAnh?.[0] || placeholder, status: p.trangThai === 'HIDDEN' ? 'HIDDEN' : 'ACTIVE', rating: p.ratingAvg || 0, reviewCount: p.reviewCount || 0,
+    liked: p.daYeuThich ?? false, likeCount: p.luotThich ?? 0};
 }
 
 export function AppProvider({children}: {children: ReactNode}) {
@@ -89,6 +90,14 @@ export function AppProvider({children}: {children: ReactNode}) {
         const next = {...dataRef.current, comments: dataRef.current.comments.map(item => item.id === c.id ? {...item, likeCount: result.likeCount, liked: result.liked} : item)};
         dataRef.current = next; setData(next);
         return {ok: true, message: ''};
+      } else if (action.type === 'TOGGLE_LIKE') {
+        const place = current.places.find(p => p.id === action.id); if (!place) throw new Error('Không tìm thấy địa điểm.');
+        const result = await api.likePlace(action.id, action.liked);
+        const next = {...dataRef.current, places: dataRef.current.places.map(p => p.id === action.id ? {...p, liked: result.daYeuThich, likeCount: result.luotThich} : p)};
+        dataRef.current = next; setData(next);
+        const notice = {ok: true, message: result.daYeuThich ? 'Đã lưu địa điểm.' : 'Đã bỏ lưu địa điểm.'};
+        window.dispatchEvent(new CustomEvent('traveltaste:notice', {detail: notice}));
+        return notice;
       } else if (action.type === 'SAVE_REVIEW') {
         const v = action.values;
         const result = await api.saveReview(v.placeId, {soSao: v.stars, tieuDe: v.title, noiDung: v.content, hinhAnh: v.images.map(i => i.src)}, action.id);

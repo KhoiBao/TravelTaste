@@ -29,6 +29,7 @@ function client() {
   const username = `test_${Date.now()}`;
   await user('POST', '/api/auth/register', {username, hoTen: 'Integration Member', email: username + '@example.test', password: 'Integration123'});
   await user('POST', '/api/auth/login', {usernameOrEmail: username, password: 'Integration123'});
+  const member = (await user('GET', '/api/auth/me')).data;
   await guest('GET', '/api/auth/me', undefined, 401);
   await user('GET', '/api/admin/nguoi-dung', undefined, 403);
   const category = (await admin('POST', '/api/admin/danh-muc', {ten: 'Test ' + Date.now(), trangThai: 'ACTIVE'})).data;
@@ -46,6 +47,22 @@ function client() {
   await guest('GET', '/api/dia-diem/' + updated.slug);
   const search = (await guest('GET', '/api/search?q=Integration&danhMuc=' + category.id)).data;
   assert(search.content.some(p => p.id === place.id));
+  // Liking a place: save, list, count, remove.
+  const yeuThichUrl = '/api/yeu-thich/' + place.id;
+  await guest('POST', yeuThichUrl, undefined, 401);
+  await guest('GET', '/api/yeu-thich', undefined, 401);
+  assert.equal((await user('POST', yeuThichUrl)).data.daYeuThich, true);
+  assert.equal((await user('POST', yeuThichUrl)).data.luotThich, 1);
+  const savedPlaces = (await user('GET', '/api/yeu-thich')).data;
+  assert(savedPlaces.diaDiemIds.includes(place.id), 'Saved list must contain the liked place');
+  assert.equal(savedPlaces.counts[place.id], 1);
+  const likedDetail = (await guest('GET', '/api/dia-diem/' + updated.slug)).data;
+  assert.equal(likedDetail.luotThich, 1);
+  assert.equal(likedDetail.daYeuThich, false);
+  assert.equal((await user('GET', '/api/dia-diem/' + updated.slug)).data.daYeuThich, true);
+  await user('DELETE', yeuThichUrl);
+  assert(!(await user('GET', '/api/yeu-thich')).data.diaDiemIds.includes(place.id));
+  assert.equal((await guest('GET', '/api/dia-diem/' + updated.slug)).data.luotThich, 0);
   for (const url of ['/api/dia-diem/top10', '/api/discover/top10', '/api/dia-diem/gan-toi?lat=21.0285&lng=105.8342', '/api/discover/gan-toi?lat=21.0285&lng=105.8342']) {
     const result = await guest('GET', url);
     if (url.includes('gan-toi')) assert(result.data.some(p => p.id === place.id), 'Geo lookup must find the place at the requested position');
@@ -58,6 +75,15 @@ function client() {
   const reviewId = created.review.reviewId;
   await user('PUT', reviewsUrl + '/' + reviewId, {...reviewBody, soSao: 3});
   assert.equal((await guest('GET', '/api/dia-diem/' + updated.slug)).data.ratingAvg, 3);
+  // A member may post more than one review on the same place; every review counts toward the rating.
+  const secondReview = (await user('POST', reviewsUrl, {...reviewBody, soSao: 5, tieuDe: 'Second review'})).data;
+  assert.equal(secondReview.reviewCount, 2);
+  assert.equal(secondReview.ratingAvg, 4);
+  const thirdReview = (await user('POST', reviewsUrl, {...reviewBody, soSao: 1, tieuDe: 'Third review'})).data;
+  assert.equal(thirdReview.reviewCount, 3);
+  assert.equal(thirdReview.ratingAvg, 3);
+  const memberReviews = (await user('GET', '/api/dia-diem/' + updated.slug)).data.reviews.filter(r => r.userId === member.id);
+  assert.equal(memberReviews.length, 3, 'The same member must be able to keep all three reviews');
   await guest('GET', reviewsUrl);
   await guest('GET', reviewsUrl + '?page=-1', undefined, 400);
   const comments = reviewsUrl + '/' + reviewId + '/comments';

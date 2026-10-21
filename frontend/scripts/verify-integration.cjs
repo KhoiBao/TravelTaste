@@ -1,4 +1,4 @@
-const {chromium} = require('playwright');
+const {launchBrowser} = require('./browser.cjs');
 const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const path = require('node:path');
@@ -6,7 +6,7 @@ const path = require('node:path');
 (async () => {
   const server = await (await import('vite')).createServer({server: {host: '127.0.0.1', port: 5173, strictPort: true, proxy: {'/api': 'http://127.0.0.1:18080', '/uploads': 'http://127.0.0.1:18080'}}});
   await server.listen();
-  const browser = await chromium.launch({channel: 'chrome', headless: true});
+  const browser = await launchBrowser();
   const page = await browser.newPage();
   const errors = [], flows = [];
   page.on('pageerror', e => errors.push(e.message));
@@ -23,7 +23,7 @@ const path = require('node:path');
     await page.getByRole('button', {name: 'Đăng nhập', exact: true}).click();
     await page.waitForURL(url => ['/admin', '/profile'].includes(url.pathname));
   }
-  async function logout() {await page.getByRole('button', {name: 'Đăng xuất', exact: true}).click(); await page.getByRole('link', {name: 'Đăng nhập', exact: true}).waitFor();}
+  async function logout() {await page.getByRole('button', {name: 'Mở menu tài khoản', exact: true}).click(); await page.getByRole('button', {name: 'Đăng xuất', exact: true}).click(); await page.getByRole('link', {name: 'Đăng nhập', exact: true}).waitFor();}
   try {
     await login(process.env.TEST_ADMIN || 'integration_admin', process.env.TEST_PASSWORD || 'Integration123');
     assert.equal(await page.getByLabel('Vai trò xem thử', {exact: true}).count(), 0);
@@ -49,7 +49,7 @@ const path = require('node:path');
     assert(place.id);
     await page.waitForURL('**/admin/places');
     await page.reload();
-    await page.getByRole('link', {name: 'Browser place ' + stamp, exact: true}).waitFor();
+    await page.locator('tbody a[href="/places/' + place.id + '"]').waitFor();
     flows.push('admin login, category/place create, real upload, reload persistence');
     await logout();
     const username = 'browser_' + stamp;
@@ -87,8 +87,8 @@ const path = require('node:path');
     await open('/search?q=Browser');
     await page.getByRole('heading', {name: 'Browser place ' + stamp, exact: true}).waitFor();
     await page.route('**/api/search?**', route => route.fulfill({status: 503, contentType: 'application/json', body: JSON.stringify({success: false, message: 'Test outage'})}));
-    await page.getByRole('searchbox').fill('outage');
-    await page.getByRole('button', {name: 'Tìm kiếm', exact: true}).click();
+    await page.getByRole('searchbox', {name: 'Tìm kiếm địa điểm', exact: true}).fill('outage');
+    await page.getByRole('button', {name: 'Tìm', exact: true}).click();
     await page.getByText('Test outage', {exact: true}).waitFor();
     await page.unroute('**/api/search?**');
     await page.getByRole('button', {name: 'Thử lại', exact: true}).click();
@@ -96,7 +96,7 @@ const path = require('node:path');
     flows.push('server search, HTTP failure and retry without mock fallback');
     for (const width of [390, 768, 1440]) {
       await page.setViewportSize({width, height: 900}); await open('/places/' + place.id);
-      await page.getByRole('heading', {name: 'Browser place ' + stamp, exact: true}).waitFor();
+      await page.getByRole('heading', {name: 'Browser place ' + stamp, exact: true, level: 1}).waitFor();
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
       await page.screenshot({path: path.join(out, 'integration-' + width + '.png'), fullPage: true});
     }

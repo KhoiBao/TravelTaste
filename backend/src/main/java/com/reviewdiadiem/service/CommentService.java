@@ -24,6 +24,7 @@ public class CommentService {
 
     private final DiaDiemRepository diaDiemRepository;
     private final UserRepository userRepository;
+    private final FlatCollectionService flatCollectionService;
 
     private static final int MAX_DEPTH = 3;
 
@@ -74,6 +75,7 @@ public class CommentService {
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
         diaDiemRepository.save(dd);
+        flatCollectionService.syncReview(dd.getId(), reviewId);
 
         Map<String, Object> data = new HashMap<>();
         data.put("comment", toDto(comment));
@@ -93,6 +95,7 @@ public class CommentService {
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
         diaDiemRepository.save(dd);
+        flatCollectionService.syncReview(dd.getId(), reviewId);
         return ApiResponse.ok(null, "Xoá bình luận thành công");
     }
 

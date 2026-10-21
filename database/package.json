@@ -8,6 +8,7 @@
     "seed": "node seed_db.mjs",
     "check": "node check_db.mjs",
     "verify": "node verify_db.mjs",
+    "verify-flat-sync": "node verify_flat_sync.mjs",
     "sync-collections": "node sync_collections.mjs",
     "fix-comment-validator": "node fix_comment_validator.mjs",
     "advanced": "node advanced_queries.mjs",

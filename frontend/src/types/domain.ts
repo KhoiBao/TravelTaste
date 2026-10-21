@@ -2,8 +2,8 @@ export type Role = 'GUEST' | 'USER' | 'ADMIN';
 export type Status = 'ACTIVE' | 'HIDDEN';
 export interface User { id: string; name: string; email: string; role: Exclude<Role, 'GUEST'>; username?: string; accountStatus?: string; avatar: string; joined: string }
 export interface Category { id: string; name: string; status: Status }
-export interface Place { id: string; slug: string; kind: string; longitude: number; latitude: number; district: string; street: string; houseNumber: string; name: string; city: string; category: string; categoryId: string; categoryIds?: string[]; subtitle: string; description: string; address: string; image: string; status: Status; rating: number; reviewCount: number; distribution?: { stars: number; count: number }[] }
-export type PlaceSummary = Pick<Place, 'id' | 'name' | 'city' | 'category' | 'subtitle' | 'image' | 'rating' | 'reviewCount'>;
+export interface Place { id: string; slug: string; kind: string; longitude: number; latitude: number; district: string; street: string; houseNumber: string; name: string; city: string; category: string; categoryId: string; categoryIds?: string[]; subtitle: string; description: string; address: string; image: string; status: Status; rating: number; reviewCount: number; liked: boolean; likeCount: number; distribution?: { stars: number; count: number }[] }
+export type PlaceSummary = Pick<Place, 'id' | 'name' | 'city' | 'category' | 'subtitle' | 'image' | 'rating' | 'reviewCount' | 'liked' | 'likeCount'>;
 export interface ReviewImage {src: string; name: string}
 export interface Review { id: string; placeId: string; userId: string; title: string; content: string; stars: number; images: {src: string; name: string}[]; date: string; status: Status }
 export interface Comment { likeCount: number; liked: boolean; id: string; reviewId: string; parentId: string | null; userId: string; content: string; date: string; status: Status }
@@ -13,6 +13,7 @@ export type Action =
     {type: 'SAVE_REVIEW'; id?: string; values: Pick<Review, 'placeId' | 'title' | 'content' | 'stars' | 'images'>}
   | {type: 'DELETE_REVIEW' | 'DELETE_COMMENT' | 'DELETE_CATEGORY' | 'DELETE_PLACE'; id: string}
   | {type: 'LIKE_COMMENT'; id: string; liked: boolean}
+  | {type: 'TOGGLE_LIKE'; id: string; liked: boolean}
   | {type: 'ADD_COMMENT'; reviewId: string; parentId?: string; content: string}
   | {type: 'SAVE_PLACE'; id?: string; values: Pick<Place, 'name' | 'city' | 'address' | 'description' | 'image' | 'categoryId' | 'kind' | 'longitude' | 'latitude' | 'district' | 'street' | 'houseNumber'>}
   | {type: 'PLACE_STATUS'; id: string; status: Status}

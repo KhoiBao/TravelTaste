@@ -10,6 +10,9 @@ public class IntegrationFixture {
    db.getCollection("diadiem").createIndex(new Document("viTri","2dsphere"));
    db.getCollection("users").createIndex(new Document("username",1),new com.mongodb.client.model.IndexOptions().unique(true));
    db.getCollection("users").createIndex(new Document("email",1),new com.mongodb.client.model.IndexOptions().unique(true));
+   db.getCollection("yeuthich").createIndex(new Document("userId",1).append("diaDiemId",1),new com.mongodb.client.model.IndexOptions().unique(true));
+   db.getCollection("yeuthich").createIndex(new Document("userId",1).append("ngayTao",-1));
+   db.getCollection("yeuthich").createIndex(new Document("diaDiemId",1));
    System.out.println("Isolated integration fixture ready");
   }
  }

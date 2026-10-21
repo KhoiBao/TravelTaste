@@ -11,6 +11,7 @@ import TopPlacesPage from './pages/TopPlacesPage.tsx';
 import AuthGate from './components/layout/AuthGate.tsx';
 import ProfilePage from './pages/user/ProfilePage.tsx';
 import MyReviewsPage from './pages/user/MyReviewsPage.tsx';
+import SavedPlacesPage from './pages/user/SavedPlacesPage.tsx';
 import ReviewFormPage from './pages/user/ReviewFormPage.tsx';
 import ReviewDetailPage from './pages/user/ReviewDetailPage.tsx';
 import CommunityReviewsPage from './pages/user/CommunityReviewsPage.tsx';
@@ -44,7 +45,7 @@ export default function App() {
   const previousPage = useRef(location.pathname);
   const background = config ? location.state?.backgroundLocation || { pathname: config.fallback, search: '', hash: '', state: null, key: 'popup-background' } : location;
   useEffect(() => {
-    const titles: Record<string, string> = { '/login': 'Đăng nhập', '/register': 'Đăng ký', '/': 'Khám phá', '/profile': 'Hồ sơ', '/my-reviews': 'Review của tôi', '/reviews': 'Đánh giá cộng đồng', '/admin': 'Quản trị', '/admin/places': 'Quản lý địa điểm', '/admin/categories': 'Quản lý danh mục', '/admin/users': 'Người dùng', '/admin/statistics': 'Thống kê' };
+    const titles: Record<string, string> = { '/login': 'Đăng nhập', '/register': 'Đăng ký', '/': 'Khám phá', '/profile': 'Hồ sơ', '/my-reviews': 'Review của tôi', '/saved-places': 'Địa điểm đã lưu', '/reviews': 'Đánh giá cộng đồng', '/admin': 'Quản trị', '/admin/places': 'Quản lý địa điểm', '/admin/categories': 'Quản lý danh mục', '/admin/users': 'Người dùng', '/admin/statistics': 'Thống kê' };
     document.title = `${config?.title || titles[location.pathname] || 'Địa điểm'} · TravelTaste`;
     if (config) return;
     if (location.hash) requestAnimationFrame(() => document.getElementById(location.hash.slice(1))?.scrollIntoView());
@@ -83,6 +84,7 @@ export default function App() {
       <Route path="/top-10" element={<TopPlacesPage />} />
       <Route path="/profile" element={<AuthGate><ProfilePage /></AuthGate>} />
       <Route path="/my-reviews" element={<AuthGate><MyReviewsPage /></AuthGate>} />
+      <Route path="/saved-places" element={<AuthGate><SavedPlacesPage /></AuthGate>} />
       <Route path="/reviews" element={<CommunityReviewsPage />} />
       <Route path="/reviews/:id" element={<ReviewDetailPage key={background.pathname} />} />
       <Route path="/admin" element={<AuthGate admin><DashboardPage /></AuthGate>} />

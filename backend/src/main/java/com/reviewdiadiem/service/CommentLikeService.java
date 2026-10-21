@@ -19,6 +19,7 @@ import java.util.*;
 public class CommentLikeService {
     private final DiaDiemRepository places;
     private final MongoTemplate mongo;
+    private final FlatCollectionService flatCollectionService;
 
     public ApiResponse<?> setLiked(String placeId, String reviewId, String commentId, String userId, boolean liked) {
         if (userId == null || userId.isBlank()) throw new ApiException(HttpStatus.UNAUTHORIZED, "Chưa đăng nhập");
@@ -41,6 +42,7 @@ public class CommentLikeService {
         update.filterArray("review.reviewId", reviewId);
         for (int i = 0; i < path.size(); i++) update.filterArray("c" + i + ".commentId", path.get(i));
         mongo.updateFirst(Query.query(Criteria.where("_id").is(placeId)), update, DiaDiem.class);
+        flatCollectionService.syncReview(placeId, reviewId);
         var place = load(placeId);
         var nodes = place.getReviews().stream().filter(r -> reviewId.equals(r.getReviewId())).findFirst().orElseThrow(CommentLikeService::missing).getBinhLuan();
         BinhLuan result = null;

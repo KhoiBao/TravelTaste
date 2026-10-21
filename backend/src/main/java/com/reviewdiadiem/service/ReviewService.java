@@ -28,6 +28,7 @@ public class ReviewService {
     private final DiaDiemRepository diaDiemRepository;
     private final UserRepository userRepository;
     private final RatingService ratingService;
+    private final FlatCollectionService flatCollectionService;
 
     @Transactional
     public ApiResponse<?> createReview(String placeId, String currentUserId, ReviewRequest req) {
@@ -37,15 +38,7 @@ public class ReviewService {
             throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.CONFLICT, "Địa điểm đã ẩn, không nhận đánh giá mới");
         }
 
-        // Kiểm tra user đã review địa điểm này chưa
-        if (dd.getReviews() != null) {
-            boolean exists = dd.getReviews().stream()
-                    .anyMatch(r -> currentUserId.equals(r.getUserId()));
-            if (exists) {
-                throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.CONFLICT, "Bạn đã đánh giá địa điểm này, vui lòng sửa đánh giá cũ");
-            }
-        }
-
+        // Một thành viên có thể đánh giá địa điểm này nhiều lần; mọi đánh giá đều được tính vào điểm trung bình.
         if (dd.getReviews() != null && dd.getReviews().size() >= 500) {
             throw new com.reviewdiadiem.exception.ApiException(org.springframework.http.HttpStatus.CONFLICT, "Đã đạt giới hạn 500 đánh giá cho địa điểm này");
         }
@@ -71,6 +64,7 @@ public class ReviewService {
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
         diaDiemRepository.save(dd);
+        flatCollectionService.syncReview(dd.getId(), review.getReviewId());
 
         // Tính lại rating
         ratingService.recalculate(placeId);
@@ -114,6 +108,7 @@ public class ReviewService {
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
         diaDiemRepository.save(dd);
+        flatCollectionService.syncReview(dd.getId(), reviewId);
 
         ratingService.recalculate(placeId);
         return ApiResponse.ok(null, "Cập nhật đánh giá thành công");
@@ -144,6 +139,7 @@ public class ReviewService {
         dd.setReviews(reviews);
         dd.setNgayCapNhat(LocalDateTime.now());
         diaDiemRepository.save(dd);
+        flatCollectionService.removeReview(dd.getId(), reviewId);
 
         ratingService.recalculate(placeId);
         return ApiResponse.ok(null, "Xoá đánh giá thành công");

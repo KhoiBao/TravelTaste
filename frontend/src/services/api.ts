@@ -3,7 +3,7 @@ export interface ApiUser { id: string; username?: string; hoTen: string; email?:
 export interface ApiCategory { id: string; ten: string; slug: string; trangThai: string; moTa?: string; icon?: string; thuTu?: number }
 export interface ApiComment { likeCount?: number; liked?: boolean; commentId: string; userId: string; tenUser: string; avatarUser?: string; noiDung: string; ngayTao: string; traLoi?: ApiComment[] }
 export interface ApiReview { reviewId: string; userId: string; tenUser: string; avatarUser?: string; soSao: number; tieuDe: string; noiDung: string; hinhAnh?: string[]; ngayTao: string; binhLuan?: ApiComment[] }
-export interface ApiPlace { id: string; ten: string; slug: string; loai: string; danhMuc?: {danhMucId: string; ten?: string; slug?: string}[]; moTa?: string; diaChi?: {so?: string; duong?: string; quan?: string; thanhPho?: string}; viTri?: number[] | {coordinates: number[]}; hinhAnh?: string[]; ratingAvg: number; reviewCount: number; trangThai?: string; reviews?: ApiReview[] }
+export interface ApiPlace { id: string; ten: string; slug: string; loai: string; danhMuc?: {danhMucId: string; ten?: string; slug?: string}[]; moTa?: string; diaChi?: {so?: string; duong?: string; quan?: string; thanhPho?: string}; viTri?: number[] | {coordinates: number[]}; hinhAnh?: string[]; ratingAvg: number; reviewCount: number; trangThai?: string; luotThich?: number; daYeuThich?: boolean; reviews?: ApiReview[] }
 export interface Page<T> { content: T[]; page: number; size: number; totalPages: number; totalElements: number }
 export class ApiError extends Error {
   constructor(message: string, public status: number, public fields: Record<string, string> = {}) { super(message); }
@@ -54,4 +54,5 @@ export const api = {
   users: () => request<ApiUser[]>('/api/admin/nguoi-dung'),
   userStatus: (userId: string, trangThai: string) => request(`/api/admin/nguoi-dung/${id(userId)}/trang-thai`, json('PATCH', {trangThai})),
   upload: async (file: File) => { const data = new FormData(); data.append('file', file); return request<{url: string}>('/api/upload', {method: 'POST', body: data}); },
+  likePlace: (placeId: string, liked: boolean) => request<{diaDiemId: string; daYeuThich: boolean; luotThich: number}>(`/api/yeu-thich/${id(placeId)}`, json(liked ? 'POST' : 'DELETE')),
 };

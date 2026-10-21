@@ -69,6 +69,7 @@ export default function Header({workspace = false, items = defaultItems, account
           <p className="truncate px-4 py-2 text-[12px] font-bold text-ink">{actor?.name || 'Tài khoản'}</p>
           <Link to="/profile" className="block px-4 py-2 text-[13px] text-ink hover:bg-pale">Hồ sơ</Link>
           <Link to="/my-reviews" className="block px-4 py-2 text-[13px] text-ink hover:bg-pale">Đánh giá của tôi</Link>
+          <Link to="/saved-places" className="block px-4 py-2 text-[13px] text-ink hover:bg-pale">Địa điểm đã lưu</Link>
           {role === 'ADMIN' && <Link to="/admin" className="block px-4 py-2 text-[13px] text-ink hover:bg-pale">Quản trị</Link>}
           <button type="button" onClick={async () => { const result = await logout(); if (result.ok) navigate('/'); else window.dispatchEvent(new CustomEvent('traveltaste:notice', {detail: result})); }} className="block w-full px-4 py-2 text-left text-[13px] text-ink hover:bg-pale">Đăng xuất</button>
         </div>}

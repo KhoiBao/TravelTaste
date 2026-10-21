@@ -1,12 +1,12 @@
 // UI contract/visual test: intercepts HTTP with fixtures; never writes the user's database.
-const {chromium} = require('playwright');
+const {launchBrowser} = require('./browser.cjs');
 const assert = require('node:assert/strict');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 (async () => {
   const server = await (await import('vite')).createServer({server: {host: '127.0.0.1', port: 0}});
   await server.listen();
-  const browser = await chromium.launch({channel: 'chrome', headless: true});
+  const browser = await launchBrowser();
   const page = await browser.newPage();
   const base = server.resolvedUrls.local[0].replace(/\/$/, '');
   const out = path.resolve('../.runtime-test/auth-comments'); await fs.mkdir(out, {recursive: true});

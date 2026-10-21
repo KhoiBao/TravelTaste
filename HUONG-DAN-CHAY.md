@@ -103,9 +103,9 @@ npm run compass      # in pipeline Top 10 dạng JSON để dán vào tab Aggreg
 
 Database gồm 7 collection: `users`, `danhmuc`, `diadiem`, `danhgia`, `binhluan`, `hinhanh`, `yeuthich`. Script đồng bộ giữ các bản nhúng gốc, đồng thời upsert tài liệu sang các collection riêng và xóa tài liệu cũ không còn trong nguồn; có thể chạy lại an toàn. `binhluan` làm phẳng các reply và liên kết bằng `reviewId`, `diaDiemId`, `parentCommentId`; `hinhanh` liên kết URL ảnh với địa điểm hoặc đánh giá; `yeuthich` lưu cặp `userId`/`diaDiemId` và ngày thích, có unique index để một người không lưu trùng một địa điểm. `hinhanh` hiện chưa có document vì dữ liệu chưa có URL ảnh; `yeuthich` mới tạo, chưa có document vì chưa có lượt thích thực tế. Top 10 dùng aggregation từ `danhgia`, `$lookup` thông tin địa điểm, chỉ lấy địa điểm ACTIVE có ít nhất 3 review và tính điểm Bayesian (rating prior 3.5, trọng số 5). `sync_collections.mjs` là đồng bộ một lần; để review từ app được cập nhật liên tục sang `danhgia`, chạy watcher `watch-review-sync` theo hướng dẫn bên dưới.
 
-#### Đồng bộ reviews và tự động tính rating (MongoDB local)
+#### Đồng bộ reviews và tự động tính rating (MongoDB local) — không bắt buộc
 
-MongoDB cần single-node replica set để hỗ trợ Change Streams. Mở PowerShell **Run as Administrator**, vào thư mục `database`, rồi chạy script setup:
+Ứng dụng đã tự đồng bộ collection phẳng, nên phần này chỉ cần khi bạn muốn một tiến trình độc lập theo dõi thay đổi (ví dụ khi sửa dữ liệu trực tiếp ngoài ứng dụng). MongoDB cần single-node replica set để hỗ trợ Change Streams. Mở PowerShell **Run as Administrator**, vào thư mục `database`, rồi chạy script setup:
 
 ```powershell
 cd K:\NoSQL projects\TravelTaste\database
@@ -120,7 +120,9 @@ Mở thêm một cửa sổ PowerShell tại `database` và chạy:
 npm run watch-review-sync
 ```
 
-`watch-review-sync` đồng bộ reviews nhúng trong `diadiem` sang `danhgia` lúc khởi động, sau đó theo dõi các thay đổi của địa điểm. `diaDiemId` được gán bằng `_id` của địa điểm. Tiến trình `watch-ratings` (do setup khởi chạy) tính lại rating ban đầu và cập nhật khi `danhgia` thay đổi. Cần giữ cả hai cửa sổ watcher mở để thao tác review từ ứng dụng được đồng bộ sang `danhgia` và rating được cập nhật; nhấn Ctrl+C ở mỗi cửa sổ để dừng.
+`watch-review-sync` đồng bộ reviews nhúng trong `diadiem` sang `danhgia`, bình luận lồng nhau sang `binhluan` và ảnh sang `hinhanh` lúc khởi động, sau đó theo dõi các thay đổi của địa điểm. `diaDiemId` được gán bằng `_id` của địa điểm. Tiến trình `watch-ratings` (do setup khởi chạy) tính lại rating ban đầu và cập nhật khi `danhgia` thay đổi. Cần giữ cả hai cửa sổ watcher mở để thao tác review từ ứng dụng được đồng bộ sang `danhgia` và rating được cập nhật; nhấn Ctrl+C ở mỗi cửa sổ để dừng.
+
+> **Quan trọng:** ứng dụng luôn ghi vào `diadiem` (mảng `reviews[]` nhúng sẵn bình luận). Các collection `danhgia`, `binhluan`, `hinhanh` chỉ là bản sao phẳng để phân tích trong Compass, và **tự đồng bộ sang `danhgia`, `binhluan`, `hinhanh` ngay sau mỗi thao tác** (service `FlatCollectionService` trong backend), kèm đồng bộ lại toàn bộ lúc khởi động. Vì vậy mọi thao tác trên web đều xuất hiện tức thì trong Compass, **không cần mở watcher nào**. Collection `yeuthich` (địa điểm đã lưu) do ứng dụng ghi trực tiếp nên luôn có dữ liệu mới nhất.
 
 > **Lỗi thường gặp:** `The $changeStream stage is only supported on replica sets or mongos`
 > Máy chưa bật replica set. Chạy `npm run setup-realtime` (PowerShell **Run as Administrator**) một lần để bật.

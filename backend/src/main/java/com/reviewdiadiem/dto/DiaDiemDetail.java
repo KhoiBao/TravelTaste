@@ -9,7 +9,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class DiaDiemDetail {
+public class DiaDiemDetail implements LikeAware {
 
     private String id;
     private String ten;
@@ -24,4 +24,6 @@ public class DiaDiemDetail {
     private Integer reviewCount;
     private List<ReviewDto> reviews;
     private String trangThai;
+    private int luotThich;
+    private boolean daYeuThich;
 }
